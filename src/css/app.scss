@@ -1,1 +1,30 @@
 // app global css in SCSS form
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Dirt&display=swap");
+.lletraTitolApp {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+.titolPagina{
+	font-family: 'Rye', cursive;
+	color: #644c39;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+.lletraTitolApartat {
+	font-family: 'Chelsea Market', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.tipusLletraTitolOracio{
+	font-family: 'Indie Flower', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+.tipusLletraTextOracio{
+	font-family: 'Neucha', cursive;
+	font-size: 18px;
+}

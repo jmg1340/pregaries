@@ -2,19 +2,21 @@
   <q-card>
     <q-card-section>
       <div v-if="objOracions[oracio].titol !== ''">
-        <div class="text-h6 text-red-10">
+        <div class="text-h6 text-red-10 tipusLletraTitolOracio">
           <span class="text-uppercase">{{ objOracions[oracio].titol }}</span>
           {{ textAdicional }}
         </div>
-        <q-separator spaced></q-separator>
+        <!-- <q-separator spaced></q-separator> -->
       </div>
-      <div
-        v-for="(linia, index) in objOracions[oracio].arrText"
-        :key="oracio + '_' + index"
-        class="bg-yellow-2"
-      >
-        {{ linia }}
-      </div>
+			<div class="q-pa-md bg-orange-1 borde">
+				<div
+					v-for="(linia, index) in objOracions[oracio].arrText"
+					:key="oracio + '_' + index"
+					class="tipusLletraTextOracio"
+				>
+					{{ linia }}
+				</div>
+			</div>
     </q-card-section>
   </q-card>
 </template>
@@ -33,4 +35,10 @@ const props = defineProps({
 });
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+
+	.borde { 
+		border: 1px solid grey;
+		border-radius: 10px;
+	}
+</style>

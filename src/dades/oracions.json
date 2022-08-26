@@ -1,9 +1,9 @@
 {
   "laSenyal": {
-    "categoria": "varios",
-    "titol": "Per la señal",
+    "categoria": "Cat A",
+    "titol": "Senyal de la creu",
     "arrText": [
-      "En el Nom del Pare, del Fill i de l'Esperit sant. Amén."
+      "En el Nom del Pare, del Fill i de l'Esperit Sant. Amén."
     ]
   },
   "pareNostre": {
@@ -23,14 +23,13 @@
     ]
   },
   "aveMaria": {
-    "categoria": "varios",
+    "categoria": "Cat A",
     "titol": "Avemaria",
     "arrText": [
       "Déu vos salve, Maria, ",
       "plena ets de gràcia;",
       "el Senyor és amb tu.",
-      "Beneïda Tu ets",
-      "entre totes les dones,",
+      "Beneïda Tu ets entre totes les dones,",
       "i beneït és el fruit del teu ventre, Jesús. ",
       "Santa Maria, Mare de Déu,",
       "prega a Déu per nosaltres, pecadors,",
@@ -38,15 +37,15 @@
     ]
   },
   "gloria": {
-    "categoria": "varios",
-    "titol": "Gloria",
+    "categoria": "Cat B",
+    "titol": "Glòria",
     "arrText": [
       "Glòria al Pare i al Fill i a l'Esperit Sant.",
       "Com era al principi, ara i sempre, pels segles dels segles. Amén."
     ]
   },
   "prec1": {
-    "categoria": "varios",
+    "categoria": "Cat A",
     "titol": "",
     "arrText": [
       "V - Sigueu amb nosaltres, Déu nostre.",
@@ -62,7 +61,7 @@
       "Crec en Jesucrist, el seu únic Fill, Nostre Senyor,",
       "que va ser concebut per obra i gràcia de l'Esperit Sant,",
       "va néixer de Santa Maria Verge, ",
-      "va patir sota el poder de Poncio Pilat",
+      "va patir sota el poder de Ponç Pilat",
       "va ser crucificat, mort i sepultat, ",
       "va baixar als inferns,",
       "al tercer dia va ressuscitar dentre els morts,",
@@ -79,7 +78,7 @@
     ]
   },
   "laSalve": {
-    "categoria": "varios",
+    "categoria": "Cat B",
     "titol": "La Salve",
     "arrText": [
       "Déu vos salve, Reina i Mare de misericòrdia,",
@@ -87,7 +86,7 @@
       "a vós cridem els desterrats fills d’Eva;",
       "a vós sospirem, gemint i plorant en aquesta vall de llàgrimes.",
       "Ara doncs, advocada nostra,",
-      "eixos ulls vostres, tan misericordiosos,",
+      "aquests ulls vostres, tan misericordiosos,",
       "gireu-los envers nosaltres;",
       "i després d’aquest exili,",
       "mostreu-nos Jesús, fruit beneït del vostre sant ventre.",
@@ -98,24 +97,22 @@
     ]
   },
   "etPreguemEnsConcedeixis": {
-    "categoria": "varios",
+    "categoria": "Cat A",
     "titol": "",
     "arrText": [
       "Et preguem ens concedeixis, ",
       "Senyor Déu nostre, ",
-      "gaudir de contínua salut",
-      "d'ànima i cos, ",
-      "i per la gloriosa intercessió",
-      "de la benaurada sempre Verge Maria, veure'ns lliures",
-      "de les tristeses de la vida present",
+      "gaudir de contínua salut d'ànima i cos, ",
+      "i per la gloriosa intercessió de la benaurada sempre Verge Maria, ",
+      "veure'ns lliures de les tristeses de la vida present",
       "i gaudir de les alegries eternes. ",
       "Per Crist nostre Senyor. ",
       "Amén."
     ]
   },
   "ohGloriosSanMiquel": {
-    "categoria": "varios",
-    "titol": "",
+    "categoria": "Cat B",
+    "titol": "Oh Gloriós Sant Miquel",
     "arrText": [
       "Oh Gloriós Sant Miquel,",
       "Príncep dels àngels,",

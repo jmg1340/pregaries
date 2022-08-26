@@ -6,8 +6,8 @@
 
     <!-- <q-card-section v-for="(misteri, indexMisteri) in misteris" :key="misteri"> -->
 
-    <div class="text-grey-6">Padre nuestro...</div>
-    <div class="text-grey-6">10 Avemarias...</div>
+    <div class="text-grey-6">Pare nostre...</div>
+    <div class="text-grey-6 q-mb-md">10 Avemaries...</div>
     <div class="text-center">
       <q-img
         src="~assets/maria.jpg"
@@ -26,16 +26,20 @@
       />
     </div>
 
-    <div class="q-mb-lg text-grey-6">Gloria...</div>
+    <div class="q-my-md text-grey-6">Gloria...</div>
 
     <q-card >
     <q-card>
 			<q-card-section>
-				María, Madre de gracia, Madre de piedad y misericordia, defiéndenos de nuestros enemigos y ampáranos, ahora y en la hora de nuestra muerte, amén.
+				<div class="borde q-pa-sm">
+					Maria, Mare de gràcia, Mare de pietat i misericòrdia, defensa'ns dels nostres enemics i empara'ns, ara ia l'hora de la nostra mort, amén.
+				</div>
 			</q-card-section>
 		</q-card>
 			<q-card-section>
-				Oh mi buen Jesús, perdona nuestros pecados líbranos del fuego del infierno, lleva al cielo a todas las almas, especialmente a las más necesitadas de tu misericordia.
+				<div class="borde q-pa-sm">
+					Oh bon Jesús, perdona els nostres pecats, deslliura'ns del foc de l'infern i porta al cel totes les ànimes, especialment les més necessitades de la teva misericòrdia.
+				</div>
 			</q-card-section>
 		</q-card>
     <!-- </q-card-section> -->
@@ -48,4 +52,9 @@ import cmp_unitat from "./santRosari_unitat"
 </script>
 
 <style lang="css" scoped>
+.borde {
+	border: 2px solid #8b6060;
+	border-radius: 10px;
+}
+
 </style>
