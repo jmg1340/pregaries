@@ -64,7 +64,7 @@
       "va patir sota el poder de Ponç Pilat",
       "va ser crucificat, mort i sepultat, ",
       "va baixar als inferns,",
-      "al tercer dia va ressuscitar dentre els morts,",
+      "al tercer dia va ressuscitar d'entre els morts,",
       "va pujar al cel",
       "i està assegut a la dreta de Déu, Pare totpoderós.",
       "Des d'allà ha de venir a jutjar vius i morts.",
@@ -126,6 +126,19 @@
       "defensats per tu de l'infernal drac i les seves astúcies,",
       "siguem presentats nets de tota culpa",
       "davant la divina majestat.",
+      "Amén."
+    ]
+  },
+  "sotaElVostreMantell": {
+    "categoria": "Cat B",
+    "titol": "Sota el vostre Mantell",
+    "arrText": [
+      "Sota el vostre mantell",
+      "ens emparem Santa Mare de Déu;",
+      "escolteu les nostres Pregàries",
+      "en tota necessitat",
+      "i aparteu-nos sempre dels perills,",
+      "Verge, gloriosa beneïda.",
       "Amén."
     ]
   }

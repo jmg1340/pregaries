@@ -32,7 +32,7 @@
     <q-card>
 			<q-card-section>
 				<div class="borde q-pa-sm">
-					Maria, Mare de gràcia, Mare de pietat i misericòrdia, defensa'ns dels nostres enemics i empara'ns, ara ia l'hora de la nostra mort, amén.
+					Maria, Mare de gràcia, Mare de pietat i misericòrdia, defensa'ns dels nostres enemics i empara'ns, ara i a l'hora de la nostra mort, amén.
 				</div>
 			</q-card-section>
 		</q-card>

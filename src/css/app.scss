@@ -1,5 +1,10 @@
 // app global css in SCSS form
 
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+.tipusLletraApp{
+	font-family: 'Neucha', cursive;
+	font-size: 18px;
+}
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Dirt&display=swap");
 .lletraTitolApp {
   font-family: "Dancing Script", cursive;
@@ -23,8 +28,3 @@
 	font-family: 'Indie Flower', cursive;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
-.tipusLletraTextOracio{
-	font-family: 'Neucha', cursive;
-	font-size: 18px;
-}

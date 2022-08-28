@@ -21,15 +21,25 @@
       <jmgOracio class="col" oracio="gloria" />
 
       <!-- MISTERIS -->
-			<jmgMisteris />
+      <jmgMisteris />
 
       <jmgOracio class="col" oracio="laSalve" />
+      <jmgOracio class="col" oracio="ohGloriosSanMiquel" />
 
       <!-- LLETANIES -->
-			<jmgLletanies class="col"/>
+      <jmgLletanies class="col" />
 
       <jmgOracio class="col" oracio="etPreguemEnsConcedeixis" />
-      <jmgOracio class="col" oracio="ohGloriosSanMiquel" />
+
+      <div class="bg-grey-2 q-pa-lg q-gutter-y-md">
+        <div class="text-h5 q-mb-md">Oracions per les intencions del Papa</div>
+        <jmgOracio class="col" oracio="pareNostre" />
+        <jmgOracio class="col" oracio="aveMaria" />
+        <jmgOracio class="col" oracio="gloria" />
+      </div>
+
+      <jmgOracio class="col" oracio="sotaElVostreMantell" />
+      <jmgOracio class="col" oracio="laSenyal" />
     </div>
   </div>
 </template>

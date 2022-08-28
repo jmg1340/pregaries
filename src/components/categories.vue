@@ -3,9 +3,9 @@
     <q-card-section>
 			<div v-for="(arr, categoria) in objCategories" :key="categoria" class="q-my-md">
 				<div>
-					<div class="text-red tipusLletraTitolOracio">{{ categoria }}</div>
+					<div class="text-red">{{ categoria }}</div>
 					<q-list v-for="(obj, index) in arr" :key="index" bordered separator dense>
-						<q-item clickable v-ripple class="tipusLletraTextOracio">{{obj.titol}} - {{ obj.clau}}</q-item>
+						<q-item clickable v-ripple class="" :to="'/pregaria/' + obj.clau">{{obj.titol}}</q-item>
 					</q-list>
 				</div>
 			</div>

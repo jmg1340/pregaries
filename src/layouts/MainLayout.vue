@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf" class="tipusLletraApp">
     <q-header elevated>
       <q-toolbar class="bg-brown-11">
         <q-btn
@@ -8,11 +8,13 @@
           round
           icon="menu"
           aria-label="Menu"
-					class="text-brown-6"
+          class="text-brown-6"
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title class="lletraTitolApp text-brown-6"> Pregàries </q-toolbar-title>
+        <q-toolbar-title class="lletraTitolApp text-brown-6">
+          Pregàries
+        </q-toolbar-title>
 
         <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>
@@ -106,6 +108,4 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
