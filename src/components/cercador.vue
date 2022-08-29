@@ -4,9 +4,11 @@
     <q-form @submit.prevent="cercar()" class="q-gutter-md">
       <div class="row">
         <q-input
+					type="string"
           class="col"
           filled
           dense
+					clearable
           v-model="textABuscar"
           hint="Introduir un text"
           lazy-rules
@@ -23,8 +25,9 @@
   </div>
 
   <!-- TAULA AMB RESULTATS -->
+	<div class="q-mt-md">Resultats de la cerca</div>
   <q-markup-table dense bordered class="q-mx-sm" separator="cell">
-    <thead class="bg-grey-4 text-black">
+    <thead class="bg-grey-8 text-white">
       <tr>
         <th class="text-center thCansoner">Oració</th>
       </tr>
@@ -35,7 +38,7 @@
         :key="`oracio-${index}`"
         @click="MostrarOracio(obj.clau)"
       >
-        <td class="bg-brown-10 text-white">
+        <td class="">
           {{ obj.titol }}
         </td>
       </tr>
@@ -44,13 +47,28 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { useQuasar } from 'quasar'
+import { ref, onMounted,watch } from "vue";
 import { useRouter } from "vue-router";
 const router = useRouter();
 
 import objOracions from "../dades/oracions.json";
 
 let textABuscar = ref("");
+
+const $q = useQuasar()
+
+onMounted(() => {
+	textABuscar.value = $q.localStorage.getItem('textCerca') === 'null' ? '' : $q.localStorage.getItem('textCerca')
+	if ( textABuscar.value !== '') cercar()
+})
+
+watch( textABuscar, async (newtextABuscar, oldtextABuscar) => {
+	$q.localStorage.set("textCerca", newtextABuscar)
+})
+
+
+
 
 const columnes = ref([
   {
@@ -75,6 +93,7 @@ arrClausOracions.forEach((clau) => {
 });
 
 let arrOracions = ref([]);
+
 
 let cercar = () => {
   let arrResultat = [];

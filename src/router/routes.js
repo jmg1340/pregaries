@@ -15,6 +15,13 @@ const routes = [
     ]
   },
   {
+    path: '/coroneta',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/Coroneta.vue') }
+    ]
+  },
+  {
     path: '/pregaries',
     component: () => import('layouts/MainLayout.vue'),
     children: [
@@ -23,7 +30,7 @@ const routes = [
   },
   {
     path: '/pregaria/:oracio',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('layouts/pregariaLayout.vue'),
     children: [
       { path: '', props: true, component: () => import('pages/pregaria.vue') }
     ]

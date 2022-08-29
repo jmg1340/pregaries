@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h3>Novenes</h3>
+  <div class="q-pa-md">
+    <div class="text-h4 text-center q-mb-md titolPagina">Novenes</div>
   </div>
 </template>
 

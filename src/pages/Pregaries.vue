@@ -1,19 +1,22 @@
 <template>
   <div class="q-pa-md">
-    <div class="text-h4 text-center q-mb-md titolPagina">Pregàries</div>
+    <!-- <div class="text-h4 text-center q-mb-md titolPagina">Pregàries</div> -->
 
     <q-card>
       <q-tabs
         v-model="tab"
-        class="lletraTitolApartat bg-brown text-white"
+        class="lletraTitolApartat bg-brown text-white text-h4"
         align="justify"
         narrow-indicator
+				active-bg-color="brown-8"
+				active-color="brown-2"
+				
       >
         <q-tab
           name="categories"
           label="per Categories"
           noCaps
-          content-class="font-size: 4rem"
+          
         />
         <q-tab name="cercador" label="Cercador" noCaps />
       </q-tabs>
@@ -36,15 +39,26 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-import jmgCategories from "../components/categories.vue";
-import jmgCercador from "../components/cercador.vue";
+	import { useQuasar } from 'quasar'
+	import { ref, watch, onMounted  } from "vue";
+	import jmgCategories from "../components/categories.vue";
+	import jmgCercador from "../components/cercador.vue";
 
-const tab = ref("categories");
+	const tab = ref("categories");
+	const $q = useQuasar()
+
+	onMounted(() => {
+		tab.value = $q.localStorage.getItem('tabCercadorCategoria') || 'categories'
+	})
+
+	watch( tab, async (newTab, oldTab) => {
+		$q.localStorage.set("tabCercadorCategoria", newTab)
+	})
+
 </script>
 
 <style lang="scss" scoped>
 .xxx {
-  font-size: 4rem;
+  font-size: 8rem;
 }
 </style>

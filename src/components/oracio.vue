@@ -1,7 +1,8 @@
 <template>
   <!-- <q-card>
     <q-card-section> -->
-      <div v-if="objOracions[oracio].titol !== ''">
+     <div> 
+			<div v-if="objOracions[oracio].titol !== ''">
         <div class="text-h6 text-red-10 tipusLletraTitolOracio">
           <span class="text-uppercase">{{ objOracions[oracio].titol }}</span>
           {{ textAdicional }}
@@ -16,6 +17,7 @@
           {{ linia }}
         </div>
       </div>
+		</div>
     <!-- </q-card-section>
   </q-card> -->
 </template>

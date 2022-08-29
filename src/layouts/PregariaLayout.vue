@@ -17,8 +17,14 @@
         </q-toolbar-title>
 
         <!-- <div>Quasar v{{ $q.version }}</div> -->
+				<div>
+					<q-btn label="Tornar" class="bg-brown-10" @click="tornar" />
+				</div>
       </q-toolbar>
     </q-header>
+
+
+
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
@@ -42,6 +48,8 @@
 import { defineComponent, ref } from "vue";
 import EssentialLink from "components/EssentialLink.vue";
 import linksList from "../dades/menu.json";
+import { useRouter } from "vue-router";
+
 
 export default defineComponent({
   name: "MainLayout",
@@ -51,14 +59,21 @@ export default defineComponent({
   },
 
   setup() {
-    const leftDrawerOpen = ref(false);
+		const router = useRouter()    
+		const leftDrawerOpen = ref(false);
 
     return {
       essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer() {
+				console.log("func leftDrawerOpen")
         leftDrawerOpen.value = !leftDrawerOpen.value;
       },
+			tornar() {
+				console.log("func TORNAR")
+				//leftDrawerOpen.value = !leftDrawerOpen.value;
+				router.go(-1)
+			}
     };
   },
 });

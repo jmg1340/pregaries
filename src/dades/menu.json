@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Rosari",
+    "caption": "",
+    "icon": "school",
+    "to": "/rosari"
+  },
+  {
+    "title": "Coroneta divina misericòrdia",
+    "caption": "",
+    "icon": "school",
+    "to": "/coroneta"
+  },
+  {
+    "title": "Pregàries",
+    "caption": "Classificació / Cercador",
+    "icon": "code",
+    "to": "/pregaries"
+  },
+  {
+    "title": "Novenes",
+    "caption": "Novenes varies",
+    "icon": "chat",
+    "to": "/novenes",
+		"disabled": true
+  }
+
+]
