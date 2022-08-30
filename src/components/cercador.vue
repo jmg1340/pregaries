@@ -98,7 +98,7 @@ let arrOracions = ref([]);
 let cercar = () => {
   let arrResultat = [];
 
-  const re = new RegExp(textABuscar.value);
+  const re = new RegExp(textABuscar.value, 'i');
 
   arrCatClauTitolText.forEach(function (obj) {
     var titolSenseAccents = senseAccents(obj.titol);

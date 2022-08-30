@@ -1,13 +1,13 @@
 {
   "laSenyal": {
-    "categoria": "Cat A",
+    "categories": ["Cat A"],
     "titol": "Senyal de la creu",
     "arrText": [
       "En el Nom del Pare, del Fill i de l'Esperit Sant. Amén."
     ]
   },
   "pareNostre": {
-    "categoria": "varios",
+    "categories": ["Pregàries del matí", "Pregàries a Déu Pare"],
     "titol": "Pare nostre",
     "arrText": [
       "Pare nostre que estas en el cel, ",
@@ -23,7 +23,7 @@
     ]
   },
   "aveMaria": {
-    "categoria": "Cat A",
+    "categories": ["Cat A"],
     "titol": "Avemaria",
     "arrText": [
       "Déu vos salve, Maria, ",
@@ -37,7 +37,7 @@
     ]
   },
   "gloria": {
-    "categoria": "Cat B",
+    "categories": ["Cat B"],
     "titol": "Glòria",
     "arrText": [
       "Glòria al Pare i al Fill i a l'Esperit Sant.",
@@ -45,7 +45,7 @@
     ]
   },
   "prec1": {
-    "categoria": "Cat A",
+    "categories": ["Cat A"],
     "titol": "",
     "arrText": [
       "V - Sigueu amb nosaltres, Déu nostre.",
@@ -53,7 +53,7 @@
     ]
   },
   "credo": {
-    "categoria": "varios",
+    "categories": ["varios"],
     "titol": "Credo",
     "arrText": [
       "Crec en Déu, Pare Totpoderós,",
@@ -78,7 +78,7 @@
     ]
   },
   "laSalve": {
-    "categoria": "Cat B",
+    "categories": ["Cat B"],
     "titol": "La Salve",
     "arrText": [
       "Déu vos salve, Reina i Mare de misericòrdia,",
@@ -97,7 +97,7 @@
     ]
   },
   "etPreguemEnsConcedeixis": {
-    "categoria": "Cat A",
+    "categories": ["Cat A"],
     "titol": "",
     "arrText": [
       "Et preguem ens concedeixis, ",
@@ -111,7 +111,7 @@
     ]
   },
   "ohGloriosSanMiquel": {
-    "categoria": "Cat B",
+    "categories": ["Cat B"],
     "titol": "Oh Gloriós Sant Miquel",
     "arrText": [
       "Oh Gloriós Sant Miquel,",
@@ -130,7 +130,7 @@
     ]
   },
   "sotaElVostreMantell": {
-    "categoria": "Cat B",
+    "categories": ["Cat B"],
     "titol": "Sota el vostre Mantell",
     "arrText": [
       "Sota el vostre mantell",
@@ -144,7 +144,7 @@
   }
 	,
   "prec3": {
-    "categoria": "Cat B",
+    "categories": ["Cat B"],
     "titol": "",
     "arrText": [
       "Sant Déu, Sant Fort, Sant Immortal ",

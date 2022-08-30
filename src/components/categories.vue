@@ -18,7 +18,7 @@
 	// const props = defineProps(["oracio"]);
 
 
-	/* Array de objectes tipus:
+	/* Objectiu: array de objectes tipus:
 			{
 				categoria: [
 					{clau: <valorClau>, titol: <valorTitol>}
@@ -26,23 +26,37 @@
 			}
 	*/
 
-	const arrClausOracions = Object.keys(objOracions)
 	let objCategories = {}
+	
+	/**
+	 * 1. Array de les claus del objecte Oracions
+	 */
+	const arrClausOracions = Object.keys(objOracions)
 
+
+	/**
+	 * 2. Obtencio array de totes les categories
+	 */
 	const arrCatClauTitol = []
+	let arrCategories = []
 	arrClausOracions.forEach( (clau) => {
-		arrCatClauTitol.push(  {categoria: objOracions[clau].categoria, clau: clau, titol: objOracions[clau].titol} )
+
+		// generacio de 'arrCategories'
+		objOracions[clau].categories.forEach( (c) =>{
+			if (! arrCategories.includes( c )) arrCategories.push( c )
+		})
+		
+		// generacio de 'arrCatClauTitol'
+		arrCatClauTitol.push(  {categories: objOracions[clau].categories, clau: clau, titol: objOracions[clau].titol} )
 	})
 
-	const arrCategories_Duplicats = arrClausOracions.map( (clau) => objOracions[clau].categoria ).sort()
-	const arrCategories_Unics = arrCategories_Duplicats.filter( (clau, index) =>  arrCategories_Duplicats.indexOf(clau) === index)
-
-	arrCategories_Unics.forEach( (cat) => {
-		objCategories[cat] = arrCatClauTitol.filter ( obj => obj.categoria === cat && obj.titol !== '' ).map (obj => ({clau: obj.clau, titol: obj.titol}))
+	
+	arrCategories.forEach( (cat) => {
+		objCategories[cat] = arrCatClauTitol.filter ( obj => obj.categories.includes(cat) && obj.titol !== '' ).map (obj => ({clau: obj.clau, titol: obj.titol}))
 	})
 	
 
-	console.log("objCategories", objCategories)
+	// console.log("objCategories", objCategories)
 
 
 
