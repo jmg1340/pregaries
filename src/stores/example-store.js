@@ -1,15 +1,18 @@
 import { defineStore } from 'pinia';
 
-export const useCounterStore = defineStore('counter', {
+export const useAppStore = defineStore('AppStore', {
   state: () => ({
-    counter: 0,
+    tamanyFont: 20,
   }),
   getters: {
-    doubleCount: (state) => state.counter * 2,
+    doubleCount: (state) => state.tamanyFont * 2,
   },
   actions: {
     increment() {
-      this.counter++;
+      this.tamanyFont++;
+    },
+    decrement() {
+      this.tamanyFont--;
     },
   },
 });

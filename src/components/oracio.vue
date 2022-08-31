@@ -13,6 +13,7 @@
         <div
           v-for="(linia, index) in objOracions[oracio].arrText"
           :key="oracio + '_' + index"
+					:style="{fontSize: storeApp.tamanyFont +'px'}"
         >
           {{ linia }}
         </div>
@@ -24,6 +25,9 @@
 
 <script setup>
 import objOracions from "../dades/oracions.json";
+import { useAppStore } from '../stores/example-store.js'
+const storeApp = useAppStore()
+
 // const props = defineProps(["oracio"]);
 const props = defineProps({
   oracio: {
@@ -34,6 +38,11 @@ const props = defineProps({
     default: "",
   },
 });
+
+
+
+
+
 </script>
 
 <style lang="scss" scoped>

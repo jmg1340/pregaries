@@ -1,6 +1,8 @@
 <template>
 	<q-card class="bg-grey-3">
-		<q-card-section>
+		<q-card-section
+			:style="{fontSize: storeApp.tamanyFont +'px'}"
+		>
 			<div class="q-mb-md">
 				<q-select :options="opcionsMisteris" v-model="misteriSeleccionat" label="Seleccionar misteris"></q-select>
 			</div>
@@ -27,6 +29,9 @@
 	import objRosari from "../../dades/rosari.json"
 	import pareNosteAvemaries from "./jmg_pareNostreAveMaries.vue"
 	import moment from 'moment'
+
+	import { useAppStore } from '../../stores/example-store.js'
+	const storeApp = useAppStore()
 
 	let misteriSeleccionat = ref({label: "", value: ""})
 	const opcionsMisteris = ref([

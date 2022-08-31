@@ -15,7 +15,6 @@
 
 <script setup>
 	import objOracions from "../dades/oracions.json";
-	// const props = defineProps(["oracio"]);
 
 
 	/* Objectiu: array de objectes tipus:
@@ -45,6 +44,7 @@
 		objOracions[clau].categories.forEach( (c) =>{
 			if (! arrCategories.includes( c )) arrCategories.push( c )
 		})
+		arrCategories.sort()
 		
 		// generacio de 'arrCatClauTitol'
 		arrCatClauTitol.push(  {categories: objOracions[clau].categories, clau: clau, titol: objOracions[clau].titol} )

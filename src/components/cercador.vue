@@ -5,7 +5,7 @@
       <div class="row">
         <q-input
 					type="string"
-          class="col"
+          class="col lletraTaula"
           filled
           dense
 					clearable
@@ -18,7 +18,7 @@
         />
 
         <div class="col-auto q-ml-md">
-          <q-btn label="Cercar" type="submit" color="primary" />
+          <q-btn label="Cercar" type="submit" color="brown-10" />
         </div>
       </div>
     </q-form>
@@ -26,10 +26,10 @@
 
   <!-- TAULA AMB RESULTATS -->
 	<div class="q-mt-md">Resultats de la cerca</div>
-  <q-markup-table dense bordered class="q-mx-sm" separator="cell">
+  <q-markup-table dense bordered class=" q-mx-sm" separator="cell">
     <thead class="bg-grey-8 text-white">
       <tr>
-        <th class="text-center thCansoner">Oració</th>
+        <th class="text-center lletraTaula">Oració</th>
       </tr>
     </thead>
     <tbody>
@@ -38,7 +38,7 @@
         :key="`oracio-${index}`"
         @click="MostrarOracio(obj.clau)"
       >
-        <td class="">
+        <td class="lletraTaula">
           {{ obj.titol }}
         </td>
       </tr>
@@ -47,101 +47,98 @@
 </template>
 
 <script setup>
-import { useQuasar } from 'quasar'
-import { ref, onMounted,watch } from "vue";
-import { useRouter } from "vue-router";
-const router = useRouter();
+	import { useQuasar } from 'quasar'
+	import { ref, onMounted,watch } from "vue";
+	import { useRouter } from "vue-router";
+	const router = useRouter();
 
-import objOracions from "../dades/oracions.json";
+	import objOracions from "../dades/oracions.json";
 
-let textABuscar = ref("");
+	let textABuscar = ref("");
 
-const $q = useQuasar()
+	const $q = useQuasar()
 
-onMounted(() => {
-	textABuscar.value = $q.localStorage.getItem('textCerca') === 'null' ? '' : $q.localStorage.getItem('textCerca')
-	if ( textABuscar.value !== '') cercar()
-})
+	onMounted(() => {
+		textABuscar.value = $q.localStorage.getItem('textCerca') === 'null' ? '' : $q.localStorage.getItem('textCerca')
+		if ( textABuscar.value !== '') cercar()
+	})
 
-watch( textABuscar, async (newtextABuscar, oldtextABuscar) => {
-	$q.localStorage.set("textCerca", newtextABuscar)
-})
-
-
+	watch( textABuscar, async (newtextABuscar, oldtextABuscar) => {
+		$q.localStorage.set("textCerca", newtextABuscar)
+	})
 
 
-const columnes = ref([
-  {
-    name: "oracio",
-    label: "oració",
-    field: "titol",
-    align: "left",
-    sortable: true,
-  },
-]);
 
-const arrClausOracions = Object.keys(objOracions);
+	const arrClausOracions = Object.keys(objOracions);
 
-const arrCatClauTitolText = [];
-arrClausOracions.forEach((clau) => {
-  arrCatClauTitolText.push({
-    categoria: objOracions[clau].categoria,
-    clau: clau,
-    titol: objOracions[clau].titol,
-    arrText: objOracions[clau].arrText,
-  });
-});
+	const arrCatClauTitolText = [];
+	arrClausOracions.forEach((clau) => {
+		arrCatClauTitolText.push({
+			categoria: objOracions[clau].categoria,
+			clau: clau,
+			titol: objOracions[clau].titol,
+			arrText: objOracions[clau].arrText,
+		});
+	});
 
-let arrOracions = ref([]);
+	let arrOracions = ref([]);
 
 
-let cercar = () => {
-  let arrResultat = [];
+	let cercar = () => {
+		let arrResultat = [];
 
-  const re = new RegExp(textABuscar.value, 'i');
+		const re = new RegExp(textABuscar.value, 'i');
 
-  arrCatClauTitolText.forEach(function (obj) {
-    var titolSenseAccents = senseAccents(obj.titol);
-    if (re.test(titolSenseAccents)) {
-      // 1er: busquem pel titol de la cançó
-      arrResultat.push({ titol: obj.titol, clau: obj.clau });
-    } else {
-      // 2on: busquem per la lletra de la cançó
-      let oracioTrobada = false;
-      // for (let objLletra of objCansoner[obj.idCanso][obj.idioma].lletra) {
-      for (let linia of obj.arrText) {
-        var liniaSenseAccents = senseAccents(linia);
+		arrCatClauTitolText.forEach(function (obj) {
+			var titolSenseAccents = senseAccents(obj.titol);
+			if (re.test(titolSenseAccents)) {
+				// 1er: busquem pel titol de la cançó
+				arrResultat.push({ titol: obj.titol, clau: obj.clau });
+			} else {
+				// 2on: busquem per la lletra de la cançó
+				let oracioTrobada = false;
+				// for (let objLletra of objCansoner[obj.idCanso][obj.idioma].lletra) {
+				for (let linia of obj.arrText) {
+					var liniaSenseAccents = senseAccents(linia);
 
-        if (re.test(liniaSenseAccents)) {
-          arrResultat.push({ titol: obj.titol, clau: obj.clau });
-          oracioTrobada = true;
-          break;
-        }
-      }
-      // if (oracioTrobada) break;
-      // }
-    }
-  });
+					if (re.test(liniaSenseAccents)) {
+						arrResultat.push({ titol: obj.titol, clau: obj.clau });
+						oracioTrobada = true;
+						break;
+					}
+				}
+				// if (oracioTrobada) break;
+				// }
+			}
+		});
 
-  arrOracions.value = arrResultat;
+		arrOracions.value = arrResultat;
 
-  // return [];
-};
+		// return [];
+	};
 
-const senseAccents = function (s) {
-  var r = s.toLowerCase();
-  //r = r.replace(new RegExp(/\s/g),"");
-  r = r.replace(new RegExp(/[àáâãäå]/g), "a");
-  r = r.replace(new RegExp(/[èéêë]/g), "e");
-  r = r.replace(new RegExp(/[ìíîï]/g), "i");
-  //r = r.replace(new RegExp(/ñ/g),"n");
-  r = r.replace(new RegExp(/[òóôõö]/g), "o");
-  r = r.replace(new RegExp(/[ùúûü]/g), "u");
+	const senseAccents = function (s) {
+		var r = s.toLowerCase();
+		//r = r.replace(new RegExp(/\s/g),"");
+		r = r.replace(new RegExp(/[àáâãäå]/g), "a");
+		r = r.replace(new RegExp(/[èéêë]/g), "e");
+		r = r.replace(new RegExp(/[ìíîï]/g), "i");
+		//r = r.replace(new RegExp(/ñ/g),"n");
+		r = r.replace(new RegExp(/[òóôõö]/g), "o");
+		r = r.replace(new RegExp(/[ùúûü]/g), "u");
 
-  return r;
-};
+		return r;
+	};
 
-const MostrarOracio = (clau) => {
-  router.push("/pregaria/" + clau);
-};
+	const MostrarOracio = (clau) => {
+		router.push("/pregaria/" + clau);
+	};
 </script>
+
+
+
+<style lang="scss" scoped>
+	.lletraTaula { 
+		font-size: 18px;
+	}
+</style>

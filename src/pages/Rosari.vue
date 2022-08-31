@@ -1,4 +1,5 @@
 <template>
+	<jmgTamanyLletra class="q-ma-xs" />
   <div class="q-pa-md">
     <div class="text-h4 text-center q-mb-md titolPagina">Rosari</div>
     <div class="column q-gutter-md">
@@ -48,6 +49,9 @@
 import jmgOracio from "../components/oracio.vue";
 import jmgLletanies from "../components/rosari/Lletanies.vue";
 import jmgMisteris from "../components/rosari/misteris.vue";
+
+import jmgTamanyLletra from "../components/tamanyLletra.vue"
+
 </script>
 
 <style lang="scss" scoped></style>

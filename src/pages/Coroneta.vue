@@ -1,5 +1,6 @@
 <template>
-  <div class="q-pa-md">
+  <jmgTamanyLletra class="q-ma-xs" />
+	<div class="q-pa-md">
     <div class="text-h4 text-center q-mb-md titolPagina">Coroneta de la divina misericòrdia</div>
     <div class="column q-gutter-md">
 
@@ -21,6 +22,7 @@
 import jmgOracio from "../components/oracio.vue";
 import jmgLletanies from "../components/rosari/Lletanies.vue";
 import jmgCoronetes from "../components/jmg_Coronetes.vue";
+import jmgTamanyLletra from "../components/tamanyLletra.vue"
 </script>
 
 <style lang="scss" scoped></style>

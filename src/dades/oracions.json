@@ -1,13 +1,13 @@
 {
   "laSenyal": {
-    "categories": ["Cat A"],
+    "categories": ["Déu"],
     "titol": "Senyal de la creu",
     "arrText": [
       "En el Nom del Pare, del Fill i de l'Esperit Sant. Amén."
     ]
   },
   "pareNostre": {
-    "categories": ["Pregàries del matí", "Pregàries a Déu Pare"],
+    "categories": ["durant el matí", "Déu Pare"],
     "titol": "Pare nostre",
     "arrText": [
       "Pare nostre que estas en el cel, ",
@@ -23,7 +23,7 @@
     ]
   },
   "aveMaria": {
-    "categories": ["Cat A"],
+    "categories": ["Maria", "durant el matí"],
     "titol": "Avemaria",
     "arrText": [
       "Déu vos salve, Maria, ",
@@ -37,7 +37,7 @@
     ]
   },
   "gloria": {
-    "categories": ["Cat B"],
+    "categories": ["Déu", "durant el matí"],
     "titol": "Glòria",
     "arrText": [
       "Glòria al Pare i al Fill i a l'Esperit Sant.",
@@ -45,40 +45,15 @@
     ]
   },
   "prec1": {
-    "categories": ["Cat A"],
+    "categories": ["Déu"],
     "titol": "",
     "arrText": [
       "V - Sigueu amb nosaltres, Déu nostre.",
       "R - Senyor, veniu a ajudar-nos."
     ]
   },
-  "credo": {
-    "categories": ["varios"],
-    "titol": "Credo",
-    "arrText": [
-      "Crec en Déu, Pare Totpoderós,",
-      "Creador del cel i de la terra.",
-      "Crec en Jesucrist, el seu únic Fill, Nostre Senyor,",
-      "que va ser concebut per obra i gràcia de l'Esperit Sant,",
-      "va néixer de Santa Maria Verge, ",
-      "va patir sota el poder de Ponç Pilat",
-      "va ser crucificat, mort i sepultat, ",
-      "va baixar als inferns,",
-      "al tercer dia va ressuscitar d'entre els morts,",
-      "va pujar al cel",
-      "i està assegut a la dreta de Déu, Pare totpoderós.",
-      "Des d'allà ha de venir a jutjar vius i morts.",
-      "Crec en l'Esperit Sant, ",
-      "la santa Església catòlica,",
-      "la comunió dels sants,",
-      "el perdó dels pecats,",
-      "la resurrecció de la carn",
-      "i la vida eterna.",
-      "Amén."
-    ]
-  },
   "laSalve": {
-    "categories": ["Cat B"],
+    "categories": ["Maria","durant el matí"],
     "titol": "La Salve",
     "arrText": [
       "Déu vos salve, Reina i Mare de misericòrdia,",
@@ -97,7 +72,7 @@
     ]
   },
   "etPreguemEnsConcedeixis": {
-    "categories": ["Cat A"],
+    "categories": ["Déu", "Maria"],
     "titol": "",
     "arrText": [
       "Et preguem ens concedeixis, ",
@@ -111,7 +86,7 @@
     ]
   },
   "ohGloriosSanMiquel": {
-    "categories": ["Cat B"],
+    "categories": ["àngels"],
     "titol": "Oh Gloriós Sant Miquel",
     "arrText": [
       "Oh Gloriós Sant Miquel,",
@@ -130,7 +105,7 @@
     ]
   },
   "sotaElVostreMantell": {
-    "categories": ["Cat B"],
+    "categories": ["Maria"],
     "titol": "Sota el vostre Mantell",
     "arrText": [
       "Sota el vostre mantell",
@@ -144,11 +119,364 @@
   }
 	,
   "prec3": {
-    "categories": ["Cat B"],
+    "categories": ["Déu"],
     "titol": "",
     "arrText": [
       "Sant Déu, Sant Fort, Sant Immortal ",
       "tingueu misericòrdia de nosaltres i del món sencer."
     ]
+  },
+
+  "matí1": {
+    "categories": ["durant el matí"],
+    "titol": "Oració del matí I",
+    "arrText": [
+			"Al començar el nou dia,",
+			"et demano que m'ajudis,",
+			"que em lliures de tot mal,",
+			"de tot perill i de tot pecat;",
+			"que siguin bones les meves paraules,",
+			"les meves mirades,",
+			"els meus sentiments,",
+			"les meves accions",
+			"i el fons del meu cor.",
+			"",
+			"T'ofereixo Senyor, tots els meus pensaments, obres i treballs d'aquest dia. ",
+			"Beneïu-los per tal que no n'hi hagi cap que no sigui fet pel vostre amor. Amén."
+		]
+  },
+
+	"matí2": {
+		"categories": ["durant el matí"],
+		"titol": "Oració del matí II",
+		"arrText": [
+			"Senyor, en el silenci d'aquest dia que neix,",
+			"vinc a demanar-te pau, saviesa i força.",
+			"",
+			"Avui vull mirar el món amb ulls plens damor.",
+			"Ser pacient, comprensiu, humil, suau i bo.",
+			"",
+			"Veure els teus fills darrere de les aparences,",
+			"com els veus tu mateix,",
+			"per així poder apreciar la bondat de cadascú.",
+			"",
+			"Tanca les meves orelles a tota murmuració.",
+			"Guarda la meva llengua de tota maledicència.",
+			"Que només els pensaments que beneeixin romanguin en mi.",
+			"",
+			"Vull ser tan benintencionat i bo",
+			"que tots els qui s'acostin a mi sentin la teva presència.",
+			"",
+			"Revesteix-me de la teva bondat Senyor",
+			"i fes que aquest dia jo et reflecteixi.",
+			"",
+			"Amén."
+		]
+	},
+
+  "matí3": {
+    "categories": ["durant el matí"],
+    "titol": "Oració del matí III",
+    "arrText": [
+			"Senyor meu i Déu meu, t'estimo amb tot el meu cor. ",
+			"Et dono gràcies per haver-me creat i fet cristià i pel nou dia que em regales. ",
+			"T'ofereixo les accions d'aquest dia, fes que siguin segons la teva voluntat i per a més glòria teva. ",
+			"Lliura'm del pecat i de tot malament. ",
+			"Que la teva gràcia estigui sempre amb mi, amb tots els que jo estimo, amb totes les teves criatures. ",
+			"Amén."
+		]	
+  },	
+
+  "matí4": {
+    "categories": ["durant el matí"],
+    "titol": "Oració del matí",
+    "arrText": [
+			"Oh Jesús, en unió amb la teva preciosíssima sang vessada a la creu i oferta a cada missa;",
+			"avui t'ofereixo les meves oracions, treballs, alegries, tristeses i patiments per a la lloança del teu sant nom i per tots els desitjos del teu sagrat cor en reparació del pecat la conversió dels pecadors la pau mundial i la nostra unió final amb tu al cel.",
+			"",
+			"Amén."
+		]
+  },
+
+  "perLaPau": {
+    "categories": ["durant el matí"],
+    "titol": "Oració franciscana per la pau",
+    "arrText": [
+			"Senyor, fes de mi un instrument de la teva pau!",
+			"Que allà on hi hagi odi, posi jo amor;",
+			"on hi hagi ofensa, posi jo perdó;",
+			"on hi hagi discòrdia, posi jo unió;",
+			"on hi hagi error, posi jo veritat;",
+			"on hi hagi dubte, posi jo fe;",
+			"on hi hagi desesperació, posi jo esperança;",
+			"on hi hagi tenebres, posi jo llum;",
+			"on hi hagi tristesa, posi jo alegria.",
+			"",
+			"Oh, Mestre!, que no busqui jo tant",
+			"ser consolat com consolar;",
+			"ser comprès, com comprendre;",
+			"ser estimat, com estimar.",
+			"",
+			"Perquè donant és com es rep;",
+			"oblidant, com es troba;",
+			"perdonant, com és perdonat;",
+			"morint, com es ressuscita a la vida eterna."
+		]
+  },
+
+
+  "angelDeLaGuarda": {
+    "titol": "Àngel de Guarda",
+    "categories": [
+      "durant el matí",
+      "àngels"
+    ],
+    "arrText": [
+      "Ángel de Guarda,",
+      "dolça companyia,",
+      "no em desemparis ni de nit ni de dia.",
+      "No em deixis sol que em perdria.",
+      "Ni viure, ni morir en pecat mortal.",
+      "Jesús a la vida,",
+      "Jesús a la mort,",
+      "Jesús per sempre.",
+      "",
+      "Amén Jesús."
+    ]
+  },
+
+  "angelDeLaGuarda2": {
+    "titol": "Àngel de Guarda",
+    "categories": [
+      "durant el matí",
+      "àngels"
+    ],
+    "arrText": [
+      "Àngel de Déu,",
+      "que ets el meu custodi,",
+      "doncs la bondat divina m'ha",
+      "encomanat a tu.",
+      "Il·lumina'm, dirigeix-me i  guarda'm.",
+      "",
+      "Amén."
+    ]
+  },
+
+
+
+  "angelus": {
+    "titol": "Àngelus",
+    "categories": [
+      "durant el matí",
+      "Maria",
+			"durant el dia"
+    ],
+    "arrText": [
+      "L'Àngel del Senyor va anunciar Maria.",
+      "I va concebre per obra i gràcia de l'Esperit Sant.",
+      "",
+      "Ave Maria",
+      "",
+      "Vet aquí la serventa del Senyor.",
+      "Que es faci en mi segons la vostra paraula.",
+      "",
+      "Ave Maria",
+      "",
+      "I el Verb es va fer carn.",
+      "I va habitar entre nosaltres.",
+      "",
+      "Ave Maria",
+      "",
+      "Pregueu per nosaltres Santa Mare de Déu.",
+      "Perquè siguem dignes d'assolir les promeses de Nostre Senyor Jesucrist.",
+      "",
+      "Es resen tres glòries",
+      "",
+      "",
+      "Preguem.",
+      "",
+      "Vesseu Senyor la vostra gràcia sobre els nostres cors i concediu als qui hem conegut per l'anunci de l'Àngel l'Encarnació del vostre Fill, que per la vostra Passió i la vostra Creu arribem a la glòria de la Resurrecció.",
+      "Pel Senyor Jesús, el teu Fill, que viu amb tu i regna, en unitat de l'Esperit Sant, i és Déu, pels segles dels segles.",
+      "",
+      "Amén."
+    ]
+  },
+
+
+  "beneidaSiguiLaTevaPuresa": {
+    "titol": "Beneïda Sigui la teva Puresa",
+    "categories": [
+      "durant el matí",
+      "Maria"
+    ],
+    "arrText": [
+      "Beneïda Sigui la teva Puresa i eternament ho sigui, ",
+      "doncs tot un Déu es recrea, en tan graciosa bellesa.",
+      "A tu Celestial Princesa, Verge Sagrada Maria, ",
+      "t'ofereixo en aquest dia, la meva ànima, la meva vida i el meu cor.",
+      "Mira'm amb compassió i no em deixis, Mare meva.",
+      "",
+      "Amén."
+    ]
+  },
+
+
+  "benedictus": {
+    "titol": "Benedictus",
+    "categories": [
+      "durant el matí"
+    ],
+    "arrText": [
+      "Beneït sigui el Senyor, Déu d'Israel,",
+      "perquè ha visitat i redimit el seu poble,",
+      "",
+      "suscitant-nos una força de salvació",
+      "a la casa de David, el seu servent,",
+      "",
+      "segons ho havia predit des d'antic",
+      "per boca dels seus sants profetes.",
+      "",
+      "És la salvació que ens lliura dels nostres enemics",
+      "i de la mà de tots els que ens odien;",
+      "",
+      "realitzant la misericòrdia",
+      "que va tenir amb els nostres pares,",
+      "",
+      "recordant la seva santa aliança",
+      "i el jurament que va jurar el nostre pare Abraham.",
+      "",
+      "Per concedir-nos que, lliures de temor,",
+      "arrencats de la mà dels enemics,",
+      "",
+      "li servim amb santedat i justícia,",
+      "a la seva presència, tots els nostres dies.",
+      "",
+      "I a tu, nen, et diran profeta de l'Altíssim,",
+      "perquè aniràs davant del Senyor a preparar els seus camins,",
+      "",
+      "anunciant al seu poble la salvació,",
+      "el perdó dels seus pecats.",
+      "",
+      "Per l'entranyable misericòrdia del nostre Déu,",
+      "ens visitarà el sol que neix de dalt,",
+      "",
+      "per il·luminar els que viuen en tenebres",
+      "i en ombra de mort,",
+      "",
+      "per guiar els nostres passos",
+      "pel camí de la pau."
+    ]
+  },
+
+
+  "credoNiceno": {
+    "titol": "Credo (Niceno)",
+    "categories": [
+      "durant el matí",
+      "Déu"
+    ],
+    "arrText": [
+      "Crec en un sol Déu, Pare Totpoderós, ",
+      "Creador del cel i de la terra, ",
+      "de tot allò visible i allò invisible.",
+      "Crec en un sol Senyor, Jesucrist, Fill únic de Déu, ",
+      "nascut del Pare abans de tots els segles: ",
+      "Déu de Déu, Llum de Llum, ",
+      "Déu veritable de Déu veritable, ",
+      "engendrat, no creat, de la mateixa naturalesa del Pare, ",
+      "per qui tot va ser fet; que per nosaltres, els homes, i per la nostra salvació va baixar del cel, ",
+      "i per obra de l'Esperit Sant es va encarnar de Maria, la Verge, i es va fer home; ",
+      "i per la nostra causa va ser crucificat en temps de Ponç Pilat; ",
+      "va patir i va ser sepultat, ",
+      "i va ressuscitar el tercer dia, segons les Escriptures, ",
+      "i va pujar al cel, i està assegut a la dreta del Pare; ",
+      "i de nou vindrà amb glòria per jutjar, vius i morts, ",
+      "i el seu regne no tindrà fi.",
+      "Crec en l'Esperit Sant, Senyor i donador de vida, ",
+      "que procedeix del Pare i del Fill, ",
+      "que amb el Pare i el Fill rep una mateixa adoració i glòria, ",
+      "i que parlà pels profetes.",
+      "Crec a l'Església, que és una, santa, catòlica i apostòlica. ",
+      "Confesso que hi ha un sol Baptisme per al perdó dels pecats. ",
+      "Espero la resurrecció dels morts ",
+      "i la vida del món futur.",
+      "",
+      "Amén."
+    ]
+  },
+
+
+  "credo": {
+    "titol": "Credo",
+    "categories": [
+      "durant el matí",
+      "Déu"
+    ],
+    "arrText": [
+      "Crec en Déu, Pare Totpoderós,",
+      "Creador del cel i de la terra.",
+      "",
+      "Crec en Jesucrist, únic Fill seu i Senyor Nostre,",
+      "que va ser concebut per obra i gràcia de l'Esperit Sant,",
+      "va néixer de santa Maria Verge,",
+      "va patir sota el poder de Ponç Pilat,",
+      "va ser crucificat mort i sepultat,",
+      "va baixar als inferns,",
+      "al tercer dia va ressuscitar dentre els morts,",
+      "va pujar al cel",
+      "i està assegut a la dreta de Déu, Pare Totpoderós.",
+      "Des d'allà ha de venir a jutjar vius i morts.",
+      "",
+      "Crec a l'Esperit Sant,",
+      "la santa Església catòlica,",
+      "la comunió dels sants,",
+      "el perdó dels pecats,",
+      "la resurrecció de la carn",
+      "i la vida eterna.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "ohSenyoraMeva": {
+    "titol": "Oh Senyora meva",
+    "categories": [
+      "durant el matí",
+      "Maria"
+    ],
+    "arrText": [
+      "Oh Senyora meva, oh Mare meva!",
+      "jo m'ofereixo enterament a vós",
+      "i, en prova del meu filial afecte, ",
+      "us consagro en aquest dia",
+      "els meus ulls, les meves orelles, la meva llengua, el meu cor,",
+      "en una paraula, tot el meu ésser.",
+      "Ja que sóc tot vostre, oh mare de bondat!,",
+      "guardeu-me i defenseu-me",
+      "com a cosa i possessió vostra.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "9hora": {
+    "titol": "9na hora",
+    "categories": [
+      "durant el dia",
+      "Jesús"
+    ],
+    "arrText": [
+      "Oh Jesús, estès sobre la Creu, Et suplico em concedeixes la gràcia de poder complir fidelment amb la voluntat del teu Pare, en tot, sempre i a qualsevol lloc.",
+      "I quan aquesta voluntat de Déu em sembli pesada i encara difícil de complir, et suplico, Jesús, descendeixi sobre meu la teva força i el teu vigor perquè els meus llavis puguin repetir: “Senyor, que es faci la vostra voluntat”.",
+      "Oh Salvador de tot el món, amant de la salvació humana, que entre els tremends dolors de la teva Passió i Mort, t'has oblidat de Tu mateix i has pensat en la salvació de les ànimes, concedeix-me la gràcia d'oblidar-me de mi mateix de manera que visqui totalment per als altres, col·laborant amb tu en l'obra de la salvació, segons la voluntat santíssima del teu Pare.",
+      "",
+      "Vas morir, Jesús, però la teva mort va fer brollar una font de vida per a les ànimes i l'oceà de la teva misericòrdia va inundar tothom.",
+      "Oh, Font de Vida, insondable misericòrdia divina, omple el món sencer vessant sobre nosaltres fins a la teva última gota.",
+      "Oh, Sang i Aigua que vas brollar del Cor de Jesús, brollador de misericòrdia per a nosaltres, en Tu confio."
+    ]
   }
+
+
+
+
 }

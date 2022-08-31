@@ -7,7 +7,12 @@
     <!-- <q-card-section v-for="(misteri, indexMisteri) in misteris" :key="misteri"> -->
 
     
-	<div v-for="n in 5" :key="'c' +n" class="q-my-lg">
+	<div 
+		v-for="n in 5" 
+		:key="'c' +n" 
+		class="q-my-lg"
+		:style="{fontSize: storeApp.tamanyFont +'px'}"
+	>
 	
 		<!-- <q-card> -->
 			<q-card-section>
@@ -47,6 +52,9 @@
 
 <script setup>
 import cmp_unitat from "components/rosari/santRosari_unitat"
+
+import { useAppStore } from '../stores/example-store.js'
+const storeApp = useAppStore()
 
 </script>
 
