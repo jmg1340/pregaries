@@ -625,7 +625,7 @@
   "canticSimeo": {
     "titol": "Càntic de Simeó",
     "categories": [
-      "durant la nit"
+      "durant la nit", "Déu Pare"
     ],
     "arrText": [
       "Ara, Senyor,",
@@ -847,17 +847,728 @@
       "el nostre dolcíssim",
       "misericordiós Salvador!"
     ]
+  },
+
+  "novenaSantissimaTrinitat": {
+    "titol": "Novena a la Santíssima Trinitat",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "Glòria al Pare, Què em va crear a imatge i semblança de Déu.",
+      "Glòria al Fill, Qui a través de la Passió i la Creu, va triomfar sobre l'infern i em va mostrar el camí al cel.",
+      "Glòria a l'Esperit Sant, Qui em va netejar del meu pecat original al Baptisme i em beneeix amb gràcies cada dia.",
+      "Glòria a la Santíssima Trinitat!",
+      "",
+      "Amén.",
+      "",
+      "",
+      "Oh Santíssima Trinitat, beneeix-me amb els dons de l'Esperit Sant.",
+      "Si us plau, dóna'm saviesa perquè pugui reconèixer la importància dels altres i mantenir Déu al centre de la meva vida.",
+      "Si us plau, també pregueu per mi i per les meves intencions (Indiqueu les vostres intencions aquí).",
+      "Amb la meva veu i el meu cor et glorifico, Pare, Fill i Esperit Sant.",
+      "Ets gran i fas coses meravelloses.",
+      "Només tu ets el meu Déu.",
+      "Tota lloança, honor i glòria són teus ara i per sempre, oh Santíssima Trinitat!",
+      "",
+      "Amén."
+    ]
+  },
+
+  "ofrenaSangJesús": {
+    "titol": "Ofrena de la preciosa Sang de Jesús",
+    "categories": [
+      "Déu",
+      "Déu Pare"
+    ],
+    "arrText": [
+      "Pare etern, jo us ofereixo la preciosíssima sang del vostre Diví Fill Jesús, en unió amb les misses celebrades avui dia a través del món per totes les beneïdes animes del purgatori per tots els pecadors del món.",
+      "Pels pecadors a l'església universal, per aquells a pròpia casa i dins de la meva família.",
+      "Amén."
+    ]
+  },
+
+  "pregariaSantissimaTrinitat1": {
+    "titol": "Pregària a la Santíssima Trinitat I",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "Santíssima Trinitat, PARE, FILL i ESPERIT SANT, t'adoro profundament i t'ofereixo el preciosíssim COS, SANG, ÀNIMA i DIVINITAT del teu Amadíssim Fill i Senyor el nostre Jesucrist, en reparació dels ultratges, sacrilegis i indiferència, amb què ell mateix és ofès a tots els sagraris de la terra.",
+      "",
+      "Pels mèrits infinits del seu Santíssim Cor i la intercessió de l'Immaculat Cor de Maria, et demano la conversió de tots els pecadors."
+    ]
+  },
+
+  "pregariaSantissimaTrinitat2": {
+    "titol": "Pregària a la Santíssima Trinitat II",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "Santíssima Trinitat, Déu Trino i U,",
+      "Pare, Fill i Esperit Sant, principi i fi nostre,",
+      "postrat davant teu et rendeixo homenatge:",
+      "",
+      "Beneïda i lloada sigui la Santíssima Trinitat!;",
+      "a Vós, Trinitat Santíssima sigui tot honor,",
+      "glòria i lloança per tota l'eternitat,",
+      "de tot cor crec en Vós i el vostre fidel devot desitjo ser,",
+      "jo (NOM) acudeixo a Tu amb tota confiança",
+      "per demanar-te em vegi sempre lliure del mal",
+      "així com de totes les adversitats i perills,",
+      "i en les meves necessitats, et prego, m'atorguis el teu favor.",
+      "",
+      "Pare del Cel, Jesús Bon Pastor, Esperit Sant,",
+      "us suplico per la intercessió i mereixement",
+      "de la Santíssima Verge Maria,",
+      "em doneu la vostra ajuda, guia i protecció",
+      "en tots els assumptes i preocupacions de la meva vida.",
+      "",
+      "Glòria a Tu Déu Pare, font de bondat i eterna saviesa,",
+      "de tu procedeix la vida, de tu ens ve l'amor,",
+      "feu que tot moment obri amb rectitud i prudència",
+      "per gaudir dels béns i consols que m'envies;",
+      "recorda't que sóc el teu fill-a,",
+      "i apiada't dels meus patiments, de les meves necessitats",
+      "i concediu-me assistència en aquesta difícil situació:",
+      "",
+      "(REPETIR PETICIÓ).",
+      "",
+      "Gràcies Pare misericordiós per ser-hi.",
+      "",
+      "Glòria a Tu Déu Fill del Pare Celestial",
+      "al Sagrat Cor del qual la meva ànima troba refugi,",
+      "ensenya'm a imitar fidelment la teva vida i les teves virtuts,",
+      "dóna'm fermesa i constància per complir els teus ensenyaments",
+      "i fes que practiqui més sovint obres de caritat,",
+      "no m'abandonis en les lluites diàries,",
+      "lliura'm dels llaços que em tendeixi l'enemic,",
+      "allunya'm i protegeix-me de tota adversitat que em pertorbi",
+      "i concedeix-me la teva miraculosa ajuda en aquest problema:",
+      "",
+      "(REPETIR PETICIÓ).",
+      "",
+      "Gràcies el meu bon Jesús per estar al meu costat",
+      "en els moments de desesperança i angoixa.",
+      "",
+      "Glòria a Tu Esperit Sant, claredat que tot ho il·lumina,",
+      "i que ets el goig, l'harmonia i l'alegria de la creació,",
+      "fes que sigui sempre dòcil a les teves divines inspiracions",
+      "dóna'm pau, dóna'm auxili en les meves mancances i problemes",
+      "i concedeix-me la teva ajuda perquè pugui assolir",
+      "el que en aquests moments tanta falta em fa:",
+      "",
+      "(REPETIR PETICIÓ).",
+      "",
+      "Gràcies Esperit Diví d'Amor per auxiliar-me",
+      "quan tot és fosc i necessito Llum.",
+      "",
+      "Mare i Reina meva, Senyora dels Cels",
+      "Tu que estar tan a prop de la Santíssima Trinitat",
+      "prega per mi i els meus actuals problemes i mancances,",
+      "sé Tu la meva advocada i mitja perquè la meva suplica sigui atesa,",
+      "fes que obtingui el miracle que tant necessito a la meva vida.",
+      "",
+      "Gràcies la meva estimada Mare, beneïda Verge Maria,",
+      "per tant ser comprensiva i atendre sempre les nostres demandes.",
+      "",
+      "Divina Trinitat, Pare, Fill i Esperit Sant,",
+      "concedeix-me la teva clemència, concedeix-me la teva bondat",
+      "i dóna'm ràpida solució en les meves tristeses i angoixes.",
+      "",
+      "Amen."
+    ]
+  },
+
+  "preneuSenyorIRebeu": {
+    "titol": "Preneu Senyor i rebeu",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "Preneu, Senyor, i rebeu",
+      "tota la meva llibertat,",
+      "la meva memòria,",
+      "la meva entesa,",
+      "i tota la meva voluntat,",
+      "tot el meu haver i el meu posseir;",
+      "",
+      "Vós em vau donar,",
+      "A Vós, Senyor, ho torno.",
+      "Tot és vostre,",
+      "disposeu-ho tot a la vostra voluntat;",
+      "doneu-me el vostre amor i gràcia,",
+      "que amb aquesta en tinc prou."
+    ]
+  },
+
+  "resNoEtTorbi": {
+    "titol": "Res no et torbi (Sta. Teresa)",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "Res no et torbi,",
+      "Res t'espanti,",
+      "Tot es passa,",
+      "Déu no es muda.",
+      "",
+      "La paciència",
+      "Tot ho arriba;",
+      "Qui té Déu",
+      "Res no li falta:",
+      "Només Déu n'hi ha prou.",
+      "",
+      "Eleva el pensament,",
+      "Al cel puja,",
+      "Per res t'angoixes,",
+      "No et torbi res.",
+      "",
+      "A Jesucrist segueix",
+      "Amb pit gran,",
+      "I, vingui el que vingui,",
+      "Res no t'espante.",
+      "",
+      "Veus la glòria del món",
+      "És glòria vana;",
+      "Res no té estable,",
+      "Tot es passa.",
+      "",
+      "Aspira al cel,",
+      "Que sempre dura;",
+      "Fidel i ric en promeses,",
+      "Déu no es muda.",
+      "",
+      "Estima-la com mereix",
+      "Bondat immensa;",
+      "Però no hi ha amor fi",
+      "Sense la paciència.",
+      "",
+      "Confiança i fe viva",
+      "Mantingueu l'ànima,",
+      "Que qui creu i espera",
+      "Tot ho arriba.",
+      "",
+      "De l'infern assetjat",
+      "Encara que es veiés,",
+      "Burlarà els seus furors",
+      "Qui té Déu.",
+      "",
+      "Veniu-li desemparament,",
+      "Creus, desgràcies;",
+      "Sent Déu el seu tresor,",
+      "No li falta res.",
+      "",
+      "Aneu, doncs, béns del món;",
+      "Aneu, aquestes vanes;",
+      "Encara que tot ho perdi,",
+      "Només Déu n'hi ha prou."
+    ]
+  },
+
+  "santFrancesc1": {
+    "titol": "Pregària de sant Francesc davant el crucifix de sant Damià",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "Summe, gloriós Déu,",
+      "il·lumina les tenebres del meu cor",
+      "i dóna'm fe recta,",
+      "esperança certa",
+      "i caritat perfecta,",
+      "sentit i coneixement, Senyor,",
+      "perquè compleixi",
+      "el teu sant i veritable manament."
+    ]
+  },
+
+  "intercessio1": {
+    "titol": "Poderosa Oració d'Intercessió per a aquests temps",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "Déu Pare Totpoderós: En el Nom del teu fill Jesús, per la seva Sagrada Passió, per la seva Presència Reial i Misericordiosa a la Santa Eucaristia, pel Cor Dolorós i Immaculat de Maria, envia el teu Sant Esperit; perquè, per Sa Santa i Poderosa Unció, ens atorgue la Salut de l'Ànima i del Cos, protegint-nos de tota amenaça actual o futura.",
+      "",
+      "Permet-nos Caminar sota el Mantell de Maria, la nostra Mare Amorosa, la teva Filla Dilecta i Plena de Gràcia, al costat de Sant Josep i de tots els Sants els mèrits dels quals has reconegut, protegits per Sant Miquel Arcàngel i les seves milícies celestials.",
+      "",
+      "Qui com Déu? Ningú com Déu!",
+      "",
+      "Amén."
+    ]
+  },
+
+  "teDeum": {
+    "titol": "Te Deum",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "A tu, oh Déu, t'lloem,",
+      "a tu, Senyor, et reconeixem.",
+      "",
+      "A tu, etern Pare,",
+      "et venera tota la creació.",
+      "",
+      "Els àngels tots,",
+      "el cel i totes les potestats t'honren.",
+      "",
+      "Els querubins i serafins",
+      "et canten sense parar:",
+      "",
+      "Sant, Sant, Sant és el Senyor,",
+      "Déu de lunivers.",
+      "",
+      "El cel i la terra",
+      "estan plens de la majestat de la teva glòria.",
+      "",
+      "A tu t'enalteix",
+      "el gloriós cor dels Apòstols,",
+      "",
+      "la multitud admirable dels Profetes,",
+      "el blanc exèrcit dels màrtirs.",
+      "",
+      "A tu l'Església santa,",
+      "estesa per tota la terra, et proclama:",
+      "",
+      "Pare d'immensa majestat,",
+      "Fill únic i veritable, digne d'adoració,",
+      "Esperit Sant, Defensor.",
+      "",
+      "Tu ets el Rei de la glòria, Crist.",
+      "Tu ets el Fill únic del Pare.",
+      "",
+      "Tu, per alliberar l'home,",
+      "vas acceptar la condició humana",
+      "sense menysprear el si de la Verge.",
+      "",
+      "Tu, trencades les cadenes de la mort,",
+      "vas obrir als creients el regne del cel.",
+      "",
+      "Tu t'asseus a la dreta de Déu",
+      "a la glòria del Pare.",
+      "",
+      "Creiem que un dia",
+      "has de venir com a jutge.",
+      "",
+      "Et preguem, doncs,",
+      "que vinguis en ajuda dels teus serfs,",
+      "a qui vas redimir amb la teva preciosa sang.",
+      "",
+      "Fes que a la glòria eterna",
+      "ens associem als teus sants.",
+      "",
+      "Salva el teu poble, Senyor,",
+      "i beneeix la teva heretat.",
+      "",
+      "Sigues el seu pastor",
+      "i exalça'l eternament.",
+      "",
+      "Dia rere dia et beneïm",
+      "i lloem el teu nom per sempre,",
+      "per eternitat d'eternitats.",
+      "",
+      "Digna't, Senyor, en aquest dia",
+      "guardar-nos del pecat.",
+      "",
+      "Tingueu pietat de nosaltres, Senyor,",
+      "tingueu pietat de nosaltres.",
+      "",
+      "Que la teva misericòrdia, Senyor,",
+      "vingui sobre nosaltres,",
+      "com ho esperem de tu.",
+      "",
+      "En tu, Senyor, vaig confiar,",
+      "no em veuré defraudat per sempre."
+    ]
+  },
+
+  "oracioAbando": {
+    "titol": "Oració d'abandó (Beat Charles de Foucauld)",
+    "categories": [
+      "Déu Pare"
+    ],
+    "arrText": [
+      "Pare,",
+      "A les teves mans em poso,",
+      "Fes de mi el que vulguis.",
+      "Per tot el que facis de mi,",
+      "et dono gràcies.",
+      "",
+      "Estic disposat a tot, ho accepto tot,",
+      "per tal que la teva voluntat es faci en mi",
+      "i a totes les teves criatures.",
+      "No desitjo res més. Déu meu.",
+      "",
+      "Poso la meva ànima entre les teves mans,",
+      "te la dono, Déu meu,",
+      "Amb tota la cremor del meu cor",
+      "perquè T'Estimo,",
+      "i és per mi una necessitat d'amor",
+      "donar-me, lliurar-me",
+      "entre les teves mans sense mesura,",
+      "amb infinita confiança,",
+      "perquè Tu ets el meu Pare.",
+      "",
+      "Amen."
+    ]
+  },
+
+  "parePio1": {
+    "titol": "Pregària del Pare Pius per a sanació",
+    "categories": [
+      "Déu Pare"
+    ],
+    "arrText": [
+      "Pare Celestial, t'agraeixo per estimar-me.",
+      "",
+      "T'agraeixo per enviar el teu Diví Fill nostre Senyor Jesucrist al món per salvar-me i alliberar-me.",
+      "",
+      "Confio que el teu poder i gràcia em sostindran i restauraran.",
+      "",
+      "Pare Estimat, toca'm amb les teves mans sanadores, perquè crec que la teva voluntat per a mi és estar bé en cos, ment, ànima i esperit.",
+      "",
+      "Cobreix-me amb la Preciosíssima Sang del teu Fill nostre Senyor Jesucrist des del meu cap fins a la planta dels meus peus.",
+      "",
+      "Expulsa tot allò que no hauria d'estar en mi.",
+      "",
+      "Arrenca qualsevol cèl·lula malalta i anormal.",
+      "",
+      "Obre qualsevol artèria o vena bloquejada, reconstrueix i reposa qualsevol àrea danyada.",
+      "",
+      "Remou tota inflamació i neteja tota infecció pel poder de la poderosa Sang de Nostre Senyor Jesucrist.",
+      "",
+      "Deixa que el foc del teu amor sanador passi a través de tot el meu cos, per guarir i renovar totes les àrees malaltes perquè el meu cos funcioni de la manera com Tu ho vas crear per funcionar.",
+      "",
+      "Toca la meva ment, la meva emoció i fins i tot el més profund del meu cor.",
+      "",
+      "Satura completament el meu ésser de la teva Presència, amor, alegria i pau.",
+      "",
+      "Acosta'm encara més a Tu, a cada moment de la meva vida.",
+      "",
+      "Pare ompli'm amb el teu Esperit Sant i permet-me fer les teves obres, perquè la meva vida porti honor i glòria al teu Sant Nom.",
+      "",
+      "Et demano això en el nom de Nostre Senyor Jesucrist.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "pregariaEmbaras1": {
+    "titol": "Pregària durant l'embaràs",
+    "categories": [
+      "Déu Pare"
+    ],
+    "arrText": [
+      "Pare nostre que estàs al cel.",
+      "Heus aquí que porto al meu si un nen petitet, feble i vulnerable, que ja va transformant tot el meu cos i el meu cor.",
+      "Gràcies per haver-m'ho confiat, gràcies per permetre'l acollir-ho. Com Maria va acollir Jesús el dia de l'anunciació.",
+      "Gràcies per permetre'm acollir-lo com la meva mare em va acollir quan va descobrir la meva presència en el més íntim de si mateixa.",
+      "",
+      "Pare Bo que ens estimes, estic meravellada davant aquesta vida tan secreta i palpitant, tan fràgil i plena de promeses. Gràcies per haver-me donat els ulls del cor que em permeten des d'ara veure el meu fill. Quan encara no és visible.",
+      "Pare ple de bondat, ajuda'm a fer cada dia el que puc fer perquè aquest petitó sigui feliç. Et demano, Pare de totes les gràcies, poder transmetre a aquest fill tota la fe, tota l'esperança, tot l'amor, que porto al meu cor.",
+      "Finalment, amb el meu fill que abans que res és teu, et demano pare, mantenir-nos sota la teva protecció. Ara i per sempre.",
+      "",
+      "Amen."
+    ]
+  },
+
+  "rosariPare": {
+    "titol": "Rosari del Pare",
+    "categories": [
+      "Déu Pare"
+    ],
+    "arrText": [
+      "Al Nom del Pare, del Fill i de l'Esperit Sant. Amén.",
+      "",
+      "Déu meu veuen en el meu auxili, Senyor, afanya't a socórrer-me.",
+      "",
+      "Glòria al Pare, al Fill ia l'Esperit Sant, com era al principi, ara i sempre pels segles dels segles, Amén.",
+      "",
+      "Pare meu, Pare bo, a Vós m'ofereixo, a Vós em dono.",
+      "",
+      "Àngel del Senyor, fidel custodi meu, a qui m'ha encomanat la Divina Bondat, il·lumina'm, protegeix-me, dirigeix-me i governa'm sempre. Amén.",
+      "",
+      "",
+      "",
+      "Primer misteri:",
+      "Contemplem el triomf del Pare al jardí de l'Edèn quan, després del pecat d'Adam i Eva, promet la vinguda del Salvador. «Aleshores Déu va dir a la serp: – Per haver fet això, maleïda siguis entre totes les bèsties i entre tots els animals del camp. Sobre el teu ventre caminaràs, i pols menjaràs cada dia de la teva vida. Enemistat posaré entre tu i la dona, entre el teu llinatge i el seu llinatge: ella et trepitjarà el cap mentre aguaites tu el seu brou». (Gn 3,14-15)",
+      "",
+      "1 Ave Maria, 10 Pare Nostre, Glòria.",
+      "",
+      "Pare meu, Pare bo, a Vós m'ofereixo, a Vós em dono.",
+      "",
+      "Àngel del Senyor, fidel custodi meu, a qui m'ha encomanat la Divina Bondat, il·lumina'm, protegeix-me, dirigeix-me i governa'm sempre.",
+      "",
+      "",
+      "",
+      "Segon misteri:",
+      "Contemplem el triomf del Pare en el moment del Fiat de Maria durant l'Anunciació. «L'Àngel li va dir: – No tinguis por, Maria, perquè has trobat gràcia davant Déu; concebràs al si i donaràs a llum un fill, a qui posaràs el nom de Jesús. Ell serà gran i se'l dirà Fill de l'Altíssim i el Senyor Déu li donarà el tron ​​de David, el seu pare; regnarà sobre la casa de Jacob pels segles i el seu regne no tindrà fi. Va dir Maria: – Vet aquí l'esclava del Senyor; feu-vos en mi segons la vostra paraula.» (Lc 1,30ss)",
+      "",
+      "1 Ave Maria, 10 Pare Nostre, Glòria.",
+      "",
+      "Pare meu, Pare bo, a Vós m'ofereixo, a Vós em dono.",
+      "",
+      "Àngel del Senyor, fidel custodi meu, a qui m'ha encomanat la Divina Bondat, il·lumina'm, protegeix-me, dirigeix-me i governa'm sempre. Amén.",
+      "",
+      "",
+      "Tercer misteri:",
+      "Contemplem el triomf del Pare a l'hort del Getsemaní quan dóna tota la seva potència al Fill. «Jesús resava dient: – Pare meu, si és possible, que passi de mi aquest calze, però no sigui com jo vull, sinó com vols tu. Aleshores, se li va aparèixer un àngel vingut del cel que el confortava. I sumit en agonia pregava més intensament, i la seva suor es va tornar com a gotes espesses de sang que queien a terra (Lc 22,42-44). Després es va acostar als deixebles i els diu: – Ara ja podeu dormir i reposar. Mireu ha arribat l'hora en què el Fill de l'home serà lliurat a mans de pecadors. Aixequeu-vos, anem! Mireu que el qui m'entregarà és a prop (Mt 26,4546). Jesús s'avança i els pregunta: –A qui busqueu? Li respongueren: – A Jesús el Natzarè. Els diu Jesús: – SÓC! Tot just va dir: JO SÓC! van retrocedir i van caure a terra». (Jn 18, 4-6)",
+      "",
+      "1 Ave Maria, 10 Pare Nostre, Glòria.",
+      "",
+      "Pare meu, Pare bo, a Vós m'ofereixo, a Vós em dono.",
+      "",
+      "Àngel del Senyor, fidel custodi meu, a qui m'ha encomanat la Divina Bondat, il·lumina'm, protegeix-me, dirigeix-me i governa'm sempre. Amén.",
+      "",
+      "",
+      "",
+      "Quart misteri:",
+      "Contemplem el triomf del Pare al moment de cada judici particular. Estant ell encara lluny, el va veure el seu pare, i commogut va córrer, es va tirar al coll i el va besar efusivament. El fill li va dir: – Pare, vaig pecar contra el cel i davant teu; ja no mereixo ser anomenat fill teu. Però el pare va dir als seus serfs: – Porteu de pressa el millor vestit i revestiu-lo, poseu-li un anell a la mà i unes sandàlies als peus. Porteu el jònec engreixat, mateu-lo i mengem i celebrem una festa, perquè aquest fill meu era mort i ha tornat a la vida, estava perdut i ha estat trobat. (Lc 15,20-24)",
+      "",
+      "1 Ave Maria, 10 Pare Nostre, Glòria.",
+      "",
+      "Pare meu, Pare bo, a Vós m'ofereixo, a Vós em dono.",
+      "",
+      "Àngel del Senyor, fidel custodi meu, a qui m'ha encomanat la Divina Bondat, il·lumina'm, protegeix-me, dirigeix-me i governa'm sempre. Amén.",
+      "",
+      "",
+      "",
+      "Cinquè misteri:",
+      "Contemplem el triomf del Pare en el moment del judici universal. «Després vaig veure un cel nou i una terra nova, perquè el primer cel i la primera terra van desaparèixer i el mar ja no existeix. I vaig veure la Ciutat Santa, la nova Jerusalem, que baixava del cel, de Déu engalanada com una núvia vestida per al seu marit. I vaig sentir una forta veu que deia des del tron: – Aquesta és la casa de Déu amb els homes! Posarà la seva estada entre ells i ells seran el seu poble, i ell, “Déu-amb-ells”, serà el seu Déu. I eixugarà les llàgrimes dels seus ulls; ja no hi haurà mort, ni hi haurà plors, ni crits, ni fatiga, perquè el món vell ha passat”. (Ap. 21, 1-4)",
+      "",
+      "1 Ave Maria, 10 Pare Nostre, Glòria.",
+      "",
+      "Pare meu, Pare bo, a Vós m'ofereixo, a Vós em dono.",
+      "",
+      "Àngel del Senyor, fidel custodi meu, a qui m'ha encomanat la Divina Bondat, il·lumina'm, protegeix-me, dirigeix-me i governa'm sempre. Amén.",
+      "",
+      "Salvi Reina...",
+      "",
+      "Pare Nostre, Ave Maria, Glòria al Pare pel Papa.",
+      "",
+      "",
+      "",
+      "Letanies del Pare",
+      "",
+      "Pare d'infinita majestat tingueu pietat de nosaltres",
+      "Pare d'infinita potència",
+      "Padre d'infinita bondat",
+      "Pare d'infinita tendresa",
+      "Pare, abisme d'Amor",
+      "Pare, potència de gràcia",
+      "Pare, esplendor de resurrecció",
+      "Pare, Llum de pau",
+      "Pare, alegria de salvació",
+      "Pare, sempre més Pare",
+      "Pare d'infinita misericòrdia",
+      "Pare d'esplendor infinit",
+      "Pare, salvació dels desesperats",
+      "Pare, esperança de qui resa",
+      "Pare, tendre davant de qualsevol dolor",
+      "",
+      "Pare, pels fills més febles t'implorem",
+      "Pare, pels fills més desesperats",
+      "Pare, pels fills menys estimats",
+      "Pare, pels fills que no us han conegut",
+      "Pare, pels fills més desolats",
+      "Pare, pels fills més abandonats",
+      "Pare, pels fills més patits",
+      "Pare, pels fills que lluiten perquè vingui el vostre regne",
+      "",
+      "",
+      "Preguem:",
+      "Pare, pels fills, per cada fill, per tots els fills, us implorem: doneu-nos pau i salvació en nom de la Sang del vostre Fill Jesús i en nom del sofert Cor de la nostra Mare Maria. Amén."
+    ]
+  },
+
+  "recordeuvosSagratCorJesus": {
+    "titol": "Recordeu-vos Oh Sagrat Cor de Jesús",
+    "categories": [
+      "Jesús"
+    ],
+    "arrText": [
+      "Recordeu-vos oh sagrat Cor de Jesús! de tot el que heu fet per salvar les nostres ànimes, i no les deixeu morir. Recordeu-vos de l'etern i immens amor que heu tingut per elles; no rebutgeu aquestes ànimes que vénen a Vós, aclaparades sota el pes de les seves misèries oprimides sota el de tants dolors. Commoveu-vos a la vista de la nostra debilitat, dels perills que ens envolten per tot arreu, dels mals que ens fan sospirar i gemegar.",
+      "",
+      "Plenes de confiança i amor, venim al vostre Cor, com el cor del millor dels pares, del més tendre i més compassiu amic. Rebeu-nos, oh Cor sagrat! a la vostra infinita tendresa; feu-nos sentir els efectes de la vostra compassió i del nostre amor; sigueu el nostre suport, el nostre mediador prop del vostre Pare, i en nom de la vostra preciosa sang i dels vostres mèrits, concediu-nos la força en les nostres debilitats, consol en les nostres penes, i la gràcia d'estimar-vos en el temps i de posseir-vos en l'eternitat.",
+      "",
+      "Cor de Jesús, jo vinc a Vós perquè sou el meu únic refugi, la meva sola però certa esperança; Vós sou el remei de tots els meus mals, l'alleujament de totes les misèries, la reparació de totes les meves faltes, la seguretat de totes les meves peticions, la font infal·lible i inesgotable per a mi, i per a tots la llum, força, constància, pau i benedicció.",
+      "",
+      "Estic segur que no us cansareu de mi i que no parareu d'estimar-me, protegir-me i ajudar-me, perquè m'estimeu amb un amor infinit.",
+      "",
+      "Tingueu pietat de mi, segons la vostra gran misericòrdia, i feu de mi, per mi, i en mi tot el que vulgueu, perquè jo m'abandono a Vós amb una sencera confiança que Vós no m'abandonareu mai.",
+      "",
+      "Així sigui."
+    ]
+  },
+
+  "acteDesagravi": {
+    "titol": "Acte de desgreuge compost per S.S. Pius XI",
+    "categories": [
+      "Jesús"
+    ],
+    "arrText": [
+      "Oh dolcíssim Jesús, l'amor immens dels homes del qual no ha rebut en pagament, dels ingrats, més que oblit, negligència i menyspreu! Vegeu-nos prostrats davant del vostre altar, per reparar, amb especials homenatges d'honor, la fredor indigna dels homes i les injúries amb què, a tot arreu, fereixen el vostre amantíssim Cor.",
+      "",
+      "Mes recordant que també nosaltres alguna vegada ens taquem amb tal indignitat de la qual ens dolem ara vivament, desitgem, abans que res, obtenir per a les nostres ànimes la vostra divina misericòrdia, disposats a reparar, amb voluntària expiació, no només els nostres propis pecats, sinó també els d'aquells que, allunyats del camí de la salvació i obstinats en la seva infidelitat, o no volen seguir-vos com a Pastor i Guia, o, conculcant les promeses del Baptisme, han sacsejat el suavíssim jou de la vostra llei.",
+      "",
+      "Nosaltres volem expiar tan abominables pecats, especialment la immodèstia i la deshonestedat de la vida i dels vestits, les innombrables assetjaments estesos contra les ànimes innocents, la profanació dels dies festius, les execrables injúries proferides contra vós i contra els vostres Sants, els dirigits al vostre Vicari ia l'Ordre Sacerdotal, les negligències i horribles sacrilegis amb què és profanat el mateix Sagrament de l'amor i, en fi, els públics pecats de les nacions que oposen resistència als drets i al magisteri de l'Església per vós fundada.",
+      "",
+      "Tant de bo que ens hagués donat rentar tants crims amb la nostra pròpia sang! Mes, mentrestant, com a reparació de l'honor diví conculcat, unint-la amb l'expiació de la Mare de Déu la vostra Mare, dels Sants i de les ànimes bones, us oferim la satisfacció que vós mateix vau oferir un dia sobre la creu a l'Etern Pare i que diàriament es renova als nostres altars, prometent de tot cor que, quan ens sigui possible i mitjançant l'auxili de la vostra gràcia, repararem els pecats propis i aliens i la indiferència de les ànimes cap al vostre amor, oposant la fermesa a la fe, la innocència de la vida i l'observança perfecta de la llei evangèlica, sobretot de la caritat, mentre ens esforcem a més per impedir que sigueu injuriat i per atraure tots els que puguem perquè vagin en el vostre seguiment.",
+      "",
+      "Oh benigníssim Jesús! Per intercessió de la Santíssima Verge Maria Reparadora, us supliquem que rebeu aquest voluntari acte de reparació; concediu-nos que siguem fidels als vostres mandats i al vostre servei fins a la mort i atorgueu-nos el do de la perseverança, amb el qual arribem feliçment a la glòria, on, en unió del Pare i de l'Esperit Sant, viviu i regneu, Déu per tots els segles dels segles. Amén."
+    ]
+  },
+
+  "animaCrist": {
+    "titol": "Ànima de Crist,",
+    "categories": [
+      "Jesús"
+    ],
+    "arrText": [
+      "Ànima de Crist, santifica'm",
+      "Cos de Crist, salva'm",
+      "Sang de Crist, embriaga'm",
+      "Aigua del costat de Crist, renta'm",
+      "Passió de Crist, confirma'm",
+      "Oh bon Jesús, escolteu-me",
+      "Dins les teves nafres, amaga'm",
+      "No permetis que em separi de Tu",
+      "Del maligne enemic, defensa'm",
+      "A l'hora de la meva mort, truca'm",
+      "I envia'm anar a Tu",
+      "Perquè amb els teus sants t'alabi",
+      "Pels segles dels segles.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "consagracioJesus": {
+    "titol": "Consagració a Jesús Misericordiós",
+    "categories": [
+      "Jesús"
+    ],
+    "arrText": [
+      "Oh, Jesús Misericordiós! La teva Bondat és infinita i els tresors de la teva Gràcia són inesgotables. M'abandono a la teva Misericòrdia que sobrepuja totes les teves obres. Em consagro enterament a Tu per viure sota els raigs de la teva Gràcia i del teu amor que van brotar del teu Cor traspassat a la Creu.",
+      "",
+      "Vull donar a conèixer la teva Misericòrdia, per mitjà de les obres de misericòrdia corporals i espirituals, especialment amb els pecadors, consolant i assistint els pobres afligits i malalts. Més, Tu em protegiràs com a cosa teva, doncs tot ho temo de la meva debilitat i tot ho espero de la teva Misericòrdia.",
+      "",
+      "Que tota la humanitat comprengui l'abisme insondable de la teva Misericòrdia, a fi que posant tota la seva esperança hi pugui exalçar-la per tota l'Eternitat.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "consagracioJesus1": {
+    "titol": "Consagració a la Preciosíssima Sang de Jesucrist",
+    "categories": [
+      "Jesús"
+    ],
+    "arrText": [
+      "Si us plau pregar diàriament i meditant.",
+      "",
+      "",
+      "Misericordiós Salvador, en la meva insignificància i la teva sublimitat, jo em postro davant els teus peus i t'agraeixo per totes les proves de la teva gràcia mostrades a mi, la teva desagraïda criatura. Jo t'agraeixo especialment per salvar-me mitjançant la teva preciosa sang, del poder destructor de satanàs. En presència de la meva estimada Mare Maria, el meu àngel de la guarda, el meu sant patró i de tota la companyia del paradís, em dedico voluntàriament, amb un cor sincer. oh, estimadíssim Jesús, a la vostra Preciosa Sang per mitjà de la qual vas redimir el món del pecat, la mort i l'infern.",
+      "",
+      "Jo et prometo que amb l'ajuda de la teva gràcia i amb la meva fortalesa més gran, promulgaré i créixeré en la devoció a la teva Preciosa Sang, el preu de la nostra redempció de manera que la teva Adorable Sang sigui honrada i glorificada per tots.",
+      "",
+      "D'aquesta manera, jo desitjo fer reparació per la meva deslleialtat cap a la teva preciosa sang d'amor, i recompensar-te per les moltes profanacions que els homes cometen en contra del preciós preu de la seva salvació. Tant de bo que els meus propis pecats, la meva fredor i tots els actes irrespectuosos que he comès en contra de la teva Santa i Preciosa Sang puguin ser esborrats.",
+      "",
+      "Contempla oh, estimat Jesús, us ofereixo l'amor, honor i adoració, que la vostra Santíssima Mare, els vostres fidels deixebles i que tots els sants han ofert a la vostra Preciosa Sang. Et demano que oblidis la meva manca de fe i fredor del passat i que perdonis tots els que t'ofenen. Ruixa'm, oh Diví Salvador, ia tots els homes amb la teva Preciosa Sang, de manera que nosaltres, oh amor crucificat, t'estimem d'ara endavant amb tots els nostres cors, i que mereixedorament honrem el preu de la nostra salvació.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "consagracioJesus2": {
+    "titol": "Pregària de Consagració al Sagrat Cor de Jesús",
+    "categories": [
+      "Jesús"
+    ],
+    "arrText": [
+      "Senyor Jesucrist, agenollats als vostres peus, renovem alegrement la Consagració de la nostra família al vostre Diví Cor.",
+      "",
+      "Sigues, avui i sempre, el nostre Guia, el Cap protector de la nostra llar, el Rei i Centre dels nostres cors.",
+      "",
+      "Beneeix la nostra família, casa nostra, els nostres veïns, parents i amics.",
+      "",
+      "Ajuda'ns a complir fidelment els nostres deures, i participa de les nostres alegries i angoixes, de les nostres esperances i dubtes, del nostre treball i de les nostres diversions.",
+      "",
+      "Dóna'ns força, Senyor, perquè carreguem la nostra creu de cada dia i sapiguem oferir tots els nostres actes, juntament amb el teu sacrifici, al Pare.",
+      "",
+      "Que la justícia, la fraternitat, el perdó i la misericòrdia estiguin presents a casa nostra ia les nostres comunitats.",
+      "",
+      "Volem ser instruments de pau i de vida.",
+      "",
+      "Que el nostre amor al teu Cor compensi, d'alguna manera, la fredor i la indiferència, la ingratitud i la manca d'amor dels qui no et coneixen, et menyspreen o rebutgen.",
+      "",
+      "Sagrat Cor de Jesús, tenim confiança en Vós.",
+      "Confiança profunda, il·limitada."
+    ]
+  },
+
+  "consagracioJesus3": {
+    "titol": "Consagració diària del sagrat cor de Jesús per intercessió de Maria",
+    "categories": [
+      "Jesús"
+    ],
+    "arrText": [
+      "Reina del cel,",
+      "La meva dolça Mare Maria,",
+      "Jo, encara que feble i indigne,",
+      "Però animat per l'amorosa invitació",
+      "Del Sagrat Cor de Jesús,",
+      "Desitjo consagrar-me enterament a Ell,",
+      "Vull oferir-ho tot a través",
+      "Del teu Immaculat Cor",
+      "I amb una confiança de nen",
+      "A les teves cures, espero m'ajudis",
+      "A complir el meu propòsit.",
+      "",
+      "Sagrat Cor de Jesús,",
+      "Rei de bondat i amor,",
+      "Lliure i amb tot el cor,",
+      "Accepto aquest dolç pacte",
+      "De cuidar Tu de mi i jo de Tu,",
+      "Desitjo que tot el que sigui meu sigui teu",
+      "I ho poso a les teves mans:",
+      "La meva ànima, la meva salvació eterna,",
+      "La meva llibertat, el meu progrés espiritual,",
+      "La meva vida, la meva salut, la meva família,",
+      "Les meves possessions i la meva feina,",
+      "I qualsevol obra bona",
+      "Que jo pugui fer,",
+      "Perquè tu disposis de tot",
+      "Segons la vostra voluntat.",
+      "Faré el millor que pugui en aquests assumptes,",
+      "Però estaré content",
+      "Amb el que el teu amant Cor",
+      "Decidiu per a mi.",
+      "",
+      "En canvi, et demano",
+      "Que el temps que em resta",
+      "No sigui desaprofitat,",
+      "Vull fer alguna cosa important",
+      "Per ajudar-te a regnar al món,",
+      "Per mitjà de la meva pregària,",
+      "La meva feina diària, els meus patiments",
+      "I actes d'abnegació,",
+      "Que tot el que faci",
+      "A cada moment de la meva vida,",
+      "Es pot utilitzar",
+      "Per establir el teu Diví Regnat.",
+      "",
+      "Que les meves últimes paraules",
+      "I les meves darreres forces,",
+      "Siguin paraules d'amor,",
+      "Siguin entrega generosa",
+      "Al teu Sacratíssim Cor.",
+      "",
+      "Amén."
+    ]
   }
-
-
-
-
-
-
-
-
-
-
-
 
 }
