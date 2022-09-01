@@ -105,7 +105,7 @@
     ]
   },
   "sotaElVostreMantell": {
-    "categories": ["Maria"],
+    "categories": ["Maria", "durant la nit"],
     "titol": "Sota el vostre Mantell",
     "arrText": [
       "Sota el vostre mantell",
@@ -226,7 +226,7 @@
 
 
   "angelDeLaGuarda": {
-    "titol": "Àngel de Guarda",
+    "titol": "Àngel de Guarda I",
     "categories": [
       "durant el matí",
       "àngels"
@@ -246,7 +246,7 @@
   },
 
   "angelDeLaGuarda2": {
-    "titol": "Àngel de Guarda",
+    "titol": "Àngel de Guarda II",
     "categories": [
       "durant el matí",
       "àngels"
@@ -261,8 +261,6 @@
       "Amén."
     ]
   },
-
-
 
   "angelus": {
     "titol": "Àngelus",
@@ -474,7 +472,390 @@
       "Oh, Font de Vida, insondable misericòrdia divina, omple el món sencer vessant sobre nosaltres fins a la teva última gota.",
       "Oh, Sang i Aigua que vas brollar del Cor de Jesús, brollador de misericòrdia per a nosaltres, en Tu confio."
     ]
+  },
+
+  "benediccioMenjar1": {
+    "titol": "Benediccio menjar",
+    "categories": [
+      "durant el dia"
+    ],
+    "arrText": [
+      "Beneïu-nos, Senyor,",
+      "i beneeix aquests aliments",
+      "que ens servirem,",
+      "i que Tu ens dónes",
+      "per la teva infinita bondat.",
+      "T'ho demanem",
+      "per Crist Nostre Senyor.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "consagracioCorJesus1": {
+    "titol": "Consagració diària del sagrat cor de Jesús per intercessió de Maria",
+    "categories": [
+      "durant el dia",
+      "Jesús"
+    ],
+    "arrText": [
+      "Reina del cel,",
+      "La meva dolça Mare Maria,",
+      "Jo, encara que feble i indigne,",
+      "Però animat per l'amorosa invitació",
+      "Del Sagrat Cor de Jesús,",
+      "Desitjo consagrar-me enterament a Ell,",
+      "Vull oferir-ho tot a través",
+      "Del teu Immaculat Cor",
+      "I amb una confiança de nen",
+      "A les teves cures, espero m'ajudis",
+      "A complir el meu propòsit.",
+      "",
+      "Sagrat Cor de Jesús,",
+      "Rei de bondat i amor,",
+      "Lliure i amb tot el cor,",
+      "Accepto aquest dolç pacte",
+      "De cuidar Tu de mi i jo de Tu,",
+      "Desitjo que tot el que sigui meu sigui teu",
+      "I ho poso a les teves mans:",
+      "La meva ànima, la meva salvació eterna,",
+      "La meva llibertat, el meu progrés espiritual,",
+      "La meva vida, la meva salut, la meva família,",
+      "Les meves possessions i la meva feina,",
+      "I qualsevol obra bona",
+      "Que jo pugui fer,",
+      "Perquè tu disposis de tot",
+      "Segons la vostra voluntat.",
+      "Faré el millor que pugui en aquests assumptes,",
+      "Però estaré content",
+      "Amb el que el teu amant Cor",
+      "Decidiu per a mi.",
+      "",
+      "En canvi, et demano",
+      "Que el temps que em resta",
+      "No sigui desaprofitat,",
+      "Vull fer alguna cosa important",
+      "Per ajudar-te a regnar al món,",
+      "Per mitjà de la meva pregària,",
+      "La meva feina diària, els meus patiments",
+      "I actes d'abnegació,",
+      "Que tot el que faci",
+      "A cada moment de la meva vida,",
+      "Es pot utilitzar",
+      "Per establir el teu Diví Regnat.",
+      "",
+      "Que les meves últimes paraules",
+      "I les meves darreres forces,",
+      "Siguin paraules d'amor,",
+      "Siguin entrega generosa",
+      "Al teu Sacratíssim Cor.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "magnificat": {
+    "titol": "Magnificat",
+    "categories": [
+      "durant el dia",
+      "Maria"
+    ],
+    "arrText": [
+      "La meva ànima proclama la grandesa del Senyor, el meu esperit s'alegra en Déu el meu Salvador, perquè ha mirat la humiliació de la seva esclava.",
+      "",
+      "Des d'ara em felicitaran totes les generacions perquè el Poderós ha fet obres grans per mi. El seu nom és Sant i la seva misericòrdia arriba als fidels de generació en generació.",
+      "",
+      "Ell fa proeses amb el seu braç, dispersa els superbs de cor. Derroca del tron els poderosos i enalteix els humils. Als famolencs els satisfa de béns i als rics acomiada buits.",
+      "",
+      "Auxília a Israel el seu servent, recordant-se de la seva santa aliança segons ho havia promès als nostres pares a favor d'Abraham i la seva descendència per sempre."
+    ]
+  },
+
+  "reginacoelli": {
+    "titol": "Regina Coelli - Reina del Cel",
+    "categories": [
+      "durant el dia",
+      "Maria"
+    ],
+    "arrText": [
+      "Regna del cel, alegra't, al·leluia.",
+      "Perquè el Senyor, a qui has portat al teu ventre, al·leluia.",
+      "Ha ressuscitat segons la seva paraula, al·leluia.",
+      "Pregueu el Senyor per nosaltres, al·leluia.",
+      "",
+      "Gaudeix i alegra't Verge Maria, al·leluia.",
+      "Perquè en veritat ha ressuscitat el Senyor, al·leluia.",
+      "",
+      "",
+      "Preguem",
+      "",
+      "Oh Déu, que per la resurrecció del vostre Fill, Nostre Senyor Jesucrist, has omplert el món d'alegria, concediu-nos, per intercessió de la seva Mare, la Mare de Déu, arribar als goigs eterns.",
+      "Per Jesucrist Nostre Senyor.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "acteContricio": {
+    "titol": "Acte de contrició",
+    "categories": [
+      "durant la nit",
+      "Jesús"
+    ],
+    "arrText": [
+      "Senyor meu Jesucrist,",
+      "Déu i Home veritable,",
+      "Creador, Pare i Redemptor meu;",
+      "per ser Vós qui sou,",
+      "Bondat infinita",
+      "i perquè us estimo sobre totes les coses,",
+      "em pesa de tot cor",
+      "d'haver-vos ofès;",
+      "també em pesa perquè podeu castigar-me",
+      "amb les penes de l'infern.",
+      "Ajudat de la vostra divina gràcia,",
+      "proposo fermament mai més pecar,",
+      "confessar-me i complir la penitència",
+      "que em fos imposada.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "canticSimeo": {
+    "titol": "Càntic de Simeó",
+    "categories": [
+      "durant la nit"
+    ],
+    "arrText": [
+      "Ara, Senyor,",
+      "pots deixar que el teu servidor mori",
+      "en pau, com ho has promès,",
+      "",
+      "perquè els meus ulls han vist la salvació",
+      "que vas preparar davant de tots els pobles:",
+      "",
+      "llum per il·luminar les nacions paganes",
+      "i glòria del teu poble Israel."
+    ]
+  },
+
+  "abansDeDormir1": {
+    "titol": "Pregària per abans de dormir",
+    "categories": [
+      "durant la nit"
+    ],
+    "arrText": [
+      "Pare meu, ara que les veus es van silenciar i els clams es van apagar, aquí al peu del llit la meva ànima s'eleva fins a Vós, per dir-vos: Crec en Vós, espero en Vós, us estimo amb totes les meves forces, Glòria a Vós Senyor . Diposito a les teves mans, la fatiga i la lluita, les alegries i els desencants d'aquest dia que va quedar enrere.",
+      "",
+      "Si els nervis em van trair, si els impulsos egoistes em van dominar, si vaig donar entrada a la rancúnia oa la tristesa, Perdó, Senyor!. Tingues pietat de mi.",
+      "",
+      "Si he estat infidel, si vaig pronunciar paraules vanes, si em vaig deixar portar per la impaciència. Si vaig ser espina per a algú Perdó, Senyor!",
+      "",
+      "No vull aquesta nit entregar-me al somni, sense sentir sobre la meva ànima la seguretat de la teva misericòrdia, la teva dolça misericòrdia, completament gratuïta, Senyor.",
+      "",
+      "Us dono gràcies, Pare meu, perquè heu estat l'ombra fresca que m'ha acollit durant tot aquest dia.",
+      "",
+      "Et dono gràcies perquè, invisible, afectuós, envoltant, m'has tingut cura al llarg d'aquestes hores.",
+      "",
+      "Senyor, al meu voltant ja tot és silenci i calma. Envia l'àngel de la pau a aquesta casa. Relaxa els meus nervis, assossega el meu esperit, deixa anar les meves tensions, inunda el meu ésser de silenci i serenitat.",
+      "",
+      "Vetlla sobre mi, Pare estimat, mentre m'entrego confiat al somni, com un nen que dorm feliç entre els teus braços.",
+      "",
+      "En nom vostre Senyor, descansaré tranquil.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "oracioNit1": {
+    "titol": "Pregàra per a la nit",
+    "categories": [
+      "durant la nit",
+      "Déu"
+    ],
+    "arrText": [
+      "Déu meu i Senyor meu!",
+      "Et dono gràcies",
+      "per tots els beneficis",
+      "que m'has concedit avui,",
+      "per haver-me creat, redimit",
+      "i crida a la fe catòlica.",
+      "Per haver-me lliurat",
+      "perills d'ànima i de cos.",
+      "Et demano perdó",
+      "per totes les faltes",
+      "que he comès durant aquest dia,",
+      "em fa mal de tot cor",
+      "haver-te ofès,",
+      "proposo esmenar-me",
+      "i no pecar més.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "salm91": {
+    "titol": "Salm 91",
+    "categories": [
+      "durant la nit"
+    ],
+    "arrText": [
+      "1 Tu que habites a l'empara de l'Altíssim",
+      "i resideixes a l'ombra de l'Omnipotent,",
+      "",
+      "2 digues-li al Senyor: «La meva empara, el meu refugi,",
+      "el meu Déu, en qui jo poso la meva confiança».",
+      "",
+      "3 Ell et lliurarà del llaç del caçador",
+      "i del flagell de la desgràcia;",
+      "",
+      "4 et cobrirà amb les plomes",
+      "i trobaràs sota les seves ales un refugi.",
+      "",
+      "5 No temeràs les pors de la nit",
+      "ni la fletxa disparada de dia,",
+      "",
+      "6 ni la pesta que avança a les tenebres,",
+      "ni la plaga que fueteja a ple sol.",
+      "",
+      "7 Encara que caiguin mil homes al teu costat",
+      "i deu mil, a la teva dreta,",
+      "tu estaràs fora de perill:",
+      "la seva lleialtat serà el teu escut i armadura.",
+      "",
+      "8 Només cal que miris amb els teus ulls",
+      "i veuràs com se li paga a l'impiu.",
+      "",
+      "9 Però tu dius: «La meva empara és el Senyor»,",
+      "tu has fet de l'Altíssim el teu asil.",
+      "",
+      "10 La desgràcia no t'arribarà",
+      "ni la plaga s'acostarà a la botiga:",
+      "",
+      "11 perquè als àngels els ha ordenat",
+      "que t'escortin a tots els teus camins.",
+      "",
+      "12 A les mans t'hauran de sostenir",
+      "perquè no ensopegui el teu peu en alguna pedra;",
+      "",
+      "13 caminaràs sobre escurçons i lleons",
+      "i trepitjaràs cadells i dracs.",
+      "",
+      "14 «Doncs a mi es va acollir, ho lliuraré,",
+      "ho protegiré, ja que el meu Nom va conèixer.",
+      "",
+      "15 Si m'invoca, jo li respondré,",
+      "ia l'angoixa estaré al seu costat,",
+      "el salvaré, li rendiré honors.",
+      "",
+      "16 Allargaré els seus dies com ho desitja",
+      "i faré que pugui veure la meva salvació»."
+    ]
+  },
+
+  "joConfesso": {
+    "titol": "Jo confesso",
+    "categories": [
+      "durant la nit", "Déu"
+    ],
+    "arrText": [
+      "Jo confesso davant Déu Totpoderós,",
+      "i davant vostre germans",
+      "que he pecat molt de pensament, paraula, obra i omissió.",
+      "Per culpa meva, per culpa meva, per culpa meva.",
+      "Per això prego a Santa Maria sempre Verge, als àngels, als sants ia vosaltres germans,",
+      "que intercedeixin per mi davant Déu, Nostre Senyor.",
+      "",
+      "Amén."
+    ]
+  },
+
+  "gloriaADeuADaltDelCel": {
+    "titol": "Glòria a Déu al cel",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "Glòria a Déu al cel,",
+      "ia la terra pau als homes que estima el Senyor.",
+      "",
+      "Per la vostra immensa glòria us lloem,",
+      "us beneïm, us adorem,",
+      "us glorifiquem, us donem gràcies,",
+      "Senyor Déu, Rei celestial,",
+      "Déu Pare totpoderós Senyor,",
+      "Fill únic, Jesucrist.",
+      "",
+      "Senyor Déu, Anyell de Déu, Fill del Pare;",
+      "tu que lleves el pecat del món,",
+      "tingueu pietat de nosaltres;",
+      "tu que lleves el pecat del món,",
+      "atén la nostra súplica;",
+      "tu que estàs assegut a la dreta del Pare,",
+      "tingueu pietat de nosaltres;",
+      "perquè només tu ets Sant,",
+      "només tu Senyor, només tu Altíssim, Jesucrist,",
+      "amb l'Esperit Sant a la glòria de Déu Pare.",
+      "",
+      "Amén"
+    ]
+  },
+
+  "lloançaADeu": {
+    "titol": "Lloança a Déu Altíssim",
+    "categories": [
+      "Déu"
+    ],
+    "arrText": [
+      "Només Tu ets Sant, Senyor Déu",
+      "i només Tu obres meravelles.",
+      "Tu ets fort, tu ets gran,",
+      "tu ets l'Altíssim,",
+      "tu ets omnipotent;",
+      "tu, Pare sant, rei del cel i de la terra.",
+      "",
+      "Tu ets trino i un alhora,",
+      "Senyor Déu Bé total;",
+      "tu ets el bé, tot bé, sumo bé,",
+      "Senyor Déu viu i veritable.",
+      "",
+      "Tu ets caritat i amor,",
+      "tu ets saviesa,",
+      "tu ets humilitat,",
+      "tu ets paciència,",
+      "tu ets seguretat,",
+      "tu ets descans,",
+      "tu ets alegria i alegria,",
+      "",
+      "Tu ets equitat i temprança,",
+      "Tu ets riquesa sobradíssima.",
+      "Tu ets la bellesa,",
+      "tu ets la dolçor,",
+      "tu ets la nostra empara,",
+      "tu ets el nostre custodi",
+      "tu ets la nostra defensa,",
+      "tu ets la força,",
+      "tu ets el refrigeri.",
+      "",
+      "Tu ets la nostra esperança,",
+      "tu ets la nostra fe, tu ets",
+      "la gran dolça nostra.",
+      "Tu ets la nostra vida eterna,",
+      "gran i admirable Senyor,",
+      "omnipotent Déu,",
+      "el nostre dolcíssim",
+      "misericordiós Salvador!"
+    ]
   }
+
+
+
+
+
+
+
+
 
 
 

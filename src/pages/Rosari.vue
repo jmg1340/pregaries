@@ -3,44 +3,44 @@
   <div class="q-pa-md">
     <div class="text-h4 text-center q-mb-md titolPagina">Rosari</div>
     <div class="column q-gutter-md">
-      <jmgOracio class="col" oracio="laSenyal" />
-      <jmgOracio class="col" oracio="prec1" />
-      <jmgOracio class="col" oracio="gloria" />
-      <jmgOracio class="col" oracio="credo" />
-      <jmgOracio class="col" oracio="pareNostre" />
-      <jmgOracio class="col" oracio="aveMaria" textAdicional="per la Fe..." />
+      <jmgOracio class="col" clauOracio="laSenyal" />
+      <jmgOracio class="col" clauOracio="prec1" />
+      <jmgOracio class="col" clauOracio="gloria" />
+      <jmgOracio class="col" clauOracio="credo" />
+      <jmgOracio class="col" clauOracio="pareNostre" />
+      <jmgOracio class="col" clauOracio="aveMaria" textAdicional="per la Fe..." />
       <jmgOracio
         class="col"
-        oracio="aveMaria"
+        clauOracio="aveMaria"
         textAdicional="per la Esperança..."
       />
       <jmgOracio
         class="col"
-        oracio="aveMaria"
+        clauOracio="aveMaria"
         textAdicional="per la Caritat..."
       />
-      <jmgOracio class="col" oracio="gloria" />
+      <jmgOracio class="col" clauOracio="gloria" />
 
       <!-- MISTERIS -->
       <jmgMisteris />
 
-      <jmgOracio class="col" oracio="laSalve" />
-      <jmgOracio class="col" oracio="ohGloriosSanMiquel" />
+      <jmgOracio class="col" clauOracio="laSalve" />
+      <jmgOracio class="col" clauOracio="ohGloriosSanMiquel" />
 
       <!-- LLETANIES -->
       <jmgLletanies class="col" />
 
-      <jmgOracio class="col" oracio="etPreguemEnsConcedeixis" />
+      <jmgOracio class="col" clauOracio="etPreguemEnsConcedeixis" />
 
       <div class="bg-grey-2 q-pa-lg q-gutter-y-md">
         <div class="text-h5 q-mb-md">Oracions per les intencions del Papa</div>
-        <jmgOracio class="col" oracio="pareNostre" />
-        <jmgOracio class="col" oracio="aveMaria" />
-        <jmgOracio class="col" oracio="gloria" />
+        <jmgOracio class="col" clauOracio="pareNostre" />
+        <jmgOracio class="col" clauOracio="aveMaria" />
+        <jmgOracio class="col" clauOracio="gloria" />
       </div>
 
-      <jmgOracio class="col" oracio="sotaElVostreMantell" />
-      <jmgOracio class="col" oracio="laSenyal" />
+      <jmgOracio class="col" clauOracio="sotaElVostreMantell" />
+      <jmgOracio class="col" clauOracio="laSenyal" />
     </div>
   </div>
 </template>

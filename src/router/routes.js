@@ -29,17 +29,10 @@ const routes = [
     ]
   },
   {
-    path: '/pregaria/:oracio',
+    path: '/pregaria/:clauOracio',
     component: () => import('layouts/pregariaLayout.vue'),
     children: [
       { path: '', props: true, component: () => import('pages/pregaria.vue') }
-    ]
-  },
-  {
-    path: '/novenes',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      { path: '', component: () => import('pages/Novenes.vue') }
     ]
   },
   {

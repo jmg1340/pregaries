@@ -6,7 +6,7 @@
     "to": "/rosari"
   },
   {
-    "title": "Coroneta divina misericòrdia",
+    "title": "Corona divina misericòrdia",
     "caption": "",
     "icon": "school",
     "to": "/coroneta"
@@ -14,15 +14,15 @@
   {
     "title": "Pregàries",
     "caption": "Classificació / Cercador",
-    "icon": "code",
+    "icon": "article",
     "to": "/pregaries"
   },
   {
-    "title": "Novenes",
-    "caption": "Novenes varies",
-    "icon": "chat",
-    "to": "/novenes",
-		"disabled": true
+    "title": "Favorits",
+    "caption": "Pregàries preferides",
+    "icon": "favorite",
+    "to": "/favorits",
+		"disabled": false
   }
 
 ]

@@ -1,19 +1,19 @@
 <template>
   <jmgTamanyLletra class="q-ma-xs" />
 	<div class="q-pa-md">
-    <div class="text-h4 text-center q-mb-md titolPagina">Coroneta de la divina misericòrdia</div>
+    <div class="text-h4 text-center q-mb-md titolPagina">Corona de la divina misericòrdia</div>
     <div class="column q-gutter-md">
 
-      <jmgOracio class="col" oracio="pareNostre" />
-      <jmgOracio class="col" oracio="aveMaria" />
-      <jmgOracio class="col" oracio="credo" />
+      <jmgOracio class="col" clauOracio="pareNostre" />
+      <jmgOracio class="col" clauOracio="aveMaria" />
+      <jmgOracio class="col" clauOracio="credo" />
 
       <!-- MISTERIS -->
       <jmgCoronetes />
 
-      <jmgOracio class="col" oracio="prec3" />
-      <jmgOracio class="col" oracio="prec3" />
-      <jmgOracio class="col" oracio="prec3" />
+      <jmgOracio class="col" clauOracio="prec3" />
+      <jmgOracio class="col" clauOracio="prec3" />
+      <jmgOracio class="col" clauOracio="prec3" />
     </div>
   </div>
 </template>

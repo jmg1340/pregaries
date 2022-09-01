@@ -1,7 +1,7 @@
 <template>
-	<jmgTamanyLletra class="q-ma-xs" />
+	<jmgTamanyLletra :esOracio="true" class="q-ma-xs" />
   <div class="q-pa-xs text-center">
-    <jmgOracio class="col" :oracio="oracio" />
+    <jmgOracio class="col" :clauOracio="clauOracio" />
   </div>
 </template>
 
@@ -9,7 +9,7 @@
   import jmgOracio from "../components/oracio.vue";
 	import jmgTamanyLletra from "../components/tamanyLletra.vue"
   const props = defineProps({
-  oracio: {
+  clauOracio: {
       type: String,
     },
 

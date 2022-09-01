@@ -1,6 +1,8 @@
 <template>
   <q-item
-    
+    active-class="my-menu-link"
+		class="requadre"
+		ripple
     :to="to" 
 		:disable="disabled"
 		:clickable="disabled"
@@ -9,10 +11,10 @@
       v-if="icon"
       avatar
     >
-      <q-icon :name="icon" />
+      <q-icon :name="icon" :class="{ 'text-red-7': icon == 'favorite'}"/>
     </q-item-section>
 
-    <q-item-section>
+    <q-item-section class="">
       <q-item-label>{{ title }}</q-item-label>
       <q-item-label caption>{{ caption }}</q-item-label>
     </q-item-section>
@@ -52,3 +54,16 @@ export default defineComponent({
   }
 })
 </script>
+
+<style lang="scss" scoped>
+	.requadre {
+		border: 1px solid grey;
+		background-color:#b29782;
+	}
+
+	.my-menu-link {
+		color: white;
+  	background-color: #F2C037;
+	}
+  
+</style>

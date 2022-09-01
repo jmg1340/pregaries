@@ -4,7 +4,7 @@
     <div class="q-my-md text-h6 text-center">LLETANIES</div>
 
 
-      <q-card class="tipusLletraTextOracio">
+      <q-card class="tipusLletraTextOracio" :style="{fontSize: storeApp.tamanyFont +'px'}">
         <q-card-section
 					v-for="(arrObjs, clave) in objRosari.lletanies"
           :key="clave"
@@ -40,5 +40,8 @@
 </style>
 
 <script setup>
-import objRosari from "../../dades/rosari.json";
+	import objRosari from "../../dades/rosari.json";
+	import { useAppStore } from '../../stores/example-store.js'
+	const storeApp = useAppStore()
+
 </script>
