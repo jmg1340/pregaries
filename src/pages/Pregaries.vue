@@ -10,22 +10,28 @@
         narrow-indicator
 				active-bg-color="brown-8"
 				active-color="brown-2"
-				
+				inline-label
+				indicator-color="yellow-9"
       >
         <q-tab
           name="categories"
           label="per Categories"
           noCaps
-          
+          icon="folder"
         />
-        <q-tab name="cercador" label="Cercador" noCaps />
+        <q-tab 
+					name="cercador"
+				 	label="Cercador" 
+					noCaps
+					icon="search"
+				/>
       </q-tabs>
 
       <q-separator />
 
       <q-tab-panels v-model="tab" animated class="bg-brown-1">
         <q-tab-panel name="categories">
-          <div class="text-h6">
+          <div>
             <jmg-categories />
           </div>
         </q-tab-panel>
@@ -59,6 +65,6 @@
 
 <style lang="scss" scoped>
 .xxx {
-  font-size: 8rem;
+  font-size: 3rem;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf" class="tipusLletraApp">
-    <q-header elevated>
-      <q-toolbar class="bg-brown-11">
+    <q-header class="bg-brown-11" elevated>
+      <q-toolbar>
 
-				<q-btn flat dense round icon="menu" aria-label="Menu">
+				<q-btn flat dense round icon="menu" aria-label="Menu" color="brown-6">
 					<q-menu class="" auto-close>
 						<q-list>
 							<q-item-label class="bg-black text-white text-bold text-center" header dense> MENU </q-item-label>
@@ -36,6 +36,9 @@
 					<q-btn label="Tornar" class="bg-brown-10" @click="tornar" />
 				</div>
       </q-toolbar>
+
+			<jmgTamanyLletra :esOracio="true" />
+
     </q-header>
 
 
@@ -62,6 +65,7 @@
 <script>
 import { defineComponent, ref } from "vue";
 import EssentialLink from "components/EssentialLink.vue";
+import jmgTamanyLletra from "components/tamanyLletra.vue"
 import linksList from "../dades/menu.json";
 import { useRouter } from "vue-router";
 
@@ -71,11 +75,14 @@ export default defineComponent({
 
   components: {
     EssentialLink,
+		jmgTamanyLletra
   },
 
   setup() {
 		const router = useRouter()    
 		const leftDrawerOpen = ref(false);
+
+
 
     return {
       essentialLinks: linksList,

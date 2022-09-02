@@ -6,9 +6,12 @@
         <q-input
 					type="string"
           class="col lletraTaula"
-          filled
+          bg-color="grey-2"
+					autofocus
+					standout="bg-primary text-white"
           dense
 					clearable
+					outlined
           v-model="textABuscar"
           hint="Introduir un text"
           lazy-rules
@@ -25,8 +28,8 @@
   </div>
 
   <!-- TAULA AMB RESULTATS -->
-	<div class="q-mt-md">Resultats de la cerca</div>
-  <q-markup-table dense bordered class=" q-mx-sm" separator="cell">
+	<div class="q-mt-md q-ml-sm">Resultats de la cerca <span class="text-red-8">( {{ arrOracions.length }} )</span></div>
+  <q-markup-table dense bordered class=" q-mx-sm" separator="cell" wrap-cells>
     <thead class="bg-grey-8 text-white">
       <tr>
         <th class="text-center lletraTaula">Oració</th>
@@ -139,6 +142,6 @@
 
 <style lang="scss" scoped>
 	.lletraTaula { 
-		font-size: 18px;
+		font-size: 15px;
 	}
 </style>

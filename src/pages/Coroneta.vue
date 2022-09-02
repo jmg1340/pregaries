@@ -11,9 +11,10 @@
       <!-- MISTERIS -->
       <jmgCoronetes />
 
+			<div>Es diu 3 vegades la següent invocació:</div>
       <jmgOracio class="col" clauOracio="prec3" />
-      <jmgOracio class="col" clauOracio="prec3" />
-      <jmgOracio class="col" clauOracio="prec3" />
+      <!-- <jmgOracio class="col" clauOracio="prec3" />
+      <jmgOracio class="col" clauOracio="prec3" /> -->
     </div>
   </div>
 </template>

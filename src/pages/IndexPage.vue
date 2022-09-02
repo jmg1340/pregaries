@@ -7,14 +7,14 @@
     > -->
 		<div class="column q-gutter-md items-center q-pa-md">
 
+				<q-btn class="col" @click="anarA('pregaries')">
+					<div class="text-h4 q-ma-lg">Pregàries</div>
+				</q-btn>
 				<q-btn class="col" @click="anarA('rosari')">
 					<div class="text-h4 q-ma-lg">Rosari</div>
 				</q-btn>
 				<q-btn class="col" @click="anarA('coroneta')">
-					<div class="text-h4 q-ma-lg">Coroneta de la divina misericòrdia</div>
-				</q-btn>
-				<q-btn class="col" @click="anarA('pregaries')">
-					<div class="text-h4 q-ma-lg">Pregàries</div>
+					<div class="text-h4 q-ma-lg">Corona de la divina misericòrdia</div>
 				</q-btn>
 
 		</div>

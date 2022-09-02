@@ -4,7 +4,15 @@
 			:style="{fontSize: storeApp.tamanyFont +'px'}"
 		>
 			<div class="q-mb-md">
-				<q-select :options="opcionsMisteris" v-model="misteriSeleccionat" label="Seleccionar misteris"></q-select>
+				<q-select :options="opcionsMisteris" v-model="misteriSeleccionat" 
+					hint="Seleccionar misteris"
+					outlined
+					rounded
+					options-dark
+					options-selected-class="text-yellow"
+					menu-shrink
+					bg-color="yellow-7"
+				/>
 			</div>
 
 			<div v-for="(misteri, index) in objRosari.misteris[misteriSeleccionat.value]" :key="index">

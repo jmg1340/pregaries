@@ -2,7 +2,7 @@ import { defineStore } from 'pinia';
 
 export const useAppStore = defineStore('AppStore', {
   state: () => ({
-    tamanyFont: 20,
+    tamanyFont: 15,
 		arrFavorits: [],
 		pregariaActiva: null,
   }),

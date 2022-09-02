@@ -1,9 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf" class="tipusLletraApp">
-    <q-header elevated>
-      <q-toolbar class="bg-brown-11">
+    <q-header class="bg-brown-11" elevated>
+      <q-toolbar>
 
-				<q-btn flat dense round icon="menu" aria-label="Menu">
+				<q-btn flat dense round icon="menu" aria-label="Menu" color="brown-6">
 					<q-menu class="" auto-close>
 						<q-list>
 							<q-item-label class="bg-black text-white text-bold text-center" header dense> MENU </q-item-label>

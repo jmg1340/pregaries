@@ -1,9 +1,11 @@
 // app global css in SCSS form
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 .tipusLletraApp{
-	font-family: 'Neucha', cursive;
-	font-size: 18px;
+	// font-family: 'Neucha', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
 }
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Dirt&display=swap");
 .lletraTitolApp {

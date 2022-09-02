@@ -1,7 +1,7 @@
 <template>
   <q-item
     active-class="my-menu-link"
-		class="requadre"
+		class="requadre tipusLletraApp"
 		ripple
     :to="to" 
 		:disable="disabled"
@@ -58,12 +58,12 @@ export default defineComponent({
 <style lang="scss" scoped>
 	.requadre {
 		border: 1px solid grey;
-		background-color:#b29782;
+		background-color:#e2c1a8;
 	}
 
 	.my-menu-link {
-		color: white;
   	background-color: #F2C037;
+		font-size: 130%;
 	}
   
 </style>
