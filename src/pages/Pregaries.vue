@@ -8,23 +8,13 @@
         class="lletraTitolApartat bg-brown text-white text-h4"
         align="justify"
         narrow-indicator
-				active-bg-color="brown-8"
-				active-color="brown-2"
-				inline-label
-				indicator-color="yellow-9"
+        active-bg-color="brown-8"
+        active-color="brown-2"
+        inline-label
+        indicator-color="yellow-9"
       >
-        <q-tab
-          name="categories"
-          label="per Categories"
-          noCaps
-          icon="folder"
-        />
-        <q-tab 
-					name="cercador"
-				 	label="Cercador" 
-					noCaps
-					icon="search"
-				/>
+        <q-tab name="categories" label="per Categories" noCaps icon="folder" />
+        <q-tab name="cercador" label="Cercador" noCaps icon="search" />
       </q-tabs>
 
       <q-separator />
@@ -37,7 +27,7 @@
         </q-tab-panel>
 
         <q-tab-panel name="cercador">
-          <jmg-cercador/>
+          <jmg-cercador />
         </q-tab-panel>
       </q-tab-panels>
     </q-card>
@@ -45,22 +35,24 @@
 </template>
 
 <script setup>
-	import { useQuasar } from 'quasar'
-	import { ref, watch, onMounted  } from "vue";
-	import jmgCategories from "../components/categories.vue";
-	import jmgCercador from "../components/cercador.vue";
+import { useQuasar } from "quasar";
+import { ref, watch, onMounted } from "vue";
+import jmgCategories from "../components/categories.vue";
+import jmgCercador from "../components/cercador.vue";
+import { useAppStore } from "../stores/example-store.js";
+const storeApp = useAppStore();
 
-	const tab = ref("categories");
-	const $q = useQuasar()
+const tab = ref("categories");
+const $q = useQuasar();
 
-	onMounted(() => {
-		tab.value = $q.localStorage.getItem('tabCercadorCategoria') || 'categories'
-	})
+onMounted(() => {
+  storeApp.setToolBar(false);
+  tab.value = $q.localStorage.getItem("tabCercadorCategoria") || "categories";
+});
 
-	watch( tab, async (newTab, oldTab) => {
-		$q.localStorage.set("tabCercadorCategoria", newTab)
-	})
-
+watch(tab, async (newTab, oldTab) => {
+  $q.localStorage.set("tabCercadorCategoria", newTab);
+});
 </script>
 
 <style lang="scss" scoped>

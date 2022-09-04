@@ -2,20 +2,25 @@
   <q-layout view="lHh Lpr lFf" class="tipusLletraApp">
     <q-header class="bg-brown-11" elevated>
       <q-toolbar>
+        <q-btn flat dense round icon="menu" aria-label="Menu" color="brown-6">
+          <q-menu class="" auto-close>
+            <q-list>
+              <q-item-label
+                class="bg-black text-white text-bold text-center"
+                header
+                dense
+              >
+                MENU
+              </q-item-label>
 
-				<q-btn flat dense round icon="menu" aria-label="Menu" color="brown-6">
-					<q-menu class="" auto-close>
-						<q-list>
-							<q-item-label class="bg-black text-white text-bold text-center" header dense> MENU </q-item-label>
-
-							<EssentialLink
-								v-for="link in essentialLinks"
-								:key="link.title"
-								v-bind="link"
-							/>
-						</q-list>
-					</q-menu>
-				</q-btn>
+              <EssentialLink
+                v-for="link in essentialLinks"
+                :key="link.title"
+                v-bind="link"
+              />
+            </q-list>
+          </q-menu>
+        </q-btn>
 
         <!-- <q-btn
           flat
@@ -32,17 +37,14 @@
         </q-toolbar-title>
 
         <!-- <div>Quasar v{{ $q.version }}</div> -->
-				<div>
-					<q-btn label="Tornar" class="bg-brown-10" @click="tornar" />
-				</div>
+        <div>
+          <q-btn label="Tornar" class="bg-brown-10" @click="tornar" />
+        </div>
       </q-toolbar>
 
-			<jmgTamanyLletra :esOracio="true" />
-
+      <jmgTamanyLletra :esOracio="true" />
+      
     </q-header>
-
-
-
 
     <!-- <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
@@ -65,24 +67,21 @@
 <script>
 import { defineComponent, ref } from "vue";
 import EssentialLink from "components/EssentialLink.vue";
-import jmgTamanyLletra from "components/tamanyLletra.vue"
+import jmgTamanyLletra from "./tamanyLletra.vue";
 import linksList from "../dades/menu.json";
 import { useRouter } from "vue-router";
-
 
 export default defineComponent({
   name: "MainLayout",
 
   components: {
     EssentialLink,
-		jmgTamanyLletra
+    jmgTamanyLletra,
   },
 
   setup() {
-		const router = useRouter()    
-		const leftDrawerOpen = ref(false);
-
-
+    const router = useRouter();
+    const leftDrawerOpen = ref(false);
 
     return {
       essentialLinks: linksList,
@@ -90,11 +89,11 @@ export default defineComponent({
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;
       },
-			tornar() {
-				console.log("func TORNAR")
-				//leftDrawerOpen.value = !leftDrawerOpen.value;
-				router.go(-1)
-			}
+      tornar() {
+        console.log("func TORNAR");
+        //leftDrawerOpen.value = !leftDrawerOpen.value;
+        router.go(-1);
+      },
     };
   },
 });

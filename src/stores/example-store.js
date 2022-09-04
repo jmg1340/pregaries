@@ -2,17 +2,20 @@ import { defineStore } from 'pinia';
 
 export const useAppStore = defineStore('AppStore', {
   state: () => ({
+		tipusPregaria: null,
+		bToolBar: false,
     tamanyFont: 15,
 		arrFavorits: [],
 		pregariaActiva: null,
   }),
   getters: {
-    doubleCount: (state) => state.tamanyFont * 2,
-
-		getClauInFavorits: ( state ) => state.arrFavorits.includes( state.pregariaActiva )
-		
+		getClauInFavorits: ( state ) => state.arrFavorits.includes( state.pregariaActiva ),
   },
   actions: {
+		setToolBar (sino) { this.bToolBar = sino },
+		
+		setTipusPregaria ( tipus ) { this.tipusPregaria = tipus },
+
     increment() {
       if (this.tamanyFont < 50) this.tamanyFont++;
     },
@@ -22,9 +25,7 @@ export const useAppStore = defineStore('AppStore', {
 
 
 
-		setPregariaActiva ( clau ) {
-			this.pregariaActiva = clau
-		},
+		setPregariaActiva ( clau ) { this.pregariaActiva = clau },
 		getPregariaActiva() { return this.pregariaActiva },
 
 

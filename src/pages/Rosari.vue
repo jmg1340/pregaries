@@ -1,5 +1,4 @@
 <template>
-	<jmgTamanyLletra class="q-ma-xs" />
   <div class="q-pa-md">
     <div class="text-h4 text-center q-mb-md titolPagina">Rosari</div>
     <div class="column q-gutter-md">
@@ -8,7 +7,11 @@
       <jmgOracio class="col" clauOracio="gloria" />
       <jmgOracio class="col" clauOracio="credo" />
       <jmgOracio class="col" clauOracio="pareNostre" />
-      <jmgOracio class="col" clauOracio="aveMaria" textAdicional="per la Fe..." />
+      <jmgOracio
+        class="col"
+        clauOracio="aveMaria"
+        textAdicional="per la Fe..."
+      />
       <jmgOracio
         class="col"
         clauOracio="aveMaria"
@@ -46,12 +49,21 @@
 </template>
 
 <script setup>
+import { onMounted, onUnmounted } from "vue";
 import jmgOracio from "../components/oracio.vue";
 import jmgLletanies from "../components/rosari/Lletanies.vue";
 import jmgMisteris from "../components/rosari/misteris.vue";
 
-import jmgTamanyLletra from "../components/tamanyLletra.vue"
+import { useAppStore } from "../stores/example-store.js";
+const storeApp = useAppStore();
 
+onMounted(() => {
+  storeApp.setToolBar(true);
+  storeApp.setTipusPregaria('composta');
+});
+onUnmounted(() => {
+  storeApp.setToolBar(false);
+});
 </script>
 
 <style lang="scss" scoped></style>

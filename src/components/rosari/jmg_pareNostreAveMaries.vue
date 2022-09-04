@@ -12,7 +12,7 @@
       <q-img
         src="~assets/maria.jpg"
         spinner-color="white"
-        style="max-width: 200px"
+        style="max-width: 200px;border-radius: 25px;"
         class="q-mb-md"
       />
     </div>

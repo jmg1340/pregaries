@@ -30,7 +30,7 @@ const routes = [
   },
   {
     path: '/pregaria/:clauOracio',
-    component: () => import('layouts/pregariaLayout.vue'),
+    component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', props: true, component: () => import('pages/pregaria.vue') }
     ]
