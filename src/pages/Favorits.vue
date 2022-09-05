@@ -5,7 +5,7 @@
 		<!-- <pre>{{ objOracions }}</pre> -->
 
 		<!-- TAULA AMB RESULTATS -->
-		<q-markup-table dense bordered class=" q-mx-sm" separator="cell">
+		<q-markup-table dense bordered class=" q-mx-sm" separator="cell" wrap-cells>
 			<thead class="bg-grey-8 text-white">
 				<tr>
 					<th class="text-center lletraTaula">Pregàries preferides</th>

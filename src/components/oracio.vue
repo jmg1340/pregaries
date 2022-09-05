@@ -14,8 +14,11 @@
           v-for="(linia, index) in objOracions[clauOracio].arrText"
           :key="oracio + '_' + index"
 					:style="{fontSize: storeApp.tamanyFont +'px'}"
+					
         >
-          {{ (linia.trim() === '') ? '&nbsp;' : linia }}
+					<span v-html="liniaFormatada(linia)"></span>
+          <!-- {{ (linia.trim() === '') ? '&nbsp;' : linia }} -->
+					<!-- {{ liniaFormatada( linia )}} -->
         </div>
       </div>
 		</div>
@@ -42,7 +45,15 @@
 
 	storeApp.setPregariaActiva( props.clauOracio )
 
-
+	const liniaFormatada = (linia) => {
+		if (linia.trim() === '') {
+			return ('\xa0') 	// provat amb '\xa0', '&nbsp;' i ' '   -> NO FUNCIONA
+		} else if (/^\*negreta\*/.test( linia )) {
+			return `<span class="text-bold"> ${ linia.substring( 9 ) } </span>`;
+		} else {
+			return linia;
+		}
+	}
 
 
 </script>
