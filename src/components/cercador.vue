@@ -7,7 +7,6 @@
 					type="string"
           class="col lletraTaula"
           bg-color="grey-2"
-					autofocus
 					standout="bg-primary text-white"
           dense
 					clearable

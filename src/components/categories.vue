@@ -3,7 +3,7 @@
     <q-card-section>
 			<div v-for="(arr, categoria) in objCategories" :key="categoria" class="q-my-md">
 				<div>
-					<div class="text-red">{{ categoria }}</div>
+					<div class="text-red text-bold">{{ categoria }}</div>
 					<q-list v-for="(obj, index) in arr" :key="index" bordered separator dense>
 						<q-item clickable v-ripple class="" :to="'/pregaria/' + obj.clau">{{obj.titol}}</q-item>
 					</q-list>

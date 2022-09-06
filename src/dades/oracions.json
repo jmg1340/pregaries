@@ -7,7 +7,7 @@
     ]
   },
   "pareNostre": {
-    "categories": ["durant el matí", "Déu Pare"],
+    "categories": ["Durant el matí", "Déu Pare"],
     "titol": "Pare nostre",
     "arrText": [
       "Pare nostre que estas en el cel, ",
@@ -24,7 +24,7 @@
     ]
   },
   "aveMaria": {
-    "categories": ["Maria", "durant el matí"],
+    "categories": ["Maria", "Durant el matí"],
     "titol": "Avemaria",
     "arrText": [
       "Déu vos salve, Maria, ",
@@ -39,7 +39,7 @@
     ]
   },
   "gloria": {
-    "categories": ["Déu", "durant el matí"],
+    "categories": ["Déu", "Durant el matí"],
     "titol": "Glòria",
     "arrText": [
       "Glòria al Pare i al Fill i a l'Esperit Sant.",
@@ -55,7 +55,7 @@
     ]
   },
   "laSalve": {
-    "categories": ["Maria","durant el matí"],
+    "categories": ["Maria","Durant el matí"],
     "titol": "La Salve",
     "arrText": [
       "Déu vos salve, Reina i Mare de misericòrdia,",
@@ -87,7 +87,7 @@
     ]
   },
   "ohGloriosSanMiquel": {
-    "categories": ["àngels"],
+    "categories": ["Àngels"],
     "titol": "Oh Gloriós Sant Miquel",
     "arrText": [
       "Oh Gloriós Sant Miquel,",
@@ -106,7 +106,7 @@
     ]
   },
   "sotaElVostreMantell": {
-    "categories": ["Maria", "durant la nit"],
+    "categories": ["Maria", "Durant la nit"],
     "titol": "Sota el vostre Mantell",
     "arrText": [
       "Sota el vostre mantell",
@@ -129,7 +129,7 @@
   },
 
   "matí1": {
-    "categories": ["durant el matí"],
+    "categories": ["Durant el matí"],
     "titol": "Oració del matí I",
     "arrText": [
 			"Al començar el nou dia,",
@@ -147,7 +147,7 @@
   },
 
 	"matí2": {
-		"categories": ["durant el matí"],
+		"categories": ["Durant el matí"],
 		"titol": "Oració del matí II",
 		"arrText": [
 			"Senyor, en el silenci d'aquest dia que neix,",
@@ -175,7 +175,7 @@
 	},
 
   "matí3": {
-    "categories": ["durant el matí"],
+    "categories": ["Durant el matí"],
     "titol": "Oració del matí III",
     "arrText": [
 			"Senyor meu i Déu meu, t'estimo amb tot el meu cor. ",
@@ -188,7 +188,7 @@
   },	
 
   "matí4": {
-    "categories": ["durant el matí"],
+    "categories": ["Durant el matí"],
     "titol": "Oració del matí",
     "arrText": [
 			"Oh Jesús, en unió amb la teva preciosíssima sang vessada a la creu i oferta a cada missa,",
@@ -199,7 +199,7 @@
   },
 
   "perLaPau": {
-    "categories": ["durant el matí"],
+    "categories": ["Durant el matí"],
     "titol": "Oració franciscana per la pau",
     "arrText": [
 			"Senyor, fes de mi un instrument de la teva pau!",
@@ -228,8 +228,8 @@
   "angelDeLaGuarda": {
     "titol": "Àngel de Guarda I",
     "categories": [
-      "durant el matí",
-      "àngels"
+      "Durant el matí",
+      "Àngels"
     ],
     "arrText": [
       "Ángel de Guarda,",
@@ -248,8 +248,8 @@
   "angelDeLaGuarda2": {
     "titol": "Àngel de Guarda II",
     "categories": [
-      "durant el matí",
-      "àngels"
+      "Durant el matí",
+      "Àngels"
     ],
     "arrText": [
       "Àngel de Déu,",
@@ -264,9 +264,9 @@
   "angelus": {
     "titol": "Àngelus",
     "categories": [
-      "durant el matí",
+      "Durant el matí",
       "Maria",
-			"durant el dia"
+			"Durant el dia"
     ],
     "arrText": [
       "L'Àngel del Senyor va anunciar Maria.",
@@ -303,7 +303,7 @@
   "beneidaSiguiLaTevaPuresa": {
     "titol": "Beneïda Sigui la teva Puresa",
     "categories": [
-      "durant el matí",
+      "Durant el matí",
       "Maria"
     ],
     "arrText": [
@@ -321,7 +321,7 @@
   "benedictus": {
     "titol": "Benedictus",
     "categories": [
-      "durant el matí"
+      "Durant el matí"
     ],
     "arrText": [
       "Beneït sigui el Senyor, Déu d'Israel,",
@@ -362,7 +362,7 @@
   "credoNiceno": {
     "titol": "Credo (Niceno)",
     "categories": [
-      "durant el matí",
+      "Durant el matí",
       "Déu"
     ],
     "arrText": [
@@ -401,7 +401,7 @@
   "credo": {
     "titol": "Credo",
     "categories": [
-      "durant el matí",
+      "Durant el matí",
       "Déu"
     ],
     "arrText": [
@@ -433,7 +433,7 @@
   "ohSenyoraMeva": {
     "titol": "Oh Senyora meva",
     "categories": [
-      "durant el matí",
+      "Durant el matí",
       "Maria"
     ],
     "arrText": [
@@ -454,7 +454,7 @@
   "9hora": {
     "titol": "9na hora",
     "categories": [
-      "durant el dia",
+      "Durant el dia",
       "Jesús"
     ],
     "arrText": [
@@ -475,7 +475,7 @@
   "benediccioMenjar1": {
     "titol": "Benediccio menjar",
     "categories": [
-      "durant el dia"
+      "Durant el dia"
     ],
     "arrText": [
       "Beneïu-nos, Senyor,",
@@ -494,7 +494,7 @@
   "consagracioCorJesus1": {
     "titol": "Consagració diària del sagrat cor de Jesús per intercessió de Maria",
     "categories": [
-      "durant el dia",
+      "Durant el dia",
       "Jesús"
     ],
     "arrText": [
@@ -556,7 +556,7 @@
   "magnificat": {
     "titol": "Magnificat",
     "categories": [
-      "durant el dia",
+      "Durant el dia",
       "Maria"
     ],
     "arrText": [
@@ -573,7 +573,7 @@
   "reginacoelli": {
     "titol": "Regina Coelli - Reina del Cel",
     "categories": [
-      "durant el dia",
+      "Durant el dia",
       "Maria"
     ],
     "arrText": [
@@ -598,7 +598,7 @@
   "acteContricio": {
     "titol": "Acte de contrició",
     "categories": [
-      "durant la nit",
+      "Durant la nit",
       "Jesús"
     ],
     "arrText": [
@@ -624,7 +624,7 @@
   "canticSimeo": {
     "titol": "Càntic de Simeó",
     "categories": [
-      "durant la nit", "Déu Pare"
+      "Durant la nit", "Déu Pare"
     ],
     "arrText": [
       "Ara, Senyor,",
@@ -642,7 +642,7 @@
   "abansDeDormir1": {
     "titol": "Pregària per abans de dormir",
     "categories": [
-      "durant la nit"
+      "Durant la nit"
     ],
     "arrText": [
       "Pare meu, ara que les veus es van silenciar i els clams es van apagar, aquí al peu del llit la meva ànima s'eleva fins a Vós, per dir-vos: Crec en Vós, espero en Vós, us estimo amb totes les meves forces, Glòria a Vós Senyor . Diposito a les teves mans, la fatiga i la lluita, les alegries i els desencants d'aquest dia que va quedar enrere.",
@@ -670,7 +670,7 @@
   "oracioNit1": {
     "titol": "Pregàra per a la nit",
     "categories": [
-      "durant la nit",
+      "Durant la nit",
       "Déu"
     ],
     "arrText": [
@@ -689,7 +689,7 @@
   "salm91": {
     "titol": "Salm 91",
     "categories": [
-      "durant la nit"
+      "Durant la nit"
     ],
     "arrText": [
       "1 Tu que habites a l'empara de l'Altíssim",
@@ -748,7 +748,7 @@
   "joConfesso": {
     "titol": "Jo confesso",
     "categories": [
-      "durant la nit", "Déu"
+      "Durant la nit", "Déu"
     ],
     "arrText": [
       "Jo confesso davant Déu Totpoderós,",
