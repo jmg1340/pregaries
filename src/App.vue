@@ -11,7 +11,7 @@
 
 
 	storeApp.setFavorits( $q.localStorage.getItem('arrFavorits') || [] )  
-
+	storeApp.setTamanyFont( $q.localStorage.getItem('tamanyLletra') || 15 )
 
 // import { defineComponent } from 'vue'
 

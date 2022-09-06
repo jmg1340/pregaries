@@ -4,7 +4,7 @@ export const useAppStore = defineStore('AppStore', {
   state: () => ({
 		tipusPregaria: null,
 		bToolBar: false,
-    tamanyFont: 15,
+    tamanyFont: 17,
 		arrFavorits: [],
 		pregariaActiva: null,
   }),
@@ -22,6 +22,7 @@ export const useAppStore = defineStore('AppStore', {
     decrement() {
       if (this.tamanyFont > 12) this.tamanyFont--;
     },
+		setTamanyFont ( valor ) { this.tamanyFont = valor },
 
 
 

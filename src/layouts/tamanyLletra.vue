@@ -54,9 +54,11 @@ const $q = useQuasar();
 // TAMANY LLETRA ------------------
 const augmentar = () => {
   storeApp.increment();
+	$q.localStorage.set("tamanyLletra", storeApp.tamanyFont);
 };
 const disminuir = () => {
   storeApp.decrement();
+	$q.localStorage.set("tamanyLletra", storeApp.tamanyFont);
 };
 
 // TREURE / AFEGIR A FAVORITS ----------
