@@ -18,11 +18,11 @@ const props = defineProps({
 
 
 onMounted(() => {
-  storeApp.setToolBar(true);
-  storeApp.setTipusPregaria("individual");
+  storeApp.setToolBar(true); // tamanyLletra.vue visible
+  storeApp.setTipusPregaria("individual"); 	// icona del cor visible
 });
 onUnmounted(() => {
-  storeApp.setToolBar(false);
+  storeApp.setToolBar(false); // tamanyLletra.vue invisible
 });
 </script>
 

@@ -61,11 +61,15 @@
 	const $q = useQuasar()
 
 	onMounted(() => {
+		// recupera de localStorage el valor de la variable 'textABuscar'
 		textABuscar.value = $q.localStorage.getItem('textCerca') === 'null' ? '' : $q.localStorage.getItem('textCerca')
+
+		// si la variable te contingut, fa la cerca
 		if ( textABuscar.value !== '') cercar()
 	})
 
 	watch( textABuscar, async (newtextABuscar, oldtextABuscar) => {
+		// guarda a localStorage la variable 'textABuscar'
 		$q.localStorage.set("textCerca", newtextABuscar)
 	})
 
@@ -99,7 +103,6 @@
 			} else {
 				// 2on: busquem per la lletra de la cançó
 				let oracioTrobada = false;
-				// for (let objLletra of objCansoner[obj.idCanso][obj.idioma].lletra) {
 				for (let linia of obj.arrText) {
 					var liniaSenseAccents = senseAccents(linia);
 
@@ -109,8 +112,6 @@
 						break;
 					}
 				}
-				// if (oracioTrobada) break;
-				// }
 			}
 		});
 
@@ -135,6 +136,7 @@
 	const MostrarOracio = (clau) => {
 		router.push("/pregaria/" + clau);
 	};
+	
 </script>
 
 

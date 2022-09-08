@@ -51,10 +51,10 @@
 </template>
 
 <script setup>
-import cmp_unitat from "components/rosari/santRosari_unitat"
+	import cmp_unitat from "components/rosari/santRosari_unitat"
 
-import { useAppStore } from '../stores/example-store.js'
-const storeApp = useAppStore()
+	import { useAppStore } from '../stores/example-store.js'
+	const storeApp = useAppStore()
 
 </script>
 

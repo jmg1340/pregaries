@@ -51,21 +51,44 @@ const storeApp = useAppStore();
 import { useQuasar } from "quasar";
 const $q = useQuasar();
 
+
+
 // TAMANY LLETRA ------------------
+/**
+ * Aumenta el tamany de la lletra
+ * Guarda el nou tamany al localStorage
+ */
 const augmentar = () => {
   storeApp.increment();
 	$q.localStorage.set("tamanyLletra", storeApp.tamanyFont);
 };
+
+/**
+ * Disminueix el tamany de la lletra
+ * Guarda el nou tamany al localStorage
+ */
 const disminuir = () => {
   storeApp.decrement();
 	$q.localStorage.set("tamanyLletra", storeApp.tamanyFont);
 };
 
+
+
 // TREURE / AFEGIR A FAVORITS ----------
+
+/**
+ * Afegeix clau de la oració activa al array d'oracions favorites
+ * Actualitza el array d'oracions favorites del localStorage
+ */
 const afegir = () => {
   storeApp.afegirFavorit(storeApp.pregariaActiva);
   $q.localStorage.set("arrFavorits", JSON.stringify(storeApp.getFavorits()));
 };
+
+/**
+ * Treu clau de la oració activa del array d'oracions favorites
+ * Actualitza el array d'oracions favorites del localStorage
+ */
 const treure = () => {
   storeApp.treureFavorit(storeApp.pregariaActiva);
   $q.localStorage.set("arrFavorits", JSON.stringify(storeApp.getFavorits()));

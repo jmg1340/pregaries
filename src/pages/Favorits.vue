@@ -38,8 +38,10 @@
 	const router = useRouter();
 
 	const arrF = storeApp.getFavorits()
-	console.log("arrF", arrF)
 
+	/**
+	 * Mostra la oració al fer click sobre ella
+	 */
 	const MostrarOracio = (clauOracio) => {
 		router.push("/pregaria/" + clauOracio);
 	};

@@ -58,11 +58,11 @@ import { useAppStore } from "../stores/example-store.js";
 const storeApp = useAppStore();
 
 onMounted(() => {
-  storeApp.setToolBar(true);
-  storeApp.setTipusPregaria('composta');
+  storeApp.setToolBar(true);	// component (layout) 'tamanyLletra.vue' visible
+  storeApp.setTipusPregaria('composta');	// farà que no es mostri icona del cor a comp 'tamanyLletra.vue
 });
 onUnmounted(() => {
-  storeApp.setToolBar(false);
+  storeApp.setToolBar(false); // component (layout) 'tamanyLletra.vue' invisible
 });
 </script>
 

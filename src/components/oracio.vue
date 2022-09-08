@@ -32,7 +32,6 @@
 	const storeApp = useAppStore()
 
 
-	// const props = defineProps(["oracio"]);
 	const props = defineProps({
 		clauOracio: {
 			type: String,
@@ -43,8 +42,15 @@
 		},
 	});
 
+	/**
+	 * Estableix la pregariaActiva del Store per despres
+	 * utilitzar-la per treure o posar favorits
+	 */
 	storeApp.setPregariaActiva( props.clauOracio )
 
+	/**
+	 * Formateja cada linia del array de la oració
+	 */
 	const liniaFormatada = (linia) => {
 		if (linia.trim() === '') {
 			return ('\xa0') 	// provat amb '\xa0', '&nbsp;' i ' '   -> NO FUNCIONA

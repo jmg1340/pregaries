@@ -9,13 +9,15 @@
 	import { useQuasar } from 'quasar'
 	const $q = useQuasar()
 
+	/**
+	 * Recupera array favorits del localStorage
+	 */
+	storeApp.setFavorits( $q.localStorage.getItem('arrFavorits') || [] )
 
-	storeApp.setFavorits( $q.localStorage.getItem('arrFavorits') || [] )  
+	/**
+	 * Recupera tamany lletra del localStorage
+	 */
 	storeApp.setTamanyFont( $q.localStorage.getItem('tamanyLletra') || 15 )
 
-// import { defineComponent } from 'vue'
 
-// export default defineComponent({
-//   name: 'App'
-// })
 </script>

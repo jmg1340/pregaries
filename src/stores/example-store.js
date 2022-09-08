@@ -56,9 +56,20 @@ export const useAppStore = defineStore("AppStore", {
       this.tamanyFont = valor;
     },
 
+		/**
+		 * Estableix la clau de la oració activa per a que despres pugui ser afegida o treta
+		 * del array de favorits si es clica la icona del cor
+		 * @param {string} clau 
+		 */
     setPregariaActiva(clau) {
       this.pregariaActiva = clau;
     },
+
+		/**
+		 * Recupera la calu de la oració activa en el moment d'afegir o treure una oració
+		 * al array de Favorits
+		 * @returns 
+		 */
     getPregariaActiva() {
       return this.pregariaActiva;
     },
@@ -91,13 +102,13 @@ export const useAppStore = defineStore("AppStore", {
     },
 
     /**
-     * Estableix el array de favorits de la dada emmagatzemada al localStorage
+     * Guarda el array de favorits al localStorage
      *
      * @param {string} arr
      */
-    setFavorits(arr) {
-      if (!arr === null || !arr === undefined) {
-        this.arrFavorits = JSON.parse(arr);
+    setFavorits(strArr) {
+      if (strArr !== null || strArr !== undefined) {
+        this.arrFavorits = JSON.parse(strArr);
       }
     },
   },

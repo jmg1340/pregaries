@@ -26,11 +26,11 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+	import { ref } from "vue";
 
-const props = defineProps(["numero"]);
-let activat = ref(false);
-const reset = () => (activat.value = false);
+	const props = defineProps(["numero"]);
+	let activat = ref(false);
+	const reset = () => (activat.value = false);
 </script>
 
 <style lang="scss" scoped>

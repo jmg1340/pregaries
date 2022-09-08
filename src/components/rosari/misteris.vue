@@ -50,7 +50,9 @@
 	])
 
 	onMounted( () => {
-		console.log("dia setmana: ", moment().day())
+
+		// segons el dia de la setmana ( moment().day() ), selecciona el misteri que toca
+		
 		switch (moment().day()){
 			case 0:
 			case 3:
@@ -58,7 +60,6 @@
 				break;
 			case 1:
 			case 6:
-				console.log("hola")
 				misteriSeleccionat.value = {label: "Misteris de GOIG (dilluns i dissabte)", value: "goig"}
 				break;
 			case 2:
@@ -70,7 +71,6 @@
 				break;
 		}
 
-		console.log("misteri seleccionat: ", misteriSeleccionat.value)
 	})
 
 </script>

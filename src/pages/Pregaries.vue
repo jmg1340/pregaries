@@ -1,6 +1,5 @@
 <template>
   <div class="q-pa-md">
-    <!-- <div class="text-h4 text-center q-mb-md titolPagina">Pregàries</div> -->
 
     <q-card>
       <q-tabs
@@ -34,29 +33,31 @@
   </div>
 </template>
 
+
+
 <script setup>
-import { useQuasar } from "quasar";
-import { ref, watch, onMounted } from "vue";
-import jmgCategories from "../components/categories.vue";
-import jmgCercador from "../components/cercador.vue";
-import { useAppStore } from "../stores/example-store.js";
-const storeApp = useAppStore();
+	import { useQuasar } from "quasar";
+	import { ref, watch, onMounted } from "vue";
+	import jmgCategories from "../components/categories.vue";
+	import jmgCercador from "../components/cercador.vue";
+	import { useAppStore } from "../stores/example-store.js";
+	const storeApp = useAppStore();
 
-const tab = ref("categories");
-const $q = useQuasar();
+	const tab = ref("categories");
+	const $q = useQuasar();
 
-onMounted(() => {
-  storeApp.setToolBar(false);
-  tab.value = $q.localStorage.getItem("tabCercadorCategoria") || "categories";
-});
+	onMounted(() => {
+		storeApp.setToolBar(false);
+		tab.value = $q.localStorage.getItem("tabCercadorCategoria") || "categories";
+	});
 
-watch(tab, async (newTab, oldTab) => {
-  $q.localStorage.set("tabCercadorCategoria", newTab);
-});
+	watch(tab, async (newTab, oldTab) => {
+		$q.localStorage.set("tabCercadorCategoria", newTab);
+	});
 </script>
 
+
+
 <style lang="scss" scoped>
-.xxx {
-  font-size: 3rem;
-}
+
 </style>
