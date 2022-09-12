@@ -1402,7 +1402,7 @@
   "animaCrist": {
     "titol": "Ànima de Crist,",
     "categories": [
-      "Jesús"
+      "Jesús", "Missa"
     ],
     "arrText": [
       "Ànima de Crist, santifica'm",
@@ -1546,6 +1546,97 @@
       "",
       "Amén."
     ]
+  },
+
+  "missa1": {
+    "titol": "Oferiment de la Missa",
+    "categories": [
+      "Missa"
+    ],
+    "arrText": [
+      "Senyor, concediu-nos poder participar amb veritable amor, atenció i pietat d'aquesta Eucaristia que us oferim, primer, per adorar-vos i agrair-vos tots els beneficis que ens heu fet; segon, per demanar-te perdó dels nostres pecats i els de tots els homes; tercer, per suplicar-te les gràcies que ens calen per a la nostra vida i per a aquest dia en concret.",
+      "",
+      "T'ofereixo en particular aquesta Missa d'avui per... (expressa la intenció que vulguis).",
+      "",
+      "Concediu-nos, Senyor, assistir a aquesta Missa amb els mateixos sentiments d'amor i pietat de la vostra Mare al peu de la Creu. Amb l'esperit i el fervor amb què la van viure els sants.",
+      "",
+      "Et suplico que ens ajudis a preparar-nos per rebre't dignament, tan bé com puguem.",
+      "",
+      "Pregària a la Santíssima Verge Maria",
+      "",
+      "Mare de pietat i de misericòrdia, Santa Maria: jo, fill petit teu, confio en tu amb tot el meu cor i el meu afecte. Acudeixo als teus braços perquè, de la mateixa manera que vas estar al costat del teu Fill, penjat de la Creu, també estiguis al meu costat i al costat de tots els que assistim avui a Missa aquí ia tot el món. Que estiguis al costat nostre perquè, amb la teva ajuda, sapiguem oferir dignament el sacrifici del Fill, al Pare, a l'Esperit Sant."
+    ]
+  },
+
+  "missa2": {
+    "titol": "Oracions per abans de combregar",
+    "categories": [
+      "Missa"
+    ],
+    "arrText": [
+      "Senyor Jesucrist, Fill de Déu viu, que per la voluntat del Pare, cooperant l'Esperit Sant, per mitjà de la teva mort vas donar la Vida al món: concedeix-me que la recepció del teu Cos i Sang, em purifiqui dels meus pecats i em protegeixi contra tots els perills. Dóna'm la gràcia de viure complint els teus manaments i que mai em separi de tu.",
+      "",
+      "Senyor Jesucrist, la comunió que faré amb el vostre Cos i amb la vostra Sang, no sigui per a mi un motiu de judici ni condemnació; concedeix-me bondadós, que serveixi per a defensa de la meva ànima i del meu cos i sigui per a mi mitjà de salvació."
+    ]
+  },
+
+  "missa3": {
+    "titol": "Pregària de Sant Tomàs d'Aquino",
+    "categories": [
+      "Missa"
+    ],
+    "arrText": [
+      "Aquí m'arribo, totpoderós i etern Déu, al sagrament del vostre unigènit Fill el meu Senyor Jesucrist, com malalt al metge de la vida, com tacat a la font de misericòrdies, com cec a la llum de la claredat eterna, com a pobre i desvalgut al Senyor dels cels i terra.",
+      "",
+      "Prego, doncs, a la vostra infinita bondat i misericòrdia, tingueu per bé curar la meva malaltia, netejar la meva brutícia, il·luminar la meva ceguesa, enriquir la meva pobresa i vestir la meva nuesa, perquè així pugui jo rebre el Pa dels Àngels, el Rei dels Reis, al Senyor dels senyors, amb tanta reverència i humilitat, amb tanta contrició i devoció, amb tal fe i tal puresa, i amb tal propòsit i intenció, com convé per a la salut de la meva ànima.",
+      "",
+      "Doneu-me, Senyor, que rebi jo, no només el sagrament del Sacratíssim Cos i Sang, sinó també la virtut i gràcia del sagrament !Oh benigníssim Déu!, concediu-me que albergi jo en el meu cor de tal manera el Cos del vostre unigènit Fill, nostre Senyor Jesucrist, Cos adorable que va prendre de la Verge Maria, que mereixi incorporar-me al seu Cos místic, i ternir-me en compte com un dels seus membres.",
+      "",
+      "!Oh piadosíssim Pare!, atorgueu-me que aquest unigènit Fill vostre, al qual desitjo ara rebre encobert i sota el vel en aquesta vida, mereixi jo veure'l per sempre, descobert i sense vel, a l'altra. El qual viu amb Vós i regna en unitat de l'Esperit Sant, Déu, pels segles dels segles. Amén."
+    ]
+  },
+
+  "missa4": {
+    "titol": "Pregària de Sant Ambrosi",
+    "categories": [
+      "Missa"
+    ],
+    "arrText": [
+      "Senyor meu Jesucrist, m'apropo al vostre altar ple de temor pels meus pecats, però també ple de confiança perquè estic segur de la vostra misericòrdia.",
+      "",
+      "Tinc consciència que els meus pecats són molts i que no he sabut dominar el meu cor i la meva llengua. Per això, Senyor de bondat i de poder, amb les meves misèries i temors m'apropo a Vós, font de misericòrdia i de perdó; vinc a refugiar-me a Tu, que has donat la vida per salvar-me, abans que arribis com a jutge a demanar-me comptes.",
+      "",
+      "Senyor no em fa vergonya descobrir-te a Tu les meves nafres. Em fan por els meus pecats, el nombre i magnitud dels quals només Tu coneixes; però confio en la teva infinita misericòrdia.",
+      "",
+      "Senyor meu Jesucrist, Rei etern, Déu i home veritable, mira'm amb amor, doncs vas voler fer-te home per morir per nosaltres. Escolta'm, doncs espero en Tu. Tingues compassió dels meus pecats i misèries, Vós que sou font inesgotable d'amor.",
+      "",
+      "T'adoro, Senyor, perquè vas donar la teva vida a la Creu i t'hi vas oferir com a Redemptor per tots els homes i especialment per mi. Adoro Senyor, la sang preciosa que va brollar de les teves ferides i ha purificat el món dels seus pecats.",
+      "",
+      "Mira, Senyor, aquest pobre pecador, creat i redimit per Tu. Em penedeixo dels meus pecats i proposo corregir-ne les conseqüències. Purifica'm de totes les meves maldats perquè pugui rebre menys indignament la teva sagrada comunió. Que el teu Cos i la teva Sang m'ajudin, Senyor, a obtenir de Tu el perdó dels meus pecats i la satisfacció de les meves culpes; em lliurin dels meus mals pensaments, renovin en mi els sentiments sants, m'impulsin a complir la teva voluntat i em protegeixin en tot perill d'ànima i cos. Amén."
+    ]
+  },
+
+  "missa5": {
+    "titol": "Pregària de Sant Joan  Crisòstom",
+    "categories": [
+      "Missa"
+    ],
+    "arrText": [
+      "Oh Senyor!, jo crec i professo que Tu ets el Crist Veritable, el Fill de Déu viu que va venir a aquest món per salvar els pecadors, dels quals jo sóc el primer. Accepta'm com a participant del teu Sopar Místic, oh Fill de Déu!",
+      "",
+      "No revelaré el teu Misteri als teus enemics, ni et faré un petó com ho va fer Judes, sinó que com el bon lladre et reconec.",
+      "",
+      "Recorda'm, Oh Senyor!, quan arribis al teu Regne. Recorda'm, oh mestre!, quan arribis al teu Regne. Recorda'm, oh Sant!, quan arribis al teu Regne.",
+      "",
+      "Que la meva participació en els teus Sants Misteris, oh Senyor! no sigui per al meu judici o condemnació, sinó per guarir la meva ànima i el meu cos.",
+      "",
+      "Oh Senyor!, jo també crec i professo que el que estic a punt de rebre és veritablement el teu Preusíssim Cos i la teva Sang Vivificant, els quals prego em facis digne de rebre, per a la remissió de tots els meus pecats i la vida eterna. Amén.",
+      "",
+      "Oh Déu!, es misericordiós amb mi, pecador. Oh Déu!, neteja'm dels meus pecats i tingues misericòrdia de mi. Oh Déu!, perdona'm, perquè he pecat incomptables vegades."
+    ]
   }
+
+
+
 
 }

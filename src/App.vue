@@ -12,7 +12,7 @@
 	/**
 	 * Recupera array favorits del localStorage
 	 */
-	storeApp.setFavorits( $q.localStorage.getItem('arrFavorits') || [] )
+	storeApp.setFavorits( $q.localStorage.getItem('arrFavorits') )
 
 	/**
 	 * Recupera tamany lletra del localStorage

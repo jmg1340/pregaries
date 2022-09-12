@@ -59,5 +59,7 @@
 
 
 <style lang="scss" scoped>
-
+  .q-tab {
+    border-radius: 30px 30px 0px 0px
+  }
 </style>
