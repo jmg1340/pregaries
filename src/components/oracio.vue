@@ -12,7 +12,7 @@
       <div class="q-pa-md clRequadre">
         <div
           v-for="(linia, index) in objOracions[clauOracio].arrText"
-          :key="oracio + '_' + index"
+          :key="clauOracio + '_' + index"
 					:style="{fontSize: storeApp.tamanyFont +'px'}"
 					
         >

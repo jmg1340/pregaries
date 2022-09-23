@@ -4,15 +4,15 @@
 
 <script setup>
 	import { useAppStore } from 'stores/example-store.js'
-	const storeApp = useAppStore()
-
 	import { useQuasar } from 'quasar'
+	
+	const storeApp = useAppStore()
 	const $q = useQuasar()
 
 	/**
 	 * Recupera array favorits del localStorage
 	 */
-	storeApp.setFavorits( $q.localStorage.getItem('arrFavorits') )
+	storeApp.setFavorits( $q.localStorage.getItem('arrFavorits') || "[]")
 
 	/**
 	 * Recupera tamany lletra del localStorage

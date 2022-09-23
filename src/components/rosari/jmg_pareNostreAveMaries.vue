@@ -38,7 +38,7 @@
 		</q-card>
 			<q-card-section>
 				<div class="borde q-pa-sm">
-					Oh bon Jesús, perdona els nostres pecats, allibera'ns del foc de l'infern i porta al cel totes les ànimes, especialment les més necessitades de la teva misericòrdia.
+					Oh bon Jesús, perdona els nostres pecats, allibera'ns del foc de l'infern i porta al cel a totes les ànimes, especialment les més necessitades de la teva misericòrdia.
 				</div>
 			</q-card-section>
 		</q-card>
