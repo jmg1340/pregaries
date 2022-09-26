@@ -1,21 +1,9 @@
 [
   {
-    "title": "Rosari",
-    "caption": "",
-    "icon": "school",
-    "to": "/rosari"
-  },
-  {
-    "title": "Corona divina misericòrdia",
-    "caption": "",
-    "icon": "school",
-    "to": "/coroneta"
-  },
-  {
     "title": "Pregàries",
     "caption": "Classificació / Cercador",
     "icon": "article",
-    "to": "/pregaries"
+    "to": "/"
   },
   {
     "title": "Favorits",

@@ -12,7 +12,10 @@
       <jmgCoronetes />
 
       <div>Es diu 3 vegades la següent invocació:</div>
-      <jmgOracio class="col" clauOracio="prec3" />
+      <div :style="{fontSize: storeApp.tamanyFont +'px'}">
+        Sant Déu, Sant Fort, Sant Immortal<br>
+        tingueu misericòrdia de nosaltres i del món sencer.
+      </div>
       <!-- <jmgOracio class="col" clauOracio="prec3" />
       <jmgOracio class="col" clauOracio="prec3" /> -->
     </div>
@@ -20,16 +23,14 @@
 </template>
 
 <script setup>
-import jmgOracio from "../components/oracio.vue";
-import jmgLletanies from "../components/rosari/Lletanies.vue";
-import jmgCoronetes from "../components/jmg_Coronetes.vue";
+import jmgOracio from "../../components/oracio.vue";
+import jmgCoronetes from "../../components/jmg_Coronetes.vue";
 import { onMounted, onUnmounted } from "vue";
-import { useAppStore } from "../stores/example-store.js";
+import { useAppStore } from "../../stores/example-store.js";
 const storeApp = useAppStore();
 
 onMounted(() => {
   storeApp.setToolBar(true);	// component (layout) 'tamanyLletra.vue' visible
-  storeApp.setTipusPregaria("composta"); // farà que no es mostri icona del cor a comp 'tamanyLletra.vue
 });
 
 

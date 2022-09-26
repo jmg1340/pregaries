@@ -1,5 +1,8 @@
 <template>
-  <router-view />
+	<div class="row justify-center">
+		<router-view class="col-xs-12 col-sm-8 col-md-6 col-lg-10"/>
+	</div>
+  
 </template>
 
 <script setup>

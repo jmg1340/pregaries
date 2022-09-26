@@ -4,11 +4,11 @@
     <q-card>
       <q-tabs
         v-model="tab"
-        class="lletraTitolApartat bg-brown text-white text-h4"
+        class="lletraTitolApartat bg-brown-2 text-white text-h4"
         align="justify"
         narrow-indicator
         active-bg-color="brown-8"
-        active-color="brown-2"
+        active-color="white"
         inline-label
         indicator-color="yellow-9"
       >

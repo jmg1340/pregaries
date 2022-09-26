@@ -22,15 +22,6 @@ export const useAppStore = defineStore("AppStore", {
       this.bToolBar = sino;
     },
 
-    /**
-     * Serveix per si s'ha de mostrar el boto de FAVORITS o no a la barra d'eines.
-     * Les pregàries compostes no tenen visible la icona de favorits.
-     *
-     * @param {string} tipus Pregaria individual o composta (Rosari i Coronilla)
-     */
-    setTipusPregaria(tipus) {
-      this.tipusPregaria = tipus;
-    },
 
     /**
      * Augmenta el tamany de la lletra de les pregàries

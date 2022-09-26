@@ -1,29 +1,46 @@
 <template>
-  <div class="q-pa-xs text-center">
+  <jmgRosari v-if="clauOracio == 'rosari'" />
+  <jmgCoronaDivinaMisericordia v-else-if="clauOracio == 'coronaDivinaMisericordia'" />
+  <jmgNovenaStJosep v-else-if="clauOracio == 'novenaStJosep'" />
+  <jmgNovenaStMiquelArcangel v-else-if="clauOracio == 'novenaStMiquelArcangel'" />
+
+  <div v-else class="q-pa-xs text-center">
     <jmgOracio class="col q-mt-md" :clauOracio="clauOracio" />
   </div>
 </template>
 
 <script setup>
-import jmgOracio from "../components/oracio.vue";
-import { onMounted, onUnmounted } from "vue";
-import { useAppStore } from "../stores/example-store.js";
-const storeApp = useAppStore();
+  import jmgRosari from "./pregariesCompostes/Rosari.vue"
+  import jmgCoronaDivinaMisericordia from "./pregariesCompostes/Coroneta.vue"
+  import jmgNovenaStJosep from "./pregariesCompostes/novenaStJosep.vue"
+  import jmgNovenaStMiquelArcangel from "./pregariesCompostes/novenaStMiquelArcangel.vue"
+  import jmgOracio from "../components/oracio.vue";
+  import { onMounted, onUnmounted } from "vue";
+  import { useAppStore } from "../stores/example-store.js";
+  const storeApp = useAppStore();
 
-const props = defineProps({
-  clauOracio: {
-    type: String,
-  },
-});
+  const props = defineProps({
+    clauOracio: {
+      type: String,
+    },
+  });
 
 
-onMounted(() => {
-  storeApp.setToolBar(true); // tamanyLletra.vue visible
-  storeApp.setTipusPregaria("individual"); 	// icona del cor visible
-});
-onUnmounted(() => {
-  storeApp.setToolBar(false); // tamanyLletra.vue invisible
-});
+  onMounted(() => {
+    storeApp.setToolBar(true); // tamanyLletra.vue visible
+  });
+  onUnmounted(() => {
+    storeApp.setToolBar(false); // barraIcones.vue invisible
+  });
+
+
+  /**
+  * Estableix la pregariaActiva del Store per despres
+  * utilitzar-la per treure o posar favorits
+  */
+  storeApp.setPregariaActiva(props.clauOracio)
+
+
 </script>
 
 <style lang="scss" scoped></style>

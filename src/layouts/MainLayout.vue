@@ -39,14 +39,14 @@
         <!-- <div>Quasar v{{ $q.version }}</div> -->
         <div>
           <q-btn
-            v-if="storeApp.bToolBar && storeApp.tipusPregaria == 'individual'"
+            v-if="storeApp.bToolBar"
             label="Tornar"
             class="bg-brown-10"
             @click="tornar"
           />
         </div>
       </q-toolbar>
-      <jmgTamanyLletra v-if="storeApp.bToolBar" />
+      <jmgBarraIcones v-if="storeApp.bToolBar" />
     </q-header>
 
     <!-- <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
@@ -70,7 +70,7 @@
 <script>
 import { defineComponent, ref } from "vue";
 import EssentialLink from "components/EssentialLink.vue";
-import jmgTamanyLletra from "./tamanyLletra.vue";
+import jmgBarraIcones from "./barraIcones.vue";
 import linksList from "../dades/menu.json";
 
 import { useAppStore } from "../stores/example-store.js";
@@ -81,7 +81,7 @@ export default defineComponent({
 
   components: {
     EssentialLink,
-    jmgTamanyLletra,
+    jmgBarraIcones,
   },
 
   setup() {

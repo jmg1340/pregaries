@@ -1,4 +1,24 @@
 {
+  "novenaStMiquelArcangel": {
+    "categories": ["Àngels", "Novenes"],
+    "titol": "Novena a Sant Miquel Arcàngel",
+    "arrText": []
+  },
+  "novenaStJosep": {
+    "categories": ["Sant Josep", "Novenes"],
+    "titol": "Novena a Sant Josep",
+    "arrText": []
+  },
+  "rosari": {
+    "categories": ["Maria"],
+    "titol": "Sant rosari",
+    "arrText": []
+  },
+  "coronaDivinaMisericordia": {
+    "categories": ["Déu", "Déu Pare"],
+    "titol": "Corona de la divina misericòrdia",
+    "arrText": []
+  },
   "laSenyal": {
     "categories": ["Déu"],
     "titol": "Senyal de la creu",
@@ -46,14 +66,6 @@
       "Com era al principi, ara i sempre, pels segles dels segles. Amén."
     ]
   },
-  "prec1": {
-    "categories": ["Déu"],
-    "titol": "",
-    "arrText": [
-      "V - Sigueu amb nosaltres, Déu nostre.",
-      "R - Senyor, veniu a ajudar-nos."
-    ]
-  },
   "laSalve": {
     "categories": ["Maria","Durant el matí"],
     "titol": "La Salve",
@@ -70,20 +82,6 @@
       "Oh dolça sempre Verge Maria!",
       "Pregueu per nosaltres, santa Mare de Déu,",
       "perquè siguem dignes de les promeses del nostre Senyor Jesucrist. Amén."
-    ]
-  },
-  "etPreguemEnsConcedeixis": {
-    "categories": ["Déu", "Maria"],
-    "titol": "",
-    "arrText": [
-      "Et preguem ens concedeixis, ",
-      "Senyor Déu nostre, ",
-      "gaudir de contínua salut d'ànima i cos, ",
-      "i per la gloriosa intercessió de la benaurada sempre Verge Maria, ",
-      "veure'ns lliures de les tristeses de la vida present",
-      "i gaudir de les alegries eternes. ",
-      "Per Crist nostre Senyor. ",
-      "Amén."
     ]
   },
   "ohGloriosSanMiquel": {
@@ -116,15 +114,6 @@
       "i aparteu-nos sempre dels perills,",
       "Verge, gloriosa beneïda.",
       "Amén."
-    ]
-  }
-	,
-  "prec3": {
-    "categories": ["Déu"],
-    "titol": "",
-    "arrText": [
-      "Sant Déu, Sant Fort, Sant Immortal ",
-      "tingueu misericòrdia de nosaltres i del món sencer."
     ]
   },
 

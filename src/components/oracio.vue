@@ -42,11 +42,7 @@
 		},
 	});
 
-	/**
-	 * Estableix la pregariaActiva del Store per despres
-	 * utilitzar-la per treure o posar favorits
-	 */
-	storeApp.setPregariaActiva( props.clauOracio )
+
 
 	/**
 	 * Formateja cada linia del array de la oració
