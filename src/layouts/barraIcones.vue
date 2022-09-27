@@ -4,8 +4,7 @@
     <div class="col-auto">
       <q-icon
         v-if="
-          !storeApp.getClauInFavorits && storeApp.tipusPregaria == 'individual'
-        "
+          !storeApp.getClauInFavorits"
         name="favorite_border"
         size="md"
         color="negative"
@@ -13,8 +12,7 @@
       />
       <q-icon
         v-if="
-          storeApp.getClauInFavorits && storeApp.tipusPregaria == 'individual'
-        "
+          storeApp.getClauInFavorits"
         name="favorite"
         size="md"
         color="negative"
