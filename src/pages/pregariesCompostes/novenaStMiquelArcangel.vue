@@ -60,8 +60,8 @@
     { dia: 5, fet: false, text: "Sant Miquel, Guardià del Cel, us lloo amb devoció per la veneració, l'amor y l'honor que us rendeixen les jerarquies celestials de les quals sou august Príncep. Amén."},
     { dia: 6, fet: false, text: "Sant Miquel, Arcàngel del Sant Sacrifici, us lloo amb devoció per l'honor que us ha fet nostre Senyor Jesucrist que us ha confiat la custodia de l'Església, la seva estimada esposa, i us ofereixo el reconeixement i amor que la Santa Església us professa. Amén."},
     { dia: 7, fet: false, text: "Sant Miquel, Portador de l'estendard de salvació, us ofereixo les meves lloances amb devoció per la important missió que Déu us a donat al confiar-vos les ànimes de tots els predestinats, defensant-les en la hora de la mort dels assalts de l'infern, presentant-les davant Déu sencerament pures. Amén."},
-    { dia: 8, fet: false, text: ""},
-    { dia: 9, fet: false, text: ""},
+    { dia: 8, fet: false, text: "Sant Miquel, Arcàngel de la Pau, us lloo amb devoció per tota la força, la dolçura i suavitat que hi ha dins del vostre sant nom, delicia de vostres veritables devots. Amén."},
+    { dia: 9, fet: false, text: "Sant Miquel, Arcàngel del Perdó, us lloo amb devoció pel immensos beneficis que heu vessat sobre nostra Patria, sempre que aquesta hagi estat fidel a Déu, així com per l'abnegació, reconeixement i amor que us rendeixen els vostres servidors. Digneu-vos, us supliquem, que dels Cors de Jesús i de Maria, augmentin vostres devots per obtenir la salvació. Amén."},
   ])
 
 
