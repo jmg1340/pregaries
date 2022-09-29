@@ -402,7 +402,7 @@
       "on seu a la dreta de Déu, Pare Totpoderós.",
       "Des d'allà ha de venir a jutjar a vius i morts.",
       "",
-      "Crec a l'Esperit Sant,",
+      "Crec en l'Esperit Sant,",
       "la santa Església catòlica,",
       "la comunió dels sants,",
       "el perdó dels pecats,",
@@ -1622,6 +1622,80 @@
       "Oh Senyor!, jo també crec i professo que el que estic a punt de rebre és veritablement el teu Preusíssim Cos i la teva Sang Vivificant, els quals prego em facis digne de rebre, per a la remissió de tots els meus pecats i la vida eterna. Amén.",
       "",
       "Oh Déu!, es misericordiós amb mi, pecador. Oh Déu!, neteja'm dels meus pecats i tingues misericòrdia de mi. Oh Déu!, perdona'm, perquè he pecat incomptables vegades."
+    ]
+  },
+  "santRafaelNecessitats": {
+    "titol": "Pregària a Sant Rafael per les necessitats",
+    "categories": [
+      "Àngels"
+    ],
+    "arrText": [
+      "Arcàngel Sant Rafel, tu que ets príncep de la cort celestial, considerat pels teus grans dons de saviesa i de gràcia. A més orientes els viatgers, consoles els que passen per un mal moment i ets refugi dels que han pecat.",
+      "",
+      "Acudeixo davant teu perquè si us plau m'ajudis en les necessitats que tinc, així com en els patiments. Ajuda'm com ho vas fer amb el jove Tobías als seus viatges. Tu qui representes la medicina de Déu, et demano amb molta humilitat que m'atorguis la sanació de l'ànima i que desaparegui qualsevol malestar al meu cos.",
+      "",
+      "Et demano amb molta fe el favor (esmenta la teva intenció), confio en tu.",
+      "",
+      "Amén."
+    ]
+  },
+  "santRafaelMalestar": {
+    "titol": "Pregària a Sant Rafael per demanar per curar un malestar",
+    "categories": [
+      "Àngels"
+    ],
+    "arrText": [
+      "Venerat i guia espiritual Arcàngel Sant Rafael, que va brindar ajuda en la creació del remei que va guarir la ceguesa de l'ancià Tobías. Ets conegut com el que sana. Acudeixo davant teu, perquè si us plau m'escoltis i m'ajudis. (Menciona la petició que vols).",
+      "",
+      "Respecto la voluntat de Déu i demano davant teu i davant d'ell que em sanis o em donis les forces per suportar-la amb molta paciència, et demano que em perdonis pels pecats que hagi comès i que salvis la meva ànima.",
+      "",
+      "Així com ho va decidir el jove Tobías, decideixo que siguis qui m'acompanyi en el viatge per mitjà d'aquest malestar. Inspireu-me en el camí perquè el meu destí sigui estar sota la vostra protecció en tot moment i també en la de la gràcia de Déu.",
+      "",
+      "Respectat i venerat Arcàngel Sant Rafel, qui ets l'assistent diví del tron ​​de Déu, acudeix a mi i cuida'm en aquest moment d'adversitat. Atorgueu-me la total sanació, perquè aquest malestar se'n vagi i es porti tots els dolors. Dóna'm la gràcia i la benedicció de Déu i compleix el que et sol·licito, si us plau intercedeix per mi.",
+      "",
+      "Tu qui ets metge de Déu, àngel sanador, et demano que em guareixis,. Venerat Arcàngel Sant Rafel, tu que ets considerat medicina de Déu, et demano que pregui per mi.",
+      "",
+      "Amén."
+    ]
+  },
+  "angelGuardaConfessio": {
+    "titol": "Oració al Sant Àngel de la Guarda per abans de confessar",
+    "categories": [
+      "Àngels",
+      "Confessió"
+    ],
+    "arrText": [
+      "O bon Àngel meu, testimoni afligit del meu comportament! Feu-me conèixer les meves faltes talment com vós les coneixeu. Mostreu-me-les amb aquella lletgesa que tenen als vostres ulls, i inspireu-me l'horror que per elles sentiu.",
+      "Ara vaig a confessar-me; si les meves paraules no estan d'acord amb els actes comesos en la vostra presència, repteu-me i repreneu-me si les dissimulo per una falsa vergonya. Feu-me la gràcia que les declari tan bé en el tribunal de la misericòrdia, que no em puguin ésser retretes en el tribunal de la justícia. Ara el dimoni voldria cloure'm la boca per a aixecar ell la seva veu i acusar-me un dia en el tribunal de Déu. Però tan bon punt haureu esborrat les faltes del llibre de la meva vida, jo sé que no hi tornaran a aparèixer mai més.",
+      "Obteniu-me, doncs, bon Àngel meu, que faci una humil i sincera confessió."
+    ]
+  },
+  "santFrancesc1": {
+    "titol": "Pregària de Sant Francesc d’Assís",
+    "categories": [
+      "Sant Francesc"
+    ],
+    "arrText": [
+      "Oh Senyor,",
+      "feu de mi un instrument de la vostra pau!",
+      "On hi ha odi, que jo hi posi amor.",
+      "On hi ha ofensa, que jo hi posi perdó.",
+      "On hi ha discòrdia, que jo hi posi unió.",
+      "On hi ha dubte, que jo hi posi esperança.",
+      "On hi ha error, que jo hi posi veritat.",
+      "On hi ha desesperació, que jo hi posi l’esperança.",
+      "On hi ha tenebra, que jo hi posi la llum.",
+      "",
+      "Oh Mestre,",
+      "feu que jo no cerqui tant:",
+      "ser consolat, com consolar;",
+      "ser comprès, com comprendre;",
+      "ser estimat, com estimar.",
+      "",
+      "Perquè és",
+      "donant que es rep;",
+      "perdonant que s’és perdonat;",
+      "morint que es ressuscita a la vida eterna."
     ]
   }
 

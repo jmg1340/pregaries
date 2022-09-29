@@ -15,12 +15,33 @@
 
       <p class="text-italic"> Es resen un Parenostre, tres Avemaries i un Glòria</p>
 
-      <q-expansion-item 
+      <!-- <q-expansion-item 
         v-for="(dada, index) in dades" :key="'d'+index"
         group="somegroup3" 
         :label="'Pregària del dia ' + dada.dia + ((dada.fet)? ' &nbsp;&nbsp;&nbsp;&nbsp; [ feta ] ': '')" 
         :header-class="{'text-indigo bg-brown-1 q-mb-xs': !$q.dark.isActive, 'text-orange-2 bg-grey-10 q-mb-xs': $q.dark.isActive}"
-				>
+				> -->
+        <q-expansion-item 
+          v-for="(dada, index) in dades" :key="'d'+index" 
+          group="somegroup3"
+          header-class="text-indigo bg-brown-1 q-mb-xs"
+          >
+        <template v-slot:header>
+          <!-- <q-item-section avatar>
+            <q-avatar icon="bluetooth" color="primary" text-color="white" />
+          </q-item-section> -->
+        
+          <q-item-section>
+            Pregària del dia {{dada.dia}}
+          </q-item-section>
+        
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon v-if="dada.fet" name="verified" color="green" size="24px" />
+            </div>
+          </q-item-section>
+        </template>
+
         <div class="q-pa-md ">
           {{ dada.text }}
         </div>

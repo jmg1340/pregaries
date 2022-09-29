@@ -27,7 +27,8 @@
 				<q-card-section>
     			<div class="text-grey-6 q-mb-md">10 vegades la següent pregària...</div>
 					<div class="borde q-pa-sm">
-						Oh bon Jesús, perdona els nostres pecats, deslliura'ns del foc de l'infern i porta al cel totes les ànimes, especialment les més necessitades de la teva misericòrdia.
+						Per la seva dolorosa passió,
+						tingueu misericòrdia de nosaltres i del món sencer.
 					</div>
 				</q-card-section>
 					<div class="row q-gutter-md q-mb-sm justify-center">
