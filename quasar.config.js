@@ -149,6 +149,27 @@ module.exports = configure(function (ctx) {
         orientation: 'portrait',
         background_color: '#ffffff',
         theme_color: '#027be3',
+        screenshots: [
+          {
+            "src": "/screenshots/Screenshot_2022-10-02_19-21-18.png",
+            "type": "image/png",
+            "sizes": "428x536"
+          },
+          {
+            "src": "/screenshots/Screenshot_2022-10-02_19-23-19.png",
+            "type": "image/jpg",
+            "sizes": "432x537 "
+          }
+        ],
+        shortcuts: [
+          {
+            "name": "Pregàries",
+            "short_name": "Pregàries",
+            "description": "Pregàries en català",
+            "url": "/#/",
+            "icons": [{ "src": "/android/android-launchericon-192-192.png", "sizes": "192x192" }]
+          }          
+        ],
         icons: [
           {
             src: 'icons/icon-128x128.png',
@@ -175,6 +196,10 @@ module.exports = configure(function (ctx) {
             sizes: '512x512',
             type: 'image/png'
           }
+
+
+
+
         ]
       }
     },

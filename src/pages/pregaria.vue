@@ -5,7 +5,7 @@
   <jmgNovenaStMiquelArcangel v-else-if="clauOracio == 'novenaStMiquelArcangel'" />
   <jmgNovenaConfiança v-else-if="clauOracio == 'novenaConfiança'" />
 
-  <div v-else class="q-pa-xs text-center">
+  <div v-else class="q-pa-xs text-left">
     <jmgOracio class="col q-mt-md" :clauOracio="clauOracio" />
   </div>
 </template>

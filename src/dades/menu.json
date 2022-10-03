@@ -11,6 +11,13 @@
     "icon": "favorite",
     "to": "/favorits",
 		"disabled": false
+  },
+  {
+    "title": "Enviar pregària",
+    "caption": "Ajuda'ns a ampliar les pregàries",
+    "icon": "article",
+    "to": "/formulari",
+		"disabled": false
   }
 
 ]

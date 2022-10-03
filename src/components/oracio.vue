@@ -3,7 +3,7 @@
     <q-card-section> -->
      <div> 
 			<div v-if="objOracions[clauOracio].titol !== ''">
-        <div class="text-h6 text-red-10 tipusLletraTitolOracio">
+        <div class="text-h6 text-red-10 text-center tipusLletraTitolOracio">
           <span class="text-uppercase">{{ objOracions[clauOracio].titol }}</span>
           {{ textAdicional }}
         </div>
