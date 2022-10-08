@@ -33,8 +33,9 @@
 <script setup>
 	import objOracions from "../dades/oracions.json";
 	import { useAppStore } from '../stores/example-store.js'
-	const storeApp = useAppStore()
 	import { useRouter } from "vue-router";
+
+	const storeApp = useAppStore()
 	const router = useRouter();
 
 	const arrF = storeApp.getFavorits()
@@ -56,6 +57,6 @@
 
 <style lang="scss" scoped>
 	.lletraTaula { 
-		font-size: 18px;
+		font-size: 15px;
 	}
 </style>

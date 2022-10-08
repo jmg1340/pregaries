@@ -3,7 +3,8 @@
 
     <q-card class="q-mb-md">
       <q-card-section>
-        Ajuda'ns a ampliar el repertori de pregàries enviant més. També pots fer servir el formulari per fer-nos arribar algun suggeriment sobre l'aplicació. MOLTES GRÀCIES.
+        Ajuda'ns a ampliar el repertori de pregàries. També pots fer-nos arribar algun suggeriment sobre l'aplicació.
+        <div class="text-center">MOLTES GRÀCIES.</div> 
       </q-card-section>
     </q-card>
 
@@ -25,8 +26,8 @@
 
 
         <div class="row justify-between">
-          <q-btn class="col-auto" label="Enviar" noCaps type="submit" color="brown-10" />
-          <q-btn class="col-auto q-ml-sm" label="Reset" type="reset" color="brown-10" />
+          <q-btn class="col-auto" icon="send" label="Enviar" noCaps type="submit" color="brown-10" />
+          <q-btn class="col-auto q-ml-sm" flat label="Reset" noCaps type="reset" color="brown-10" />
         </div>
       </q-form>
     </q-card>
@@ -62,9 +63,16 @@
     const request = new Request('https://pregaries.bonanova.cat/enviarPregaries.php',
     {
       method: 'POST',
-      body: '{"nom":"' + nom.value + '", "email":"' + email.value + '", "pregaria":"' + pregaria.value + '"}'
+      mode: 'no-cors',
+      // credentials: 'same-origin',
+      body: JSON.stringify({
+        nom: nom.value,
+        email: email.value,
+        pregaria: pregaria.value
+      })
     });
-  fetch(request)
+
+    fetch(request)
     .then(response => {
       console.log(response)
       

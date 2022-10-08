@@ -12,7 +12,7 @@
 					clearable
 					outlined
           v-model="textABuscar"
-          hint="Introduir un text"
+          placeholder="Introduir un text"
           lazy-rules
           :rules="[
             (val) => (val && val.length > 0) || 'Per favor, escriure un text',
@@ -20,14 +20,14 @@
         />
 
         <div class="col-auto q-ml-md">
-          <q-btn label="Cercar" type="submit" color="brown-10" />
+          <q-btn label="Cercar" type="submit" color="brown-3" class="text-black"/>
         </div>
       </div>
     </q-form>
   </div>
 
   <!-- TAULA AMB RESULTATS -->
-	<div class="q-mt-md q-ml-sm">Resultats de la cerca <span class="text-red-8">( {{ arrOracions.length }} )</span></div>
+	<div class="q-mt-md q-ml-sm text-brown-10">Resultats de la cerca <span class="q-ml-xs text-red-10">( {{ arrOracions.length }} )</span></div>
   <q-markup-table dense bordered class=" q-mx-sm" separator="cell" wrap-cells>
     <thead class="bg-grey-8 text-white">
       <tr>
@@ -52,9 +52,10 @@
 	import { useQuasar } from 'quasar'
 	import { ref, onMounted,watch } from "vue";
 	import { useRouter } from "vue-router";
+	import objOracions from "../dades/oracions.json";
+
 	const router = useRouter();
 
-	import objOracions from "../dades/oracions.json";
 
 	let textABuscar = ref("");
 

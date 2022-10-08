@@ -15,7 +15,7 @@
   {
     "title": "Enviar pregària",
     "caption": "Ajuda'ns a ampliar les pregàries",
-    "icon": "article",
+    "icon": "send",
     "to": "/formulari",
 		"disabled": false
   }

@@ -58,11 +58,11 @@ export default defineComponent({
 <style lang="scss" scoped>
 	.requadre {
 		border: 1px solid grey;
-		background-color:#d4bdac;
+		background-color:$brown-1
 	}
 
 	.my-menu-link {
-  	background-color: #F2C037;
+  	background-color: $yellow-11;
 		font-size: 130%;
 	}
   

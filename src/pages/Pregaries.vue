@@ -4,13 +4,12 @@
     <q-card>
       <q-tabs
         v-model="tab"
-        class="lletraTitolApartat bg-brown-2 text-white text-h4"
+        class="lletraTitolApartat text-brown-8 text-h4"
         align="justify"
-        narrow-indicator
-        active-bg-color="brown-8"
-        active-color="white"
+        active-bg-color="brown-2"
+        active-color="brown-8"
         inline-label
-        indicator-color="yellow-9"
+        indicator-color="brown-1"
       >
         <q-tab name="categories" label="per Categories" noCaps icon="folder" />
         <q-tab name="cercador" label="Cercador" noCaps icon="search" />
@@ -62,4 +61,5 @@
   .q-tab {
     border-radius: 30px 30px 0px 0px
   }
+
 </style>
