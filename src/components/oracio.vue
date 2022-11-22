@@ -43,27 +43,23 @@
 
 
 	/**
-	 * Formateja cada linia del array de la oració
+	 * posar linia en blanc cas de que n'hi hagi
 	 */
-	const liniaFormatada = (linia) => {
-		if (linia.trim() === '') {
-			return ('\xa0') 	// provat amb '\xa0', '&nbsp;' i ' '   -> NO FUNCIONA
-		} else if (/^\*negreta\*/.test( linia )) {
-			return `<span class="text-bold"> ${ linia.substring( 9 ) } </span>`;
-		} else {
-			return linia;
-		}
-	}
+	const liniaFormatada = (linia) =>  (linia.trim() === '') ? ('\xa0') : linia	
+
+
 
 
 </script>
 
 <style lang="scss" scoped>
 .clRequadre {
-  border: 1px solid grey;
-  border-radius: 10px;
-  background-color: $colorbgOracio;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: $colorbgOracio;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+
 </style>

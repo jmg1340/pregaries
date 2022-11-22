@@ -14,10 +14,14 @@
       terra la Sagrada Família; protegeix-nos també a nosaltres, que pertanyem, com a fidels
       catòlics, a la santa família de vostre Fill que és l'Església, i dona'ns els béns
       necessaris d'aquesta vida, i sobretot els auxilis espirituals per a la vida eterna.
-      Dona'ns especialment aquestes tres gràcies, la de no cometre mai cap pecat
-      mortal, principalment contra la castedat; la d'un sincer amor i devoció a Jesús i
-      Maria, i la d'una bona mort, rebent bé els últims sagraments. Doneu-nos
-      a més la gràcia especial que et demanem cada un en aquesta novena.</p>
+      Dona'ns especialment aquestes tres gràcies, 
+      <ul>
+        <li>la de no cometre mai cap pecat mortal, principalment contra la castedat;</li>
+        <li>la d'un sincer amor i devoció a Jesús i Maria</li>
+        <li>i la d'una bona mort, rebent bé els últims sagraments.</li>
+      </ul>
+      
+      Doneu-nos a més la gràcia especial que et demanem cada un en aquesta novena.</p>
 
      	<p class="text-italic">  - Demani's amb fervor i confiança la gràcia que es desitja obtenir -</p>
 
@@ -71,8 +75,7 @@
 
       <br>
 
-      <p>Tenia el mateix Jesús, a l'començar la seva vida pública, prop de trenta anys, fill, segons es
-      pensava, de Josep.</p>
+      <p>Tenia el mateix Jesús, al començar la seva vida pública, prop de trenta anys, fill, segons es pensava, de Josep.</p>
 
       <p>Sant Josep, pregueu per nosaltres per a que siguem dignes de les promeses de Jesucrist.</p>
 
@@ -96,7 +99,7 @@
 
   let dades = ref([
     { dia: 1, fet: false, text: "Oh benigníssim Jesús així com vas consolar el pare estimat en les perplexitats i incerteses que va tenir, dubtant si abandonar a la teva Santíssima Mare la seva dona, així et supliquem humilment per intercessió de Sant Josep ens concediu molta prudència i encert en tots els casos dubtosos i angoixes de la nostra vida, perquè sempre encertem amb la teva santíssima  voluntat."},
-    { dia: 2, fet: false, text: "Oh benigníssim Jesús, així com vas consolar el pare estimat en la pobresa i desempar de Betlem, amb el teu naixement, i amb els càntics dels Àngels i visites dels pastors,així també et supliquem humilment per intercessió de Sant Josep, que ens concedeixis portar amb paciència la nostra pobresa i desempar en aquesta vida, i que alegres el nostre esperit amb la teva presència i la teva gràcia, i l'esperança de la glòria."},
+    { dia: 2, fet: false, text: "Oh benigníssim Jesús, així com vas consolar el pare estimat en la pobresa i desempar de Betlem amb el teu naixement, amb els càntics dels Àngels i visites dels pastors, així també et supliquem humilment, per intercessió de Sant Josep, que ens concedeixis portar amb paciència la nostra pobresa i desempar en aquesta vida; i que alegris el nostre esperit amb la teva presència, la teva gràcia i l'esperança de la glòria."},
     { dia: 3, fet: false, text: "Oh benigníssim Jesús, així com vas consolar al teu estimat pare en el dolorós misteri de la Circumcisió, rebent d'ell el dolç nom de Jesús, així et supliquem humilment, per intercessió de Sant Josep, ens concediu pronunciar sempre amb amor i respecte el teu santíssim nom, portar-lo en el cor, honrar a la vida, i professar amb obres i paraules que tu vas ser el nostre Salvador i Jesús."},
     { dia: 4, fet: false, text: "Oh benigníssim Jesús, així com vas consolar al teu pare estimat de la pena que li va causar la profecia de Simeó, mostrant-li el innombrable coral dels Sants, així et supliquem humilment, per intercessió de Sant Josep que ens concedeixis la gràcia de ser d'aquells per als que el tu serveixes, no de ruïna, sinó de resurrecció, i que corresponguem fidelment a la teva gràcia per a que anem a la teva glòria."},
     { dia: 5, fet: false, text: "Oh benigníssim Jesús, així com el teu estimat pare et va conduir de Betlem a Egipte per lliurar-te del tirà Herodes, així et supliquem humilment, per intercessió de Sant Josep, que ens lliuris dels qui volen fer mal a les nostres ànimes o els nostres cossos, ens donis fortalesa i salvació en les nostres persecucions, i enmig de l'exili d'aquesta vida ens protegeixis fins que volem cap a la pàtria."},

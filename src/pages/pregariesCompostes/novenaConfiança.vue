@@ -76,11 +76,11 @@
     {
       dia: 1, fet: false, text: " Mare meva del Carme, Verge Puríssima, concediu-me la gràcia de ser pur i cast."},
     {
-      dia: 2, fet: false, text: "Mare meva del Carme, et dono gràcies pels beneficis que m'has fet concedit.Augmenta en mi i en tots la virtut de la caritat."},
+      dia: 2, fet: false, text: "Mare meva del Carme, et dono gràcies pels beneficis que m'has concedit. Augmenta en mi i en tots la virtut de la caritat."},
     {
-      dia: 3, fet: false, text: "Mare meva del Carme, continua emparant-me amb la teva especial protecció que arribi al cim, que és Crist."},
+      dia: 3, fet: false, text: "Mare meva del Carme, continua emparant-me amb la teva especial protecció; que arribi al cim, que és Crist."},
     {
-      dia: 4, fet: false, text: "Mare meva del Carme, concedeix-me la gràcia que necessito,……….i, sobre tot, feu que mori a la teva falda maternal."},
+      dia: 4, fet: false, text: "Mare meva del Carme, concedeix-me la gràcia que necessito i, sobre tot, feu que mori a la teva falda maternal."},
     {
       dia: 5, fet: false, text: "Mare meva del Carme, intercedeix pels meus difunts; pels meus éssers estimats i pel món sencer, especialment per: __________"},
   ])
