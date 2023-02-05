@@ -12,31 +12,43 @@
 			</div>
 		</div>
 
-		
+
     <q-card-section>
 
 			<q-expansion-item
 				v-for="(arr, categoria) in objCategories" :key="categoria"
 				v-model="objModel[categoria]"
 				class="q-mb-md shadow-3 overflow-hidden"
-				style="border-radius: 30px"
+				style="border-radius: 15px"
 				icon="folder"
 				dense
 				:label="categoria"
-				:header-class="{'bg-red-10 text-white text-bold': objModel[categoria], 'text-red-10 text-bol': !objModel[categoria]}"
-				
+				:header-class="{ 'bg-red-10 text-white text-bold': objModel[categoria] && !$q.dark.mode,
+                         'text-red-10': !objModel[categoria] && !$q.dark.mode,
+                         'bg-grey-10 text-orange text-bold': objModel[categoria] && $q.dark.mode,
+                         'bg-grey-9 text-orange-10': !objModel[categoria] && $q.dark.mode,
+
+                         }"
+
 				expand-icon-class="text-red-10"
 			>
 
 					<q-list v-for="(obj, index) in arr" :key="index" bordered separator dense>
-						<q-item clickable v-ripple class="bg-yellow-1" :to="'/pregaria/' + obj.clau">{{obj.titol}}</q-item>
+						<q-item
+              clickable
+              v-ripple
+              :to="'/pregaria/' + obj.clau"
+              :class="{'bg-brown-1': !$q.dark.mode, 'bg-brown-10': $q.dark.mode}"
+            >
+                {{obj.titol}}
+            </q-item>
 					</q-list>
 
 
 
 			</q-expansion-item>
 
-			<!-- <div 
+			<!-- <div
 				v-for="(arr, categoria) in objCategories" :key="categoria" class="q-my-md">
 				<div>
 					<div class="text-red-10 text-bold ">{{ categoria }}</div>
@@ -131,7 +143,7 @@
 		})
 
 		return objCategories2
-		
+
 	})
 
 
@@ -141,23 +153,23 @@
 
 
 	// arrCategories.forEach(key => { 	objModel.value[key] = true })
-/* 	
+/*
 	const posarPropietatsReactives = () => {
 		arrCategories.forEach(key => {
 			// objModel.value[key] = true
 			toRef( objModel, key )
-			
+
 			if (isRef(objModel.value[key])) {
 				console.log("objModelvalue[key] SI REACTIU");
 			} else {
 				console.log("objModelvalue[key] NO REACTIU")
 			}
-			
+
 		});
 	}
- 
+
 	posarPropietatsReactives()
-*/	
+*/
 	let objModel = ref({})
 
 	const replegarDesplegar = (trueFalse) => {
@@ -201,8 +213,8 @@
 
 <style lang="scss" scoped>
 
-	.borde { 
+	.borde {
 		border: 1px solid grey;
-		border-radius: 10px;
+		border-radius: 2px;
 	}
 </style>

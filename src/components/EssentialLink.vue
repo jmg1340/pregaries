@@ -2,8 +2,9 @@
   <q-item
     active-class="my-menu-link"
 		class="requadre tipusLletraApp"
+    :class="{'text-brown-1': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode}"
 		ripple
-    :to="to" 
+    :to="to"
 		:disable="disabled"
 		:clickable="disabled"
   >
@@ -23,6 +24,7 @@
 
 <script>
 import { defineComponent } from 'vue'
+import { useQuasar } from "quasar";
 
 export default defineComponent({
   name: 'EssentialLink',
@@ -48,9 +50,14 @@ export default defineComponent({
     },
 
 		disabled: {
-			type: Boolean,
+      type: Boolean,
 			default: false
 		}
+  },
+
+  setup(){
+    const $q = useQuasar();
+
   }
 })
 </script>
@@ -58,12 +65,11 @@ export default defineComponent({
 <style lang="scss" scoped>
 	.requadre {
 		border: 1px solid grey;
-		background-color:$brown-1
 	}
 
 	.my-menu-link {
   	background-color: $yellow-11;
 		font-size: 130%;
 	}
-  
+
 </style>

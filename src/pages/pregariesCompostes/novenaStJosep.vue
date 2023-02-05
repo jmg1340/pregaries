@@ -14,34 +14,38 @@
       terra la Sagrada Família; protegeix-nos també a nosaltres, que pertanyem, com a fidels
       catòlics, a la santa família de vostre Fill que és l'Església, i dona'ns els béns
       necessaris d'aquesta vida, i sobretot els auxilis espirituals per a la vida eterna.
-      Dona'ns especialment aquestes tres gràcies, 
+      Dona'ns especialment aquestes tres gràcies,
       <ul>
         <li>la de no cometre mai cap pecat mortal, principalment contra la castedat;</li>
         <li>la d'un sincer amor i devoció a Jesús i Maria</li>
         <li>i la d'una bona mort, rebent bé els últims sagraments.</li>
       </ul>
-      
+
       Doneu-nos a més la gràcia especial que et demanem cada un en aquesta novena.</p>
 
-     	<p class="text-italic">  - Demani's amb fervor i confiança la gràcia que es desitja obtenir -</p>
+     	<p class="text-italic text-grey-8">  - Demani's amb fervor i confiança la gràcia que es desitja obtenir -</p>
 
-      <!-- <q-expansion-item 
+      <!-- <q-expansion-item
         v-for="(dada, index) in dades" :key="'d'+index"
-        group="somegroup3" 
-        :label="'Pregària del dia ' + dada.dia + ((dada.fet)? ' &nbsp;&nbsp;&nbsp;&nbsp; [ feta ] ': '')" 
+        group="somegroup3"
+        :label="'Pregària del dia ' + dada.dia + ((dada.fet)? ' &nbsp;&nbsp;&nbsp;&nbsp; [ feta ] ': '')"
         :header-class="{'text-indigo bg-brown-1 q-mb-xs': !$q.dark.isActive, 'text-orange-2 bg-grey-10 q-mb-xs': $q.dark.isActive}"
 				> -->
-        <q-expansion-item v-for="(dada, index) in dades" :key="'d'+index" group="somegroup3"
-          header-class="text-indigo bg-brown-1 q-mb-xs">
+        <q-expansion-item
+          v-for="(dada, index) in dades" :key="'d'+index"
+          group="somegroup3"
+          class="q-mb-xs"
+          :header-class="{'text-indigo bg-brown-1': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode}"
+        >
           <template v-slot:header>
             <!-- <q-item-section avatar>
                     <q-avatar icon="bluetooth" color="primary" text-color="white" />
                   </q-item-section> -->
-        
+
             <q-item-section>
               Pregària del dia {{dada.dia}}
             </q-item-section>
-        
+
             <q-item-section side>
               <div class="row items-center">
                 <q-icon v-if="dada.fet" name="verified" color="green" size="24px" />
@@ -55,11 +59,11 @@
 				<div>
 					<q-checkbox v-model="dada.fet" label="Feta" @click="guardarFet"/>
 				</div>
-        
+
       </q-expansion-item>
 
 
-			<div class="q-mb-md text-right"><q-btn noCaps dense color="negative" @click="resetAll">Reset</q-btn></div>	
+			<div class="q-mb-md text-right"><q-btn noCaps dense color="negative" @click="resetAll">Reset</q-btn></div>
 
     	<p class="q-mt-md">Oh custodi i pare de Verges Sant Josep que a la fidel custòdia van ser encomanades la mateixa innocència de Crist Jesús i la Verge de les verges, Maria; per aquestes dues
       estimadíssimes penyores, Jesús i Maria, et prego i suplico em concedeixis, que preservat jo de tota impuresa, servir sempre castíssimament amb ànima neta, cor pur i cos cast a Jesús i a Maria. Amén.</p>
@@ -115,14 +119,14 @@
       console.log('$q.localStorage.getItem("keyArrNovenaStJosep")', $q.localStorage.getItem("keyArrNovenaStJosep"));
       const arr = JSON.parse($q.localStorage.getItem("keyArrNovenaStJosep")) || [false, false, false, false, false, false, false, false, false]
       console.log("arr", arr)
-			dades.value.forEach( (dada, index) => dada.fet = arr[index] )		// restablim els checks marcats	
-			
+			dades.value.forEach( (dada, index) => dada.fet = arr[index] )		// restablim els checks marcats
+
 		} catch (error) {
 			console.log("Error possiblement produit per 'keyArrNovenaStJosep' NO DEFINIDA")
 			console.log(error)
-		}  
+		}
 
-	})  
+	})
 
 
 
@@ -134,7 +138,7 @@
     } catch (e) {
       console.log("ERROR AL GUARDAR localhost")
       console.log(e)
-    }			
+    }
   }
 
   const resetAll = () => {
@@ -148,4 +152,6 @@
 </script>
 
 <style>
+
+
 </style>

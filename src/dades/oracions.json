@@ -1,4 +1,9 @@
 {
+  "novenaStaMariaLurdes": {
+    "categories": ["Maria", "Novenes"],
+    "titol": "Novena a Santa Maria de Lurdes",
+    "arrText": []
+  },
   "novenaStMiquelArcangel": {
     "categories": ["Àngels", "Novenes"],
     "titol": "Novena a Sant Miquel Arcàngel",
@@ -176,8 +181,8 @@
 			"Que la teva gràcia estigui sempre amb mi, amb tots els que jo estimo, amb totes les teves criatures. ",
 			"",
       "Amén."
-		]	
-  },	
+		]
+  },
 
   "matí4": {
     "categories": ["Durant el matí"],
@@ -508,7 +513,7 @@
     "arrText": [
       "La meva ànima magnifica el Senyor, el meu esperit celebra Déu que em salva, perquè ha mirat la petitesa de la seva serventa.",
       "",
-      "Des d'ara totes les generacions em diran benaurada perquè el Totpoderós obra en mi meravelles.", 
+      "Des d'ara totes les generacions em diran benaurada perquè el Totpoderós obra en mi meravelles.",
 			"",
 			"El seu nom és Sant i l'amor que té als qui creuren en ell s'estén de generació en generació.",
       "",
@@ -2188,16 +2193,16 @@
       "<b>Santa Anastasia,</b>  R. Pregueu per nosaltres.",
       "<b>Santa Clara,</b>  R. Pregueu per nosaltres.",
       "",
-      "<b>De tot mal</b> R. Deslliura'ns Senyor.", 
+      "<b>De tot mal</b> R. Deslliura'ns Senyor.",
       "<b>De tot pecat</b> R. Deslliura'ns Senyor.",
       "<b>De la teva ira</b> R. Deslliura'ns Senyor.",
       "<b>De mort sobtada i no provada</b> R. Deslliura'ns Senyor.",
       "<b>De les trampa del dimoni</b> R. Deslliura'ns Senyor.",
-      "<b>De la ira</b> R. Deslliura'ns Senyor.", 
+      "<b>De la ira</b> R. Deslliura'ns Senyor.",
       "<b>De l'odi i tota la mala voluntat</b> R. Deslliura'ns Senyor.",
       "<b>De l'esperit de la fornicació</b> R. Deslliura'ns Senyor.",
       "<b>Del flagell del terratrèmol</b> R. Deslliura'ns Senyor.",
-      "<b>De la pesta</b> R. Deslliura'ns Senyor.", 
+      "<b>De la pesta</b> R. Deslliura'ns Senyor.",
       "<b>De la fam i la guerra</b> R. Deslliura'ns Senyor.",
       "<b>Del raig i la tempesta</b> R. Deslliura'ns Senyor.",
       "<b>De la mort eterna</b> R. Deslliura'ns Senyor.",
@@ -2211,13 +2216,63 @@
       "<b>A través de la teva santa resurrecció</b> R. Deslliura'ns Senyor.",
       "<b>A través de la vostra admirable Ascensió</b> R. Deslliura'ns Senyor.",
       "<b>A través de l'arribada de l'Esperit Sant el Paràclit</b> R. Deslliura'ns Senyor.",
-      "<b>En el dia del judici</b> R. Deslliura'ns Senyor.", 
+      "<b>En el dia del judici</b> R. Deslliura'ns Senyor.",
       "",
 
       "<b>Anyell de Déu que lleveu el pecat del món.</b> R. Perdoneu-nos, Senyor.",
       "<b>Anyell de Déu que lleveu el pecat del món.</b> R. Escolteu-nos, Senyor.",
       "<b>Anyell de Déu que lleveu el pecat del món.</b> R. Tingueu pietat de nosaltres.",
       ""
+    ]
+  },
+  "TB1": {
+    "titol": "Visita espiritual a la Mare de Déu de Montserrat del bisbe Josep Torres i Bages",
+    "categories": [
+      "Maria"
+    ],
+    "arrText": [
+      "<i>Després de cada invocació es pot resar una <b>Ave Maria</b> o bé es pot cantar aquesta antífona: <b>Santa Maria, Verge i Mare de Déu, intercediu per nosaltres prop del Senyor, el nostre Déu</b>.</i>",
+      "",
+      "",
+      "",
+      "I. Verge Prodigiosa, tron pudíssim on reposà l’eterna",
+      "Saviesa quan vingué al món a ensenyar el camí de salvació,",
+      "aconseguiu per als vostres catalans aquella fe que enfonsa les",
+      "muntanyes, omple les valls i fa planer el camí de la vida.-",
+      "",
+      "II. Mare castíssima, mirall de puresa, flor de les verges,",
+      "que portareu al món el bàlsam de incorrupció, Jesús fill Déu,",
+      "obteniu-nos l’honestedat dels costums públics.",
+      "III. Profetessa admirable, que beneíreu i lloàreu l’Etern",
+      "més que no pas totes les jerarquies angèliques plegades, feu",
+      "que sigui desterrat d’aquest poble vostre l’esperit de",
+      "maledicció i de blasfèmia.",
+      "",
+      "IV. Rosa de caritat, foc que sense consumir escalfa, traieu",
+      "de Catalunya l’esperit de discòrdia, i ajunteu tots els seus fills",
+      "amb cor de germans.",
+      "",
+      "V. Santa engendradora de l’Etern, filla del vostre fill, feu",
+      "que mai no es desfaci aquest poble català que Vós",
+      "espiritualment engendrareu.",
+      "",
+      "VI. Verge poderosa, més forta que un exèrcit en ordre de",
+      "batalla, des del vostre alt castell de Montserrat, defenseu",
+      "d’enemics espirituals i temporals tota la terra catalana que",
+      "teniu encomanada.",
+      "",
+      "VII. Senyora de Montserrat, que teniu la vostra santa",
+      "muntanya voltada d’oliveres, signe de pau, aconseguiu per als",
+      "pobles de Catalunya una pau cristiana i perpètua.",
+      "",
+      "<b>Oració<b>",
+      "Oh Déu, vós que concediu tots els béns, i que",
+      "glorifiqueu amb un culte insigne la muntanya",
+      "escollida per l’excelsa mare del vostre Fill únic.",
+      "Feu que, ajudats amb la poderosa protecció de",
+      "la immaculada sempre verge Maria, puguem",
+      "arribar amb seguretat a la muntanya, que és",
+      "Crist. Pel mateix Crist, Senyor nostre. Amén."
     ]
   }
 

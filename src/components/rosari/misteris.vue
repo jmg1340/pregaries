@@ -1,10 +1,10 @@
 <template>
-	<q-card class="bg-grey-3">
+	<q-card :class="{'bg-grey-3': !$q.dark.mode, 'bg-brown-10': $q.dark.mode}">
 		<q-card-section
 			:style="{fontSize: storeApp.tamanyFont +'px'}"
 		>
 			<div class="q-mb-md">
-				<q-select :options="opcionsMisteris" v-model="misteriSeleccionat" 
+				<q-select :options="opcionsMisteris" v-model="misteriSeleccionat"
 					hint="Seleccionar misteris"
 					outlined
 					rounded
@@ -28,7 +28,7 @@
 			</div>
 		</q-card-section>
 	</q-card>
-	
+
 
 
 </template>
@@ -39,7 +39,10 @@
 	import moment from 'moment'
 
 	import { useAppStore } from '../../stores/example-store.js'
+  import { useQuasar } from 'quasar'
+
 	const storeApp = useAppStore()
+  const $q = useQuasar()
 
 	let misteriSeleccionat = ref({label: "", value: ""})
 	const opcionsMisteris = ref([
@@ -52,7 +55,7 @@
 	onMounted( () => {
 
 		// segons el dia de la setmana ( moment().day() ), selecciona el misteri que toca
-		
+
 		switch (moment().day()){
 			case 0:
 			case 3:

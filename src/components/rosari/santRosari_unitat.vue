@@ -10,7 +10,7 @@
   > -->
   <q-card
     v-if="!activat"
-    :class="{ styActivat: activat }"
+    :class="{'text-negative': !$q.dark.mode, 'text-orange': $q.dark.mode}"
     class="flex flex-center dimensions shadow-6 bordered"
     @click="activat = !activat"
   >
@@ -27,6 +27,9 @@
 
 <script setup>
 	import { ref } from "vue";
+  import { useQuasar } from 'quasar'
+
+  const $q = useQuasar()
 
 	const props = defineProps(["numero"]);
 	let activat = ref(false);
@@ -35,21 +38,21 @@
 
 <style lang="scss" scoped>
 .dimensions {
-  color: darkred;
+  // color: darkred;
   width: 60px;
   height: 60px;
   /* background-image: url("~assets/Red_rose_02.png"); */
 }
 
-.styActivat {
-  background-color: #bdc4ff;
-  font-weight: bold;
-  font-size: 130%;
-  color: rgb(4, 17, 92) !important;
-  border: 1px solid rgb(117, 117, 117);
-}
-.styActivat_imatge {
-  background-image: url("~assets/Red_rose_02.png") !important;
-  border: 1px solid rgb(117, 117, 117);
-}
+// .styActivat {
+//   background-color: #bdc4ff;
+//   font-weight: bold;
+//   font-size: 130%;
+//   color: rgb(4, 17, 92) !important;
+//   border: 1px solid rgb(117, 117, 117);
+// }
+// .styActivat_imatge {
+//   background-image: url("~assets/Red_rose_02.png") !important;
+//   border: 1px solid rgb(117, 117, 117);
+// }
 </style>

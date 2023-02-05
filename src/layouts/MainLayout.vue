@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf" class="tipusLletraApp">
-    <q-header class="bg-brown-11" elevated>
+    <q-header elevated :class="{'bg-brown-11': !$q.dark.mode, 'bg-brown-10': $q.dark.mode}">
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" color="brown-6">
           <q-menu class="" auto-close>
@@ -12,6 +12,10 @@
               >
                 MENU
               </q-item-label>
+
+              <q-item>
+                  <q-toggle v-model="darkMode" color="orange" keep-color label="Tema fosc" @update:model-value="toggleDarkMode"/>
+              </q-item>
 
               <EssentialLink
                 v-for="link in essentialLinks"
@@ -68,13 +72,14 @@
 </template>
 
 <script>
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref, onMounted } from "vue";
 import EssentialLink from "components/EssentialLink.vue";
 import jmgBarraIcones from "./barraIcones.vue";
 import linksList from "../dades/menu.json";
 
 import { useAppStore } from "../stores/example-store.js";
 import { useRouter } from "vue-router";
+import { useQuasar } from 'quasar'
 
 export default defineComponent({
   name: "MainLayout",
@@ -87,7 +92,32 @@ export default defineComponent({
   setup() {
     const router = useRouter();
     const storeApp = useAppStore();
+    const $q = useQuasar()
+
     const leftDrawerOpen = ref(false);
+    const darkMode = ref(false)
+
+
+    onMounted(() => {
+      try {
+        console.log('$q.localStorage.getItem("keyDarkMode")', $q.localStorage.getItem("keyDarkMode"));
+        darkMode.value = JSON.parse($q.localStorage.getItem("keyDarkMode")) || false
+        console.log("darkMode", darkMode.value)
+        $q.dark.set(darkMode.value)
+
+      } catch (error) {
+        console.log("Error possiblement produit per 'keyDarkMode' NO DEFINIDA")
+        console.log(error)
+      }
+
+    })
+
+
+
+
+
+
+
 
     return {
       storeApp,
@@ -95,6 +125,19 @@ export default defineComponent({
       leftDrawerOpen,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;
+      },
+      darkMode,
+      toggleDarkMode () {
+        $q.dark.set(darkMode.value)
+
+        try {
+          $q.localStorage.set("keyDarkMode", JSON.stringify(darkMode.value))
+        } catch (e) {
+          console.log("ERROR AL GUARDAR localhost")
+          console.log(e)
+        }
+
+
       },
       tornar() {
         console.log("func TORNAR");

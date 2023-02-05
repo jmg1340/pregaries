@@ -2,13 +2,13 @@
 	<div class="row justify-center">
 		<router-view class="col-xs-12 col-sm-8 col-md-6 col-lg-10"/>
 	</div>
-  
+
 </template>
 
 <script setup>
 	import { useAppStore } from 'stores/example-store.js'
 	import { useQuasar } from 'quasar'
-	
+
 	const storeApp = useAppStore()
 	const $q = useQuasar()
 
@@ -23,4 +23,13 @@
 	storeApp.setTamanyFont( $q.localStorage.getItem('tamanyLletra') || 15 )
 
 
+
+
 </script>
+
+
+
+<style lang="css">
+
+
+</style>

@@ -4,6 +4,7 @@
   <jmgNovenaStJosep v-else-if="clauOracio == 'novenaStJosep'" />
   <jmgNovenaStMiquelArcangel v-else-if="clauOracio == 'novenaStMiquelArcangel'" />
   <jmgNovenaConfiança v-else-if="clauOracio == 'novenaConfiança'" />
+  <jmgNovenaStaMariaLurdes v-else-if="clauOracio == 'novenaStaMariaLurdes'" />
 
   <div v-else class="q-pa-xs text-left">
     <jmgOracio class="col q-mt-md" :clauOracio="clauOracio" />
@@ -16,7 +17,8 @@
   import jmgNovenaStJosep from "./pregariesCompostes/novenaStJosep.vue"
   import jmgNovenaStMiquelArcangel from "./pregariesCompostes/novenaStMiquelArcangel.vue"
   import jmgNovenaConfiança from "./pregariesCompostes/novenaConfiança.vue"
-  
+  import jmgNovenaStaMariaLurdes from "./pregariesCompostes/novenaStaMariaLurdes.vue"
+
   import jmgOracio from "../components/oracio.vue";
   import { onMounted, onUnmounted } from "vue";
   import { useAppStore } from "../stores/example-store.js";

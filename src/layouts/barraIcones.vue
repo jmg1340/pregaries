@@ -1,5 +1,5 @@
 <template>
-  <q-toolbar class="row justify-between items-center bg-white">
+  <q-toolbar class="row justify-between items-center" :class="{'bg-white': !$q.dark.mode, 'bg-grey-10': $q.dark.mode}">
     <!-- BOTO FAVORIT -->
     <div class="col-auto">
       <q-icon
@@ -46,7 +46,6 @@
   import { useAppStore } from "../stores/example-store.js";
   import { useQuasar } from "quasar";
   const storeApp = useAppStore();
-
   const $q = useQuasar();
 
 
@@ -91,5 +90,5 @@
     storeApp.treureFavorit(storeApp.pregariaActiva);
     $q.localStorage.set("arrFavorits", JSON.stringify(storeApp.getFavorits()));
   };
-  
+
 </script>

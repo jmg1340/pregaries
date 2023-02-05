@@ -7,7 +7,7 @@
         class="lletraTitolApartat text-brown-8 text-h4"
         align="justify"
         active-bg-color="brown-2"
-        active-color="brown-8"
+
         inline-label
         indicator-color="brown-1"
       >
@@ -17,7 +17,11 @@
 
       <q-separator />
 
-      <q-tab-panels v-model="tab" animated class="bg-brown-1">
+      <q-tab-panels
+        v-model="tab"
+        animated
+        :class="{'bg-brown-1': !$q.dark.mode, 'bg-brown-10': $q.dark.mode}"
+      >
         <q-tab-panel name="categories">
           <div>
             <jmg-categories />
