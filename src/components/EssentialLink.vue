@@ -1,8 +1,8 @@
 <template>
   <q-item
     active-class="my-menu-link"
-		class="requadre tipusLletraApp"
-    :class="{'text-brown-1': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode}"
+		class="tipusLletraApp"
+    :class="{'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode}"
 		ripple
     :to="to"
 		:disable="disabled"

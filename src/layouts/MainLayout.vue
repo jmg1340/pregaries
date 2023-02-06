@@ -4,7 +4,7 @@
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" color="brown-6">
           <q-menu class="" auto-close>
-            <q-list>
+            <q-list separator>
               <q-item-label
                 class="bg-black text-white text-bold text-center"
                 header

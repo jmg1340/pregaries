@@ -1,5 +1,5 @@
 <template>
-	<q-card :class="{'bg-grey-3': !$q.dark.mode, 'bg-brown-10': $q.dark.mode}">
+	<q-card :class="{'bg-grey-3': !$q.dark.mode, 'bg-blue-grey-10': $q.dark.mode}">
 		<q-card-section
 			:style="{fontSize: storeApp.tamanyFont +'px'}"
 		>
@@ -17,7 +17,10 @@
 
 			<div v-for="(misteri, index) in objRosari.misteris[misteriSeleccionat.value]" :key="index">
 				<p>
-					<span class="text-red-10 text-h6">{{ misteri.titol }}</span> <br />
+					<span
+          class="text-h6"
+          :class="{'text-negative': !$q.dark.mode, 'text-orange': $q.dark.mode}"
+          >{{ misteri.titol }}</span> <br />
 					{{ misteri.text}}
 				</p>
 

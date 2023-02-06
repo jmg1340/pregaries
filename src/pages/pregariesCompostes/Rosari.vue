@@ -47,10 +47,13 @@
         Amén.
       </div>
 
-      <div class="bg-grey-2 q-pa-lg q-gutter-y-md">
+      <div
+      class="q-pa-lg q-gutter-y-md"
+      :class="{'bg-grey-2': !$q.dark.mode, 'bg-grey-10': $q.dark.mode}"
+      >
         <div class="text-h5 q-mb-md">Oracions per les intencions del Papa</div>
         <jmgOracio class="col" clauOracio="pareNostre" />
-        <jmgOracio class="col" clauOracio="aveMaria" />
+        <jmgOracio class="col" clauOracio="aveMaria" textAdicional="(3 vegades)"/>
         <jmgOracio class="col" clauOracio="gloria" />
       </div>
 
@@ -67,6 +70,9 @@
   import jmgMisteris from "../../components/rosari/misteris.vue";
 
   import { useAppStore } from "../../stores/example-store.js";
+  import { useQuasar } from "quasar";
+
+  const $q = useQuasar();
   const storeApp = useAppStore();
 
   onMounted(() => {

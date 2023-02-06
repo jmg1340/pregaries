@@ -33,7 +33,7 @@
 				expand-icon-class="text-red-10"
 			>
 
-					<q-list v-for="(obj, index) in arr" :key="index" bordered separator dense>
+					<q-list v-for="(obj, index) in arr" :key="index" bordered  dense>
 						<q-item
               clickable
               v-ripple

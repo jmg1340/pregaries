@@ -4,7 +4,7 @@
     <q-card class="q-mb-md">
       <q-card-section>
         Ajuda'ns a ampliar el repertori de pregàries. També pots fer-nos arribar algun suggeriment sobre l'aplicació.
-        <div class="text-center">MOLTES GRÀCIES.</div> 
+        <div class="text-center">MOLTES GRÀCIES.</div>
       </q-card-section>
     </q-card>
 
@@ -13,9 +13,9 @@
       <q-form ref="myForm" @submit.prevent.stop="onSubmit" @reset="onReset" class="q-gutter-md">
         <q-input filled v-model="nom" label="El teu nom *" lazy-rules
           :rules="[ val => val && val.length > 0 || 'Per favor, escriu el teu nom']" />
-        
+
         <q-input filled v-model="email" label="El teu email *"  lazy-rules
-          :rules="[ 
+          :rules="[
           val => val && val.length > 0 || 'Per favor, escriu el teu email',
           val => (val.includes('@') && val.includes('.')) || 'Per favor, escriu un email valid'
           ]" />
@@ -31,7 +31,7 @@
         </div>
       </q-form>
     </q-card>
-    
+
 
   </div>
 </template>
@@ -57,14 +57,15 @@
   const nom = ref(null)
   const pregaria = ref(null)
   const email = ref(null)
- 
+
   const onSubmit = async () => {
-    
+
     const request = new Request('https://pregaries.bonanova.cat/enviarPregaries.php',
     {
       method: 'POST',
-      mode: 'no-cors',
+      // mode: 'no-cors',
       // credentials: 'same-origin',
+      // headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
         nom: nom.value,
         email: email.value,
@@ -73,18 +74,19 @@
     });
 
     fetch(request)
-    .then(response => {
-      console.log(response)
-      
+    .then((response) => response.text())
+    .then(data => {
+      console.log("log DATA:", data)
+
       myForm.value.reset()
 
       $q.notify({
         color: 'green-6',
         textColor: 'white',
         icon: 'cloud_done',
-        message: 'Suggeriment / pregària ENVIADA'
+        message: 'Suggeriment / pregària ENVIADA' + '\n\nDATA: ' + data
       })
-    
+
     })
     .catch(error => {
       console.error(error)
@@ -92,7 +94,7 @@
         color: 'red-5',
         textColor: 'white',
         icon: 'warning',
-        message: 'No hi ha comunicació amb el servidor.\n\n' + error.message
+        message: 'No hi ha comunicació amb el servidor.\n\n' + error.message + '\n\nRESPONSE: ' + response
       })
 
     });
@@ -101,7 +103,7 @@
 
 
 
-/* 
+/*
     try {
     let data = new FormData();
       data.append('nom', nom.value);
@@ -127,13 +129,13 @@
       //     'Accept': 'application/json',
       //     'Content-Type': 'application/json'
       //   },
-      //   body: JSON.stringify({ 
-      //     nom: nom.value, 
+      //   body: JSON.stringify({
+      //     nom: nom.value,
       //     email: email.value,
       //     pregaria: pregaria.value
       //    })
       // });
-  
+
       // const content = await rawResponse.json();
       // console.log("content", content);
 
@@ -145,7 +147,7 @@
         icon: 'cloud_done',
         message: 'Suggeriment / pregària enviada'
       })
-      
+
 
     } catch (error) {
       console.log("error:", error);
@@ -155,7 +157,7 @@
         icon: 'warning',
         message: 'No hi ha comunicació amb el servidor.\n\n' + error.message
       })
-      
+
     }
 
  */
@@ -168,7 +170,7 @@
   }
 
 
-    
+
 
 
 </script>
