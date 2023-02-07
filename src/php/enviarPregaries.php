@@ -2,10 +2,12 @@
    // data sent in header are in JSON format
    header('Content-Type: application/json');
 
+   $_POST = json_decode(file_get_contents('php://input'), TRUE);
+
    // takes the value from variables and Post the data
    $name = $_POST['nom'];
    $email = $_POST['email'];
-   $postmessage = $_POST['pregaria'];
+   $postmessage = nl2br($_POST['pregaria']);
    $to = "pregaries@pregaries.bonanova.cat";
    $subject = "Nova pregaria enviada de la app PREGRARIES";
 

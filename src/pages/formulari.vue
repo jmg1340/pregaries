@@ -84,7 +84,7 @@
         color: 'green-6',
         textColor: 'white',
         icon: 'cloud_done',
-        message: 'Suggeriment / pregària ENVIADA' + '\n\nDATA: ' + data
+        message: 'Suggeriment / pregària ENVIADA'
       })
 
     })
@@ -94,7 +94,7 @@
         color: 'red-5',
         textColor: 'white',
         icon: 'warning',
-        message: 'No hi ha comunicació amb el servidor.\n\n' + error.message + '\n\nRESPONSE: ' + response
+        message: "Hi ha hagut algun problema i no s'ha pogut enviar. \n"  + error.message
       })
 
     });
