@@ -15,6 +15,13 @@ const routes = [
     ]
   },
   {
+    path: '/examen',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', props: true, component: () => import('src/pages/examen/ExamenConsciencia.vue') }
+    ]
+  },
+  {
     path: '/favorits',
     component: () => import('layouts/MainLayout.vue'),
     children: [

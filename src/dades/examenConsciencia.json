@@ -1,0 +1,129 @@
+{
+  "manaments": {
+    "1": {
+      "manament": "Jo soc el Senyor, el teu Déu. No tindràs altres déus fora de mi.",
+      "examen": [
+        "En algun moment no he estimat Déu, no he posat Déu el primer en la meva vida, no li he agraït, no he confiat en Ell, no l'he estimat com es mereix?",
+        "No he estat constant en la pregària",
+        "He dubtat o negat la meva fe ",
+        "He estat negligent al pregar ",
+        "No dedico a Déu temps cada dia en l'oració? ",
+        "He fet un déu del meu treball, estudi, possessions, o de la meva imatge als ulls dels altres, de forma que la meva forma de viure va per una banda i Déu per una altra. ",
+        "M'enfado amb Déu per la malaltia o la desgràcia ",
+        "He confiat o buscat la màgia, els horòscops, l'espiritisme, l'endevinar la fortuna..."
+      ]
+    },
+    "2": {
+      "manament": "No diràs el nom de Déu en va.",
+      "examen": [
+        "He maleït o jurat ",
+        "He dit el nom de Déu en va, lleugerament, sense cura, o per la blasfèmia ",
+        "He usat un llenguatge o acudits bruts ",
+        "En les meves converses, he escoltat passivament calúmnies, difamacions, blasfèmies i acudits contra l'Església o el Senyor"
+      ]
+    },
+    "3": {
+      "manament": "Santificaràs les festes.",
+      "examen": [
+        "He deixat d'anar de forma deliberada a Missa els diumenges o els dies de precepte ",
+        "He marxat abans de l'Eucaristia sense una bona raó ",
+        "No combrego almenys un cop l'any ",
+        "He rebut la Sagrada Comunió en estat de pecat greu ",
+        "No m'he confessat recentment",
+        "Estic tant dominat per el meu treball i coses, que deixo de costat el diumenge per activitats espirituals i de vida familiar"
+      ]
+    },
+    "4": {
+      "manament": "Honra pare i mare.",
+      "examen": [
+        "Falto al respecte i no obeeixo els pares ",
+        "En algun moment no he respectat els meus germans i germanes? ",
+        "En algun moment no he respectat els altres, com ara als professors, que tenen sobre mi autoritat? ",
+        "Els he contestat malament? ",
+        "No he ajudat prou a casa i no passo prou temps amb la meva família ",
+        "Soc mandrós ",
+        "Menyspreo la disciplina ",
+        "Culpo als de casa dels meus problemes o del que faig malament ",
+        "Tinc actituds de jactància o vanaglòria (admiració excessiva del propi jo) ",
+        "Soc hipòcrita ",
+        "Refuso renunciar a la meva voluntat o caprici?"
+      ]
+    },
+    "5": {
+      "manament": "No mataràs.",
+      "examen": [
+        "He sentit ira o enveja ",
+        "He estat rancorós ",
+        "Sento desitjos de venjança ",
+        "He pegat algú, intentant fer-li mal. ",
+        "M'he barallat, donant un mal exemple o causant escàndol. ",
+        "He abusat del menjar, l'alcohol o de les drogues ",
+        "He permès o animat a l'avortament. ",
+        "He pensat en el suïcidi. ",
+        "He fet mal a algú, matant- lo interiorment amb murmuracions, xafarderies, o amb coses que he dit."
+      ]
+    },
+    "6": {
+      "manament": "No cometràs adulteri.",
+      "examen": [
+        "He consentit en mirades impures, petons apassionats, o tocaments. ",
+        "He portat la meva ment a pensaments o fantasies impures. ",
+        "Vesteixo o em comporto provocativament. ",
+        "Miro pornografia, llibres impurs, revistes o pel·lícules. ",
+        "Soc culpable d'impuresa amb mi mateix o amb d'altres. ",
+        "No m'esforço per evitar la mandra, el menjar en excés, l'ociositat, i les ocasions d'impuresa."
+      ]
+    },
+    "7": {
+      "manament": "No robaràs.",
+      "examen": [
+        "He robat allò que no es meu. ",
+        "No he tornat allò que no és meu ",
+        "He enganyat copiant els deures o els exàmens. ",
+        "No aprofito el temps en coses que em facin bé? ",
+        "Soc extravagant en el meu estil de viure, oblidant els pobres, els de casa, o a les persones del meu voltant."
+      ]
+    },
+    "8": {
+      "manament": "No diràs fals testimoni ni mentiràs.",
+      "examen": [
+        "He mentit o xafardejat. ",
+        "He parlat dels altres a la seva esquena. ",
+        "No dic sempre la veritat. ",
+        "No sóc sincer. ",
+        "He revelat secrets confidencials. ",
+        "En alguna de les meves confessions, he mentit u ocultat alguna cosa al sacerdot. ",
+        "He criticat, parlat negativament, o sense caritat en les meves converses. ",
+        "He perjudicat la reputació d'altres parlant sobre les seves febleses o pecats, sense intenció d'ajudar-los. ",
+        "Tinc prejudicis u odi cap persones d'altres nacionalitats, races o religions."
+      ]
+    },
+    "9": {
+      "manament": "No tindràs desitjos impurs.",
+      "examen": [
+        "He consentit en pensaments impurs. ",
+        "He alimentat pensaments impurs amb mirades, curiositats o converses. ",
+        "No controlo la meva imaginació o el desig cap als altres. ",
+        "He rebutjat la meva família dins el cor, desitjant distanciar-me emocional i personalment d'ells."
+      ]
+    },
+    "10": {
+      "manament": "No desitjaràs els béns del proïsme.",
+      "examen": [
+        "No tinc un cor agraït. ",
+        "Soc gelós. ",
+        "Tinc enveja del que tenen els altres i que jo no tinc. ",
+        "Em comparo normalment amb els altres. ",
+        "Pretenc ser el que no soc. ",
+        "Tinc mal humor i estic trist. ",
+        "No treballo / estudio, ni em mantinc ocupat per contrarestar els pensaments ociosos ",
+        "Soc crític, negatiu o em falta caritat en els meus pensaments i sentiments cap als altres.",
+        "Tinc el meu cor en les possessions temporals d'en comptes dels tresors del cel. ",
+        "No faig un bon ús dels diners que guanyo. ",
+        "Soc garrepa amb la meva família. ",
+        "Guardo molts diners per a mi. ",
+        "Tinc un amor pels capricis i luxes desmesurat."
+      ]
+    }
+  }
+}

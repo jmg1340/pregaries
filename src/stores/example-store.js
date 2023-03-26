@@ -7,6 +7,7 @@ export const useAppStore = defineStore("AppStore", {
     tamanyFont: 17,
     arrFavorits: [],
     pregariaActiva: null,
+    arrExamen: []
   }),
   getters: {
     getClauInFavorits: (state) =>
@@ -50,7 +51,7 @@ export const useAppStore = defineStore("AppStore", {
 		/**
 		 * Estableix la clau de la oració activa per a que despres pugui ser afegida o treta
 		 * del array de favorits si es clica la icona del cor
-		 * @param {string} clau 
+		 * @param {string} clau
 		 */
     setPregariaActiva(clau) {
       this.pregariaActiva = clau;
@@ -59,7 +60,7 @@ export const useAppStore = defineStore("AppStore", {
 		/**
 		 * Recupera la calu de la oració activa en el moment d'afegir o treure una oració
 		 * al array de Favorits
-		 * @returns 
+		 * @returns
 		 */
     getPregariaActiva() {
       return this.pregariaActiva;
@@ -100,6 +101,27 @@ export const useAppStore = defineStore("AppStore", {
     setFavorits(strArr) {
       if (strArr !== null || strArr !== undefined) {
         this.arrFavorits = JSON.parse(strArr);
+      }
+    },
+
+
+    /**
+     * Recupera l'array de favorits del store per emmagatzemar-lo al LocalStorage
+     *
+     * @returns
+     */
+    getArrExamen() {
+      return this.arrExamen;
+    },
+
+    /**
+     * Guarda el array de Examen al localStorage
+     *
+     * @param {string} arr
+     */
+    setArrExamen(strArr) {
+      if (strArr !== null || strArr !== undefined) {
+        this.arrExamen = JSON.parse(strArr);
       }
     },
   },

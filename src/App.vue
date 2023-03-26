@@ -20,7 +20,12 @@
 	/**
 	 * Recupera tamany lletra del localStorage
 	 */
-	storeApp.setTamanyFont( $q.localStorage.getItem('tamanyLletra') || 15 )
+   storeApp.setTamanyFont( $q.localStorage.getItem('tamanyLletra') || 15 )
+
+	/**
+	 * Recupera array Examen del localStorage
+	 */
+   storeApp.setArrExamen( $q.localStorage.getItem('arrExamen') || "[]" )
 
 
 

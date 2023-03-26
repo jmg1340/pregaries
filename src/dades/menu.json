@@ -6,6 +6,12 @@
     "to": "/"
   },
   {
+    "title": "Examen de consciència",
+    "caption": "",
+    "icon": "article",
+    "to": "/examen"
+  },
+  {
     "title": "Favorits",
     "caption": "Pregàries preferides",
     "icon": "favorite",
