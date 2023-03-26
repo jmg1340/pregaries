@@ -14,7 +14,7 @@
           class="q-mb-lg"
           >
           <q-item-label header
-            class="text-bold text-h6"
+            class="text-h6"
             :class="{'text-red-10': !$q.dark.mode, 'text-orange': $q.dark.mode}"
             >
               {{ numM }} - {{ manamentsAmbChecks[numM].manament }}

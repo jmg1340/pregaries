@@ -2,6 +2,7 @@
       <q-card class="q-mt-md">
         <q-tabs
           animated
+          class="lletraTitolApartat text-brown-8 text-h4"
           :class="{'bg-brown-1': !$q.dark.mode, 'bg-brown-10': $q.dark.mode}"
           v-model="tab"
 
@@ -11,8 +12,8 @@
           indicator-color="brown-1"
 
         >
-          <q-tab name="examen" label="Examen de consciència" />
-          <q-tab name="resum" label="opcions seleccionades" />
+          <q-tab name="examen" label="Examen" noCaps icon="list"/>
+          <q-tab name="resum" label="seleccionat" noCaps icon="checked"/>
 
         </q-tabs>
 
