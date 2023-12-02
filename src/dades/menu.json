@@ -1,5 +1,12 @@
 [
   {
+    "title": "Favorits",
+    "caption": "Pregàries preferides",
+    "icon": "favorite",
+    "to": "/favorits",
+		"disabled": false
+  },
+{
     "title": "Pregàries",
     "caption": "Classificació / Cercador",
     "icon": "article",
@@ -8,15 +15,38 @@
   {
     "title": "Examen de consciència",
     "caption": "",
-    "icon": "article",
+    "icon": "checklist",
     "to": "/examen"
   },
   {
-    "title": "Favorits",
-    "caption": "Pregàries preferides",
-    "icon": "favorite",
-    "to": "/favorits",
-		"disabled": false
+    "title": "Lliures en Crist",
+    "caption": "font: www.libertadencristo.org",
+    "icon": "sentiment_satisfied_alt",
+    "to": "false",
+		"disabled": false,
+    "subMenu1": [
+      {
+        "title": "Qui soc en Crist?",
+        "caption": "Lliures en Crist",
+        "icon": "sentiment_satisfied_alt",
+        "to": "/quiSocEnCrist",
+        "disabled": false
+      },
+      {
+        "title": "El meu pare Déu",
+        "caption": "Lliures en Crist",
+        "icon": "sentiment_satisfied_alt",
+        "to": "/elMeuPareDeu",
+        "disabled": false
+      },
+      {
+        "title": "20 veritats espirituals",
+        "caption": "Lliures en Crist",
+        "icon": "format_list_numbered",
+        "to": "/vintVeritats",
+        "disabled": false
+      }
+    ]
   },
   {
     "title": "Enviar pregària",

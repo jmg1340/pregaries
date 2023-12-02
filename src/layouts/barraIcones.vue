@@ -1,7 +1,9 @@
 <template>
   <q-toolbar class="row justify-between items-center" :class="{'bg-white': !$q.dark.mode, 'bg-grey-10': $q.dark.mode}">
     <!-- BOTO FAVORIT -->
-    <div class="col-auto">
+    <div 
+    v-if="storeApp.mostrarIconaFavorits"
+    class="col-auto">
       <q-icon
         v-if="
           !storeApp.getClauInFavorits"

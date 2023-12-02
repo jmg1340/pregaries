@@ -3,27 +3,7 @@
     <q-header elevated :class="{'bg-brown-11': !$q.dark.mode, 'bg-brown-10': $q.dark.mode}">
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" color="brown-6">
-          <q-menu class="" auto-close>
-            <q-list separator>
-              <q-item-label
-                class="bg-black text-white text-bold text-center"
-                header
-                dense
-              >
-                MENU
-              </q-item-label>
-
-              <q-item>
-                  <q-toggle v-model="darkMode" color="orange" keep-color label="Tema fosc" @update:model-value="toggleDarkMode"/>
-              </q-item>
-
-              <EssentialLink
-                v-for="link in essentialLinks"
-                :key="link.title"
-                v-bind="link"
-              />
-            </q-list>
-          </q-menu>
+          <Menu />
         </q-btn>
 
         <!-- <q-btn
@@ -43,7 +23,7 @@
         <!-- <div>Quasar v{{ $q.version }}</div> -->
         <div>
           <q-btn
-            v-if="storeApp.bToolBar"
+            v-if="storeApp.mostrarBotoTornar"
             label="Tornar"
             class="bg-brown-10"
             @click="tornar"
@@ -57,8 +37,8 @@
       <q-list class="">
         <q-item-label header> Opcions </q-item-label>
 
-        <EssentialLink
-          v-for="link in essentialLinks"
+        <MenuItem
+          v-for="link in menuLinks"
           :key="link.title"
           v-bind="link"
         />
@@ -73,9 +53,10 @@
 
 <script>
 import { defineComponent, ref, onMounted } from "vue";
-import EssentialLink from "components/EssentialLink.vue";
+import Menu from "../pages/menu.vue"
+// import MenuItem from "src/components/MenuItem.vue";
 import jmgBarraIcones from "./barraIcones.vue";
-import linksList from "../dades/menu.json";
+// import linksList from "../dades/menu.json";
 
 import { useAppStore } from "../stores/example-store.js";
 import { useRouter } from "vue-router";
@@ -85,7 +66,7 @@ export default defineComponent({
   name: "MainLayout",
 
   components: {
-    EssentialLink,
+    Menu,
     jmgBarraIcones,
   },
 
@@ -121,7 +102,7 @@ export default defineComponent({
 
     return {
       storeApp,
-      essentialLinks: linksList,
+      // menuLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;

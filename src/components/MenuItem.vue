@@ -8,17 +8,65 @@
 		:disable="disabled"
 		:clickable="disabled"
   >
+    
+    <!-- icona item -->
     <q-item-section
-      v-if="icon"
+      v-if="icon  &&  to !== 'false'"
       avatar
     >
       <q-icon :name="icon" :class="{ 'text-red-7': icon == 'favorite'}"/>
     </q-item-section>
 
+    <!-- Text del item -->
     <q-item-section class="">
       <q-item-label>{{ title }}</q-item-label>
       <q-item-label caption>{{ caption }}</q-item-label>
     </q-item-section>
+
+    <!-- icona fletxeta dreta indicant submenu -->
+    <q-item-section side
+    v-if="to === 'false'"
+    >
+      <q-icon name="keyboard_arrow_right" />
+    </q-item-section>
+
+
+
+
+
+    
+    <!-- submenu -cas de que n'hi hagi -->
+    <q-menu anchor="top end" self="top start">
+      <q-list>
+        <q-item
+          v-for="(itemSubmenu1, idx) in subMenu1"
+          :key="idx"
+          dense
+          clickable
+          v-bind="itemSubmenu1"
+        >
+
+          <!-- icona item -->
+          <q-item-section
+            v-if="icon  &&  to !== 'false'"
+            avatar
+          >
+            <q-icon :name="icon"/>
+          </q-item-section>
+
+          <!-- Text del item -->
+          <q-item-section class="">
+            <q-item-label>{{ title }}</q-item-label>
+            <q-item-label caption>{{ caption }}</q-item-label>
+          </q-item-section>
+
+
+        </q-item>
+      </q-list>
+    </q-menu>
+
+
+
   </q-item>
 </template>
 

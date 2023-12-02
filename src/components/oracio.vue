@@ -28,6 +28,7 @@
 	import objOracions from "../dades/oracions.json";
 	import { useAppStore } from '../stores/example-store.js'
   import { useQuasar } from 'quasar'
+	import { onMounted, onUnmounted } from "vue";
 
 	const storeApp = useAppStore()
   const $q = useQuasar()
@@ -43,6 +44,13 @@
 		},
 	});
 
+  onMounted(() => {
+		storeApp.setMostrarBotoTornar( true )
+  });
+
+  onUnmounted(() => {
+		storeApp.setMostrarBotoTornar( false )
+  });
 
 
 	/**

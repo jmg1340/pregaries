@@ -7,7 +7,9 @@ export const useAppStore = defineStore("AppStore", {
     tamanyFont: 17,
     arrFavorits: [],
     pregariaActiva: null,
-    arrExamen: []
+    arrExamen: [],
+    mostrarIconaFavorits: true,
+    mostrarBotoTornar: false
   }),
   getters: {
     getClauInFavorits: (state) =>
@@ -21,6 +23,12 @@ export const useAppStore = defineStore("AppStore", {
      */
     setToolBar(sino) {
       this.bToolBar = sino;
+    },
+    setMostrarIconaFavorits ( sino ) {
+      this.mostrarIconaFavorits = sino
+    },
+    setMostrarBotoTornar ( sino ) {
+      this.mostrarBotoTornar = sino
     },
 
 

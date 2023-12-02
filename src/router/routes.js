@@ -29,6 +29,27 @@ const routes = [
     ]
   },
   {
+    path: '/quiSocEnCrist',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/lliuresEnCrist/quiSocEnCrist.vue') }
+    ]
+  },
+  {
+    path: '/elMeuPareDeu',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/lliuresEnCrist/elMeuPareDeu.vue') }
+    ]
+  },
+  {
+    path: '/vintVeritats',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/lliuresEnCrist/vintVeritatsEspirituals.vue') }
+    ]
+  },
+  {
     path: '/formulari',
     component: () => import('layouts/MainLayout.vue'),
     children: [
