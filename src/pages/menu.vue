@@ -82,73 +82,78 @@
 
         <!-- Text del item -->
         <q-item-section class="">
-          <q-item-label>Lliures en Crist</q-item-label>
-          <q-item-label caption>font: www.libertadencristo.org</q-item-label>
+          <q-expansion-item
+          expand-separator
+          label="Lliures en Crist"
+          caption="font: www.libertadencristo.org"
+          header-class="text-primary"
+          >
+            <q-list separator>
+
+              <q-item active-class="my-menu-link" class="tipusLletraApp"
+              :class="{ 'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode }" ripple to="/quiSocEnCrist"
+              clickable v-close-popup
+              >
+                <!-- icona item -->
+                <q-item-section avatar>
+                  <q-icon name="sentiment_satisfied_alt" />
+                </q-item-section>
+
+                <!-- Text del item -->
+                <q-item-section class="">
+                  <q-item-label>Qui soc en Crist?</q-item-label>
+                  <q-item-label caption></q-item-label>
+                </q-item-section>
+              </q-item>
+
+
+              <q-item active-class="my-menu-link" class="tipusLletraApp"
+              :class="{ 'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode }" ripple to="/elMeuPareDeu"
+              clickable v-close-popup
+              >
+                <!-- icona item -->
+                <q-item-section avatar>
+                  <q-icon name="sentiment_satisfied_alt" />
+                </q-item-section>
+
+                <!-- Text del item -->
+                <q-item-section class="">
+                  <q-item-label>El meu pare Déu</q-item-label>
+                  <q-item-label caption></q-item-label>
+                </q-item-section>
+              </q-item>
+
+
+              <q-item active-class="my-menu-link" class="tipusLletraApp"
+              :class="{ 'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode }" ripple to="/vintVeritats"
+              clickable v-close-popup
+              >
+                <!-- icona item -->
+                <q-item-section avatar>
+                  <q-icon name="format_list_numbered" />
+                </q-item-section>
+
+                <!-- Text del item -->
+                <q-item-section class="">
+                  <q-item-label>20 veritats espirituals</q-item-label>
+                  <q-item-label caption></q-item-label>
+                </q-item-section>
+              </q-item>
+
+
+            </q-list>
+          </q-expansion-item>
         </q-item-section>
 
         <!-- icona fletxeta dreta indicant submenu -->
-        <q-item-section side>
+        <!-- <q-item-section side>
           <q-icon name="keyboard_arrow_right" />
-        </q-item-section>
+        </q-item-section> -->
 
 
         <!--  ***** SUBMENU ***** -->
-        <q-menu anchor="top end" self="top start">
-          <q-list separator>
-
-            <q-item active-class="my-menu-link" class="tipusLletraApp"
-            :class="{ 'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode }" ripple to="/quiSocEnCrist"
-            clickable v-close-popup
-            >
-              <!-- icona item -->
-              <q-item-section avatar>
-                <q-icon name="sentiment_satisfied_alt" />
-              </q-item-section>
-
-              <!-- Text del item -->
-              <q-item-section class="">
-                <q-item-label>Qui soc en Crist?</q-item-label>
-                <q-item-label caption></q-item-label>
-              </q-item-section>
-            </q-item>
-
-
-            <q-item active-class="my-menu-link" class="tipusLletraApp"
-            :class="{ 'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode }" ripple to="/elMeuPareDeu"
-            clickable v-close-popup
-            >
-              <!-- icona item -->
-              <q-item-section avatar>
-                <q-icon name="sentiment_satisfied_alt" />
-              </q-item-section>
-
-              <!-- Text del item -->
-              <q-item-section class="">
-                <q-item-label>El meu pare Déu</q-item-label>
-                <q-item-label caption></q-item-label>
-              </q-item-section>
-            </q-item>
-
-
-            <q-item active-class="my-menu-link" class="tipusLletraApp"
-            :class="{ 'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode }" ripple to="/vintVeritats"
-            clickable v-close-popup
-            >
-              <!-- icona item -->
-              <q-item-section avatar>
-                <q-icon name="format_list_numbered" />
-              </q-item-section>
-
-              <!-- Text del item -->
-              <q-item-section class="">
-                <q-item-label>20 veritats espirituals</q-item-label>
-                <q-item-label caption></q-item-label>
-              </q-item-section>
-            </q-item>
-
-
-          </q-list>
-        </q-menu>
+        <!-- <q-menu anchor="top end" self="top start"> -->
+        <!-- </q-menu> -->
       </q-item>
 
 
