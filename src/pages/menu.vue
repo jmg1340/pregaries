@@ -1,6 +1,6 @@
 <template>
   <q-menu class="" style="min-width: 500px">
-    <q-list separator>
+    <q-list separator dense>
 
       <q-item class="bg-black text-white" v-close-popup>
         <q-item-section>
@@ -36,7 +36,7 @@
 
 
       <q-item active-class="my-menu-link" class="tipusLletraApp"
-        :class="{ 'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode }" ripple to="/"
+        :class="{ 'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode }" ripple to="/pregaries"
         v-close-popup>
         <!-- icona item -->
         <q-item-section avatar>
@@ -88,7 +88,7 @@
           caption="font: www.libertadencristo.org"
           header-class="text-primary"
           >
-            <q-list separator>
+            <q-list separator dense>
 
               <q-item active-class="my-menu-link" class="tipusLletraApp"
               :class="{ 'text-black': !$q.dark.mode, 'text-orange bg-grey-10': $q.dark.mode }" ripple to="/quiSocEnCrist"

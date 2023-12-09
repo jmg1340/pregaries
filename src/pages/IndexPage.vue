@@ -1,21 +1,21 @@
 <template>
   <q-page class="flex flex-center">
-    <!-- <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
+    <img
+      alt="Pregàries"
+      src="~assets/pregaries.svg"
       style="width: 200px; height: 200px"
-    > -->
-    <div class="column q-gutter-md items-center q-pa-md">
+    >
+    <!-- <div class="column q-gutter-md items-center q-pa-md">
       <q-btn class="col" @click="anarA('pregaries')">
         <div class="text-h4 q-ma-lg">Pregàries</div>
       </q-btn>
-      <q-btn class="col" @click="anarA('rosari')">
-        <div class="text-h4 q-ma-lg">Rosari</div>
+      <q-btn class="col" @click="anarA('examen')">
+        <div class="text-h4 q-ma-lg">Examen de consciència</div>
       </q-btn>
       <q-btn class="col" @click="anarA('coroneta')">
         <div class="text-h4 q-ma-lg">Corona de la divina misericòrdia</div>
       </q-btn>
-    </div>
+    </div> -->
   </q-page>
 </template>
 
